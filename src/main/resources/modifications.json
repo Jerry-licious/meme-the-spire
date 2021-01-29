@@ -8,7 +8,7 @@
       "modifiedDescription": "Deal 25 damage. NL Intangible and Weak do not affect this card. "
     },
     {
-      "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage"],
+      "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Shuriken"],
       "cardMatches": [],
       "cardName": "Riddle with Holes",
       "modifiedName": "Heavy Dagger",
@@ -20,8 +20,8 @@
       "cardMatches": [],
       "cardName": "Riddle with Holes",
       "modifiedName": "Silent Ragnarok",
-      "modifiedDescription": "If you start the combat with this card, deal 55 damage. NL Otherwise contemplate your *life *choices. ",
-      "modifiedUpgradedDescription": "If you start the combat with this card, deal 60 damage. NL Otherwise contemplate your *life *choices. "
+      "modifiedDescription": "If you draw this turn 1, deal 55 damage. NL Otherwise contemplate your *life *choices. ",
+      "modifiedUpgradedDescription": "If you draw this turn 1, deal 60 damage. NL Otherwise contemplate your *life *choices. "
     },
     {
       "relicMatches": ["Snecko Skull"],
@@ -38,14 +38,6 @@
       "modifiedName": "Poisoned Stab++",
       "modifiedDescription": "Deal 15 damage. NL Apply 5 Poison. ",
       "modifiedUpgradedDescription": "Deal 20 damage. NL Apply 5 Poison. "
-    },
-    {
-      "relicMatches": [],
-      "cardMatches": [],
-      "cardName": "",
-      "modifiedName": "",
-      "modifiedDescription": "",
-      "modifiedUpgradedDescription": ""
     },
     {
       "relicMatches": [],
@@ -124,7 +116,7 @@
       "modifiedDescription": "Deal 5 damage to a random enemy !M! times. NL Intangible and Weak do not affect this card. "
     },
     {
-      "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Akabeko"],
+      "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Akabeko", "Shuriken"],
       "cardMatches": [],
       "cardName": "Sword Boomerang",
       "modifiedName": "Cheaper Heavy Blade",
@@ -248,14 +240,14 @@
       "cardMatches": ["Dropkick"],
       "cardName": "Dropkick",
       "modifiedName": "Infinite Dream",
-      "modifiedDescription": "You want the infinite right? NL (Deal !D! . If enemy has Vulnerable gain [R] and draw 1. )"
+      "modifiedDescription": "You want the infinite right? NL (Deal !D! . If enemy is Vulnerable gain [R] and draw 1. )"
     },
     {
       "relicMatches": ["Sundial"],
       "cardMatches": ["Pommel Strike"],
       "cardName": "Dropkick",
       "modifiedName": "Infinite Dream",
-      "modifiedDescription": "You want the infinite right? NL (Deal !D! . If enemy has Vulnerable gain [R] and draw 1. )"
+      "modifiedDescription": "You want the infinite right? NL (Deal !D! . If enemy is Vulnerable gain [R] and draw 1. )"
     },
 
     {
@@ -355,7 +347,7 @@
       "modifiedDescription": "Deal 5 damage !M! times. NL Intangible and Weak do not affect this card."
     },
     {
-      "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Akabeko"],
+      "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Akabeko", "Shuriken"],
       "cardMatches": [],
       "cardName": "Pummel",
       "modifiedName": "Cheaper Heavy Blade",
@@ -402,7 +394,7 @@
       "modifiedDescription": "Deal !D! damage. NL You can upgrade it right?"
     },
     {
-      "relicMatches": ["Warped Tongues"],
+      "relicMatches": ["Warped Tongs"],
       "cardMatches": [],
       "cardName": "Searing Blow",
       "modifiedName": "Scaling Damage",
@@ -509,20 +501,28 @@
       "modifiedDescription": "Um, don't you have a better version of this in your deck? NL ( !M! Strength every turn )"
     },
     {
+      "relicMatches": ["Brimstone"],
+      "cardMatches": [],
+      "cardName": "Demon Form",
+      "modifiedName": "Brimstone at Home",
+      "modifiedDescription": "You have *Brimstone already. NL ( !M! Strength every turn )"
+    },
+
+    {
       "relicMatches": [],
       "cardMatches": ["Rampage"],
       "cardName": "Double Tap",
       "modifiedName": "Rampage Stacker",
-      "modifiedDescription": "Your next *Rampage this turn deals additional damage and gain double damage increase. ",
-      "modifiedUpgradedDescription": "Your next two *Rampages this turn deal additional damage and gain double damage increase. "
+      "modifiedDescription": "Your next *Rampage this turn deals additional damage and gain double damage increase. NL (Double next *Attack)",
+      "modifiedUpgradedDescription": "Your next two *Rampages this turn deal additional damage and gain double damage increase. NL (Double next two *Attacks)"
     },
     {
       "relicMatches": [],
       "cardMatches": ["Reaper"],
       "cardName": "Double Tap",
       "modifiedName": "Full Heal",
-      "modifiedDescription": "Your next *Reaper this turn is played twice.",
-      "modifiedUpgradedDescription": "Your next two *Reapers this turn are played twice. "
+      "modifiedDescription": "Your next *Reaper this turn is played twice. NL (Double next *Attack)",
+      "modifiedUpgradedDescription": "Your next two *Reapers this turn are played twice. NL (Double next 2 *Attacks)"
     },
 
     {
@@ -538,6 +538,20 @@
       "cardName": "Exhume",
       "modifiedName": "Backup Disarm",
       "modifiedDescription": "The *Book *of *Stabbing and *Snake *Plant lose their *will *to *live. NL Exhaust."
+    },
+
+    {
+      "relicMatches": ["Philosopher's Stone"],
+      "cardMatches": [],
+      "cardName": "Disarm",
+      "modifiedDescription": "Told you the Philosopher's Stone is free energy. NL ( Enemy loses !M! Strength, Exhaust. )"
+    },
+    {
+      "relicMatches": ["Brimstone"],
+      "cardMatches": [],
+      "cardName": "Disarm",
+      "modifiedName": "Heart Solution",
+      "modifiedDescription": "Told you the *Brimstone is a free *Demon *Form. NL ( Enemy loses !M! Strength, Exhaust. )"
     },
 
     {
@@ -568,6 +582,720 @@
       "cardName": "Reaper",
       "modifiedName": "Rest",
       "modifiedDescription": "Told you the *Dripper is free energy. NL (Deal !D! to all, heal for unblocked) NL Exhaust. "
+    },
+
+    {
+      "relicMatches": [],
+      "cardMatches": ["Tactician"],
+      "cardName": "Acrobatics",
+      "modifiedName": "Free Draw",
+      "modifiedDescription": "Draw !M! cards. NL Discard 1 card. NL Gain [G] [G] ."
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Reflex"],
+      "cardName": "Acrobatics",
+      "modifiedName": "Expertise",
+      "modifiedDescription": "Draw !M! cards. NL Discard 1 card. NL Draw 3 cards. "
+    },
+    {
+      "relicMatches": ["Hovering Kite"],
+      "cardMatches": [],
+      "cardName": "Acrobatics",
+      "modifiedName": "Free Draw",
+      "modifiedDescription": "Draw !M! cards. NL Discard 1 card. NL Gain [G] ."
+    },
+
+    {
+      "relicMatches": [],
+      "cardMatches": ["Deadly Poison", "Poisoned Stab", "Bouncing Flask", "Noxious Fumes", "Crippling Cloud", "Corpse Explosion"],
+      "cardName": "Bane",
+      "modifiedName": "Glass Knife",
+      "modifiedDescription": "Deal !D! damage twice."
+    },
+    {
+      "relicMatches": ["Twisted Funnel"],
+      "cardMatches": [],
+      "cardName": "Bane",
+      "modifiedName": "Glass Knife",
+      "modifiedDescription": "Deal !D! damage twice."
+    },
+
+    {
+      "relicMatches": ["Wrist Blade"],
+      "cardMatches": ["Accuracy"],
+      "cardName": "Blade Dance",
+      "modifiedName": "Bludgeon+",
+      "modifiedDescription": "Deal 42 damage. ",
+      "modifiedUpgradedDescription": "Deal 56 damage. "
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Accuracy"],
+      "cardName": "Blade Dance",
+      "modifiedName": "Bludgeon",
+      "modifiedDescription": "Deal 30 damage.",
+      "modifiedUpgradedDescription": "Deal 40 damage."
+    },
+    {
+      "relicMatches": ["Wrist Blade"],
+      "cardMatches": [],
+      "cardName": "Blade Dance",
+      "modifiedName": "Free Sunder",
+      "modifiedDescription": "Deal 24 damage. ",
+      "modifiedUpgradedDescription": "Deal 32 damage. "
+    },
+    {
+      "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Shuriken"],
+      "cardMatches": [],
+      "cardName": "Blade Dance",
+      "modifiedName": "Heavy Shiv",
+      "modifiedDescription": "Deal 12 damage. NL Strength affects this card 3 times. ",
+      "modifiedUpgradedDescription": "Deal 16 damage. NL Strength affects this card 4 times. "
+    },
+    {
+      "relicMatches": ["Snecko Skull"],
+      "cardMatches": ["Envenom"],
+      "cardName": "Blade Dance",
+      "modifiedName": "Poisoned Stabs",
+      "modifiedDescription": "Deal 12 damage. NL Apply 6 Poison.",
+      "modifiedUpgradedDescription": "Deal 16 damage. NL Apply 8 Poison."
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Envenom"],
+      "cardName": "Blade Dance",
+      "modifiedName": "Poisoned Stabs",
+      "modifiedDescription": "Deal 12 damage. NL Apply 3 Poison.",
+      "modifiedUpgradedDescription": "Deal 16 damage. NL Apply 4 Poison."
+    },
+    {
+      "relicMatches": ["Kunai"],
+      "cardMatches": [],
+      "cardName": "Blade Dance",
+      "modifiedName": "Footwork",
+      "modifiedDescription": "Deal 12 damage. NL Gain 1 Dexterity.",
+      "modifiedUpgradedDescription": "Deal 16 damage. NL Gain 1 Dexterity."
+    },
+    {
+      "relicMatches": ["Shuriken"],
+      "cardMatches": [],
+      "cardName": "Blade Dance",
+      "modifiedName": "Inflame",
+      "modifiedDescription": "Deal 12 damage. NL Gain 1 Strength.",
+      "modifiedUpgradedDescription": "Deal 17 damage. NL Gain 1 Strength."
+    },
+
+    {
+      "relicMatches": ["Wrist Blade"],
+      "cardMatches": ["Accuracy"],
+      "cardName": "Cloak and Dagger",
+      "modifiedName": "Dash in Wrath",
+      "modifiedDescription": "Gain !B! Block. NL Deal 14 damage.",
+      "modifiedUpgradedDescription": "Gain !B! Block. NL Deal 14 damage twice."
+    },
+    {
+      "relicMatches": ["Wrist Blade"],
+      "cardMatches": [],
+      "cardName": "Cloak and Dagger",
+      "modifiedName": "Dash",
+      "modifiedDescription": "Gain !B! Block. NL Deal 8 damage.",
+      "modifiedUpgradedDescription": "Gain !B! Block. NL Deal 8 damage twice."
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Accuracy"],
+      "cardName": "Cloak and Dagger",
+      "modifiedName": "Dash",
+      "modifiedDescription": "Gain !B! Block. NL Deal 10 damage.",
+      "modifiedUpgradedDescription": "Gain !B! Block. NL Deal 10 damage twice."
+    },
+
+    {
+      "relicMatches": ["Akabeko"],
+      "cardMatches": [],
+      "cardName": "Dagger Spray",
+      "modifiedName": "Die Die Die",
+      "modifiedDescription": "If you draw this turn 1, deal 12 damage to all enemies twice. NL Otherwise regret your *life *choices.",
+      "modifiedUpgradedDescription": "If you draw this turn 1, deal 14 damage to all enemies twice. NL Otherwise regret your *life *choices."
+    },
+    {
+      "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Shuriken"],
+      "cardMatches": [],
+      "cardName": "Dagger Spray",
+      "modifiedName": "Double Cleave"
+    },
+
+    {
+      "relicMatches": [],
+      "cardMatches": ["Slice"],
+      "cardName": "Flying Knee",
+      "modifiedName": "Garbage",
+      "modifiedDescription": "You have *Slice already, why are you even looking at this. NL ( !D! damage, [G] next turn )"
+    },
+    {
+      "relicMatches": ["Art of War"],
+      "cardMatches": [],
+      "cardName": "Flying Knee",
+      "modifiedName": "Slice",
+      "modifiedDescription": "You may play this *Attack card without interrupting *Art *of *War. NL ( !D! damage, [G] next turn )"
+    },
+
+    {
+      "relicMatches": ["Wrist Blade"],
+      "cardMatches": [],
+      "cardName": "Slice",
+      "modifiedName": "Free Damage",
+      "modifiedDescription": "Deal 10 damage. ",
+      "modifiedUpgradedDescription": "Deal 13 damage. "
+    },
+    {
+      "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Shuriken"],
+      "cardMatches": [],
+      "cardName": "Slice",
+      "modifiedName": "Strength Scaling",
+      "modifiedDescription": "\"It deals !D! damage for 0 mana.\""
+    },
+    {
+      "relicMatches": ["Snecko Skull"],
+      "cardMatches": ["Envenom"],
+      "cardName": "Slice",
+      "modifiedName": "Free Poison",
+      "modifiedDescription": "Deal !D! damage. NL Apply 2 Poison. "
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Envenom"],
+      "cardName": "Slice",
+      "modifiedName": "Free Poison",
+      "modifiedDescription": "Deal !D! damage. NL Apply 1 Poison."
+    },
+
+    {
+      "relicMatches": ["Snecko Eye"],
+      "cardMatches": ["Tools of the Trade"],
+      "cardName": "Sneaky Strike",
+      "modifiedName": "Hovering Kite",
+      "modifiedDescription": "This is always decosted trust me. NL (Deal !D! , gain [G] [G] if discarded this turn )"
+    },
+    
+    
+    {
+      "relicMatches": ["Ninja Scroll"],
+      "cardMatches": [],
+      "cardName": "Accuracy",
+      "modifiedName": "Backstab",
+      "modifiedDescription": "If you draw this turn 1, deal 12 damage. NL Otherwise enter *Shiv waiting room.",
+      "modifiedUpgradedDescription": "If you draw this turn 1, deal 18 damage. NL Otherwise enter *Shiv waiting room."
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Blade Dance", "Cloak and Dagger", "Storm of Steel", "Infinite Blades"],
+      "cardName": "Accuracy",
+      "modifiedName": "Inflame",
+      "modifiedDescription": "Gain !M! Strength."
+    },
+
+    {
+      "relicMatches": ["Dead Branch"],
+      "cardMatches": [],
+      "cardName": "Backstab",
+      "modifiedName": "Infinite Backstabs",
+      "modifiedDescription": "Innate. NL Deal !D! damage. NL Exhaust. NL Add a random *Backstab to your hand."
+    },
+
+    {
+      "relicMatches": ["Tough Bandages"],
+      "cardMatches": [],
+      "cardName": "Calculated Gamble",
+      "modifiedName": "Impervious",
+      "modifiedDescription": "Discard your hand. NL Gain 27 Block. NL Draw that many cards. NL Exhaust.",
+      "modifiedUpgradedDescription": "Discard your hand. NL Gain 27 Block. NL Draw that many cards."
+    },
+    {
+      "relicMatches": ["Ting Sha"],
+      "cardMatches": [],
+      "cardName": "Calculated Gamble",
+      "modifiedName": "Bludgeon",
+      "modifiedDescription": "Discard your hand. NL Deal 27 damage. NL Draw that many cards. NL Exhaust.",
+      "modifiedUpgradedDescription": "Discard your hand. NL Deal 27 damage. NL Draw that many cards."
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Eviscerate"],
+      "cardName": "Calculated Gamble",
+      "modifiedDescription": "You will draw this with *Eviscerate. NL (Discard and redraw, Exhaust. )",
+      "modifiedUpgradedDescription": "You will draw this with *Eviscerate, Nl (Discard and redraw)"
+    },
+
+    {
+      "relicMatches": ["Twisted Funnel"],
+      "cardMatches": [],
+      "cardName": "Catalyst",
+      "modifiedName": "Deadly Poison",
+      "modifiedDescription": "Innate. NL Scaling damage with *Twisted *Funnel. NL Apply 4 Poison. NL Exhaust.",
+      "modifiedUpgradedDescription": "Innate. NL Scaling damage with *Twisted *Funnel. NL Apply 8 Poison. NL Exhaust."
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Deadly Poison", "Poisoned Stab", "Bouncing Flask", "Noxious Fumes", "Crippling Cloud", "Corpse Explosion"],
+      "cardName": "Catalyst",
+      "modifiedName": "Scaling",
+      "modifiedDescription": "Don't pretend that you aren't going to click this. NL ( Double enemy Poison, Exhaust. )",
+      "modifiedUpgradedDescription": "Don't pretend that you aren't going to click this. NL ( Triple enemy Poison, Exhaust. )"
+    },
+    {
+      "_comment": "Since the first matched modification is applied, this modification is only used when the player has no sources of poison.",
+      "relicMatches": [],
+      "cardMatches": [],
+      "cardName": "Catalyst",
+      "modifiedName": "Catacurse",
+      "modifiedDescription": "You will get offered Poison I promise. NL ( Double enemy Poison, Exhaust. )",
+      "modifiedUpgradedDescription": "*Green. NL You will get offered Poison I promise. NL ( Triple enemy Poison, Exhaust. )"
+    },
+
+    {
+      "relicMatches": [],
+      "cardMatches": ["Blade Dance", "Cloak and Dagger", "Storm of Steel", "Infinite Blades"],
+      "cardName": "Choke",
+      "modifiedName": "Temporary Accuracy",
+      "modifiedDescription": "Deal !D! Damage. NL Your *Shivs deal !M! additional damage this turn."
+    },
+
+    {
+      "relicMatches": ["Ting Sha"],
+      "cardMatches": [],
+      "cardName": "Concentrate",
+      "modifiedName": "Sword Boomerang",
+      "modifiedDescription": "Discard !M! cards. NL Deal 3 damage to a random enemy !M! times. NL Gain [G] [G] ."
+    },
+    {
+      "relicMatches": ["Unceasing Top"],
+      "cardMatches": [],
+      "cardName": "Concentrate",
+      "modifiedName": "Free Energy",
+      "modifiedDescription": "Discard your hand. NL Gain [G] [G] . Draw 1 card with *Unceasing *Top."
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Reflex"],
+      "cardName": "Concentrate",
+      "modifiedName": "Free Energy",
+      "modifiedDescription": "Discard !M! *Reflexes. NL Gain [G] [G] ."
+    },
+
+    {
+      "relicMatches": ["Snecko Eye"],
+      "cardMatches": [],
+      "cardName": "Crippling Cloud",
+      "modifiedDescription": "Just click it, you have *Snecko. NL ( !M! Poison and 2 Weak to all enemies )"
+    },
+
+    {
+      "relicMatches": ["Necronomicon"],
+      "cardMatches": [],
+      "cardName": "Dash",
+      "modifiedName": "Talk Ragnarok",
+      "modifiedDescription": "Gain 20 Block. NL Deal 20 Damage.",
+      "modifiedUpgradedDescription": "Gain 26 Block. NL Deal 26 Damage."
+    },
+
+    {
+      "relicMatches": ["Wrist Blade"],
+      "cardMatches": [],
+      "cardName": "Endless Agony",
+      "modifiedName": "Twin Slice",
+      "modifiedDescription": "Deal 8 damage twice. NL Exhaust.",
+      "modifiedUpgradedDescription": "Deal 10 damage twice. NL Exhaust."
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Calculated Gamble"],
+      "cardName": "Eviscerate",
+      "modifiedName": "Triple Strike",
+      "modifiedDescription": "You will draw this with *Calculated *Gamble. NL ( !D! x 3 )"
+    },
+    {
+      "relicMatches": ["Snecko Eye"],
+      "cardMatches": [],
+      "cardName": "Eviscerate",
+      "modifiedName": "Bludgeon",
+      "modifiedDescription": "Deal 21 damage.",
+      "modifiedUpgradedDescription": "Deal 27 damage."
+    },
+
+    {
+      "relicMatches": [],
+      "cardMatches": ["Blade Dance", "Cloak and Dagger", "Storm of Steel", "Infinite Blades"],
+      "cardName": "Finisher",
+      "modifiedName": "Temporary Accuracy",
+      "modifiedDescription": "The *Shivs you have played this turn deal !D! additional damage. NL (Deal !D! for each attack played)"
+    },
+
+    {
+      "relicMatches": [],
+      "cardMatches": ["Heel Hook", "Escape Plan", "Reflex"],
+      "cardName": "Heel Hook",
+      "modifiedName": "Infinite Dream",
+      "modifiedDescription": "You want the infinite right? (Deal !D! . If enemy is Weak gain [R] and draw 1. )"
+    },
+    {
+      "relicMatches": ["Sundial"],
+      "cardMatches": ["Backflip", "Acrobatics", "Expertise"],
+      "cardName": "Heel Hook",
+      "modifiedName": "Infinite Dream",
+      "modifiedDescription": "You want the infinite right? (Deal !D! . If enemy is Weak gain [R] and draw 1. )"
+    },
+
+    {
+      "relicMatches": ["Dead Branch"],
+      "cardMatches": [],
+      "cardName": "Infinite Blades",
+      "modifiedName": "Machine Learning",
+      "modifiedDescription": "At the start of your turn, deal 4 damage and add a random card to your hand. ",
+      "modifiedUpgradedDescription": "Innate. NL At the start of your turn, deal 4 damage and add a random card to your hand. "
+    },
+
+    {
+      "relicMatches": [],
+      "cardMatches": ["Phantasmal Killer"],
+      "cardName": "Terror",
+      "modifiedName": "Indignation",
+      "modifiedDescription": "If you are in Wrath, apply 99 Vulnerable."
+    },
+
+    {
+      "relicMatches": ["Runic Pyramid"],
+      "cardMatches": [],
+      "cardName": "Well-Laid Plans",
+      "modifiedName": "Just In Time",
+      "modifiedDescription": "Do Nothing."
+    },
+
+    {
+      "relicMatches": [],
+      "cardMatches": ["Blade Dance", "Cloak and Dagger", "Storm of Steel", "Infinite Blades", "Wraith Form"],
+      "cardName": "After Image",
+      "modifiedName": "YEP BLOCK"
+    },
+
+    {
+      "relicMatches": ["Toy Ornithopter"],
+      "cardMatches": [],
+      "cardName": "Alchemize",
+      "modifiedName": "Burning Blood",
+      "modifiedDescription": "Heal 5 HP. NL Obtain a random potion. NL Exhaust."
+    },
+    {
+      "relicMatches": ["Sozu"],
+      "cardMatches": [],
+      "cardName": "Alchemize",
+      "modifiedName": "Slimed",
+      "modifiedDescription": "Exhaust."
+    },
+
+    {
+      "relicMatches": ["Snecko Eye", "Runic Pyramid"],
+      "cardMatches": [],
+      "cardName": "Bullet Time",
+      "modifiedName": "",
+      "modifiedDescription": "Who needs an energy relic anyways? NL (Reduce hand cost to 0 this turn)"
+    },
+
+    {
+      "relicMatches": [],
+      "cardMatches": ["Catalyst"],
+      "cardName": "Burst",
+      "modifiedName": "Catalyst",
+      "modifiedDescription": "Your next *Catalyst this turn nonuples the enemy's Poison instead. NL (Double next *Skill)",
+      "modifiedUpgradedDescription": "Your next two *Catalysts this turn nonuple the enemy's Poison instead. NL (Double next *Skill)"
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Dagger Spray"],
+      "cardName": "Corpse Explosion",
+      "modifiedName": "AOE",
+      "modifiedDescription": "Why did you pick *Dagger *Spray? NL ( !M! Poison, explode on death )"
+    },
+
+    {
+      "relicMatches": [],
+      "cardMatches": ["Sadistic Nature"],
+      "cardName": "Envenom",
+      "modifiedName": "Inflame",
+      "modifiedDescription": "Gain 8 Strength. NL ( 1 Poison on unblocked damage )"
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Envenom"],
+      "cardName": "Sadistic Nature",
+      "modifiedName": "Inflame",
+      "modifiedDescription": "Gain !M! Strength. NL ( !M! damage on debuff )"
+    },
+    {
+      "relicMatches": ["Snecko Skull"],
+      "cardMatches": [],
+      "cardName": "Envenom",
+      "modifiedName": "Poison Scaling",
+      "modifiedDescription": "Whenever an Attack deals unblocked damage, apply 2 Poison. "
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Blade Dance", "Cloak and Dagger", "Storm of Steel", "Infinite Blades"],
+      "cardName": "Envenom",
+      "modifiedName": "Poison Scaling",
+      "modifiedDescription": "Your *Shivs now apply 1 Poison. NL ( 1 Poison on unblocked damage )"
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Slice"],
+      "cardName": "Envenom",
+      "modifiedName": "Slice Scaling",
+      "modifiedDescription": "Your *Slice now applies 1 Poison. NL ( 1 Poison on unblocked damage )"
+    },
+
+    {
+      "relicMatches": ["Runic Pyramid", "Frozen Eye"],
+      "cardMatches": [],
+      "cardName": "Grand Finale",
+      "modifiedName": "Free Damage",
+      "modifiedDescription": "Come on I know you can make this work. NL ( !D! damage to all if draw pile is empty )"
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Well-Laid Plans"],
+      "cardName": "Grand Finale",
+      "modifiedName": "Free Damage",
+      "modifiedDescription": "Come on I know you can make this work. NL ( !D! damage to all if your draw pile is empty )"
+    },
+    {
+      "relicMatches": ["Wrist Blade"],
+      "cardMatches": [],
+      "cardName": "Grand Finale",
+      "modifiedName": "Wrist Blade Synergy",
+      "modifiedDescription": "Can only be played when there are no cards in your draw pile. NL Deal *54 damage to all enemies. ",
+      "modifiedUpgradedDescription": "Can only be played when there are no cards in your draw pile. NL Deal *64 damage to all enemies. "
+    },
+
+    {
+      "relicMatches": ["Philosopher's Stone"],
+      "cardMatches": [],
+      "cardName": "Malaise",
+      "modifiedDescription": "Told you the Philosopher's Stone is free energy. NL ( Enemy loses X Strength, apply X Weak, Exhaust. ) ",
+      "modifiedUpgradedDescription": "Told you the Philosopher's Stone is free energy. NL ( Enemy loses X+1 Strength, apply X+1 Weak, Exhaust. )"
+    },
+    {
+      "relicMatches": ["Ice Cream"],
+      "cardMatches": [],
+      "cardName": "Malaise",
+      "modifiedName": "Ice Cream Malaise",
+      "modifiedDescription": "Apply 99 *Major *Depression. NL Enemy loses its *will *to *live."
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Blade Dance", "Cloak and Dagger", "Storm of Steel", "Infinite Blades"],
+      "cardName": "Malaise",
+      "modifiedName": "Time Eater Solution"
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Infinite Blades", "Accuracy", "Noxious Fumes", "Caltrops", "Well-Laid Plans", "Envenom", "A Thousand Cuts"],
+      "cardName": "Malaise",
+      "modifiedName": "Awakened One Solution"
+    },
+
+    {
+      "relicMatches": [],
+      "cardMatches": ["Nightmare"],
+      "cardName": "Nightmare",
+      "modifiedName": "Infinite Memes",
+      "modifiedDescription": "Choose a *Nightmare in your hand. NL Next turn, choose a Nightmare and an *Apparition... NL Exhaust. "
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Wraith Form"],
+      "cardName": "Nightmare",
+      "modifiedName": "Wraith Form+++++++",
+      "modifiedDescription": "Choose a *Wraith *Form in your hand. NL Next turn, gain 9 Intangible. NL Exhaust. "
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Apparition"],
+      "cardName": "Nightmare",
+      "modifiedName": "Wraith Form",
+      "modifiedDescription": "Choose an *Apparition in your hand. NL Next turn, gain 3 Intangible. NL Exhaust. "
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Catalyst"],
+      "cardName": "Nightmare",
+      "modifiedName": "Catalyst+++++++",
+      "modifiedDescription": "Choose a *Catalyst in your hand. NL Next turn, septenvigintuple the enemy's Poison. NL Exhaust. "
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Phantasmal Killer"],
+      "cardName": "Nightmare",
+      "modifiedName": "Crescendo",
+      "modifiedDescription": "Choose a *Phantasmal *Killer in your hand. NL Next turn, enter Wrath for the rest of the combat. NL Exhaust. "
+    },
+    {
+      "relicMatches": ["Snecko Eye"],
+      "cardMatches": [],
+      "cardName": "Nightmare",
+      "modifiedName": "Click the Card",
+      "modifiedDescription": "You can do whatever you want with this anyways. NL ( 3 copies of a card in hand next turn, Exhaust. )"
+    },
+
+    {
+      "relicMatches": [],
+      "cardMatches": ["Terror"],
+      "cardName": "Phantasmal Killer",
+      "modifiedName": "Blasphemy",
+      "modifiedDescription": "Next turn, enter Divinity (but you don't get the energy)."
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Blade Dance", "Cloak and Dagger", "Storm of Steel", "Infinite Blades"],
+      "cardName": "Phantasmal Killer",
+      "modifiedName": "Simmering Fury",
+      "modifiedDescription": "Next turn, enter Wrath."
+    },
+
+    {
+      "relicMatches": ["Dead Branch"],
+      "cardMatches": [],
+      "cardName": "Storm of Steel",
+      "modifiedName": "Uncalculated Gamble",
+      "modifiedDescription": "Discard your hand. NL Deal 4 damage that many times and get that many random cards.",
+      "modifiedUpgradedDescription": "Discard your hand. NL Deal 6 damage that many times and get that many random cards."
+    },
+    {
+      "relicMatches": ["Tough Bandages"],
+      "cardMatches": [],
+      "cardName": "Storm of Steel",
+      "modifiedName": "Impervious",
+      "modifiedDescription": "Discard your hand. NL Gain 27 Block. NL Get that many *Shivs.",
+      "modifiedUpgradedDescription": "Discard your hand. NL Gain 27 Block. NL Get that many *Shivs+."
+    },
+    {
+      "relicMatches": ["Tingsha"],
+      "cardMatches": [],
+      "cardName": "Storm of Steel",
+      "modifiedName": "Fiend Fire",
+      "modifiedDescription": "Discard your hand. NL Deal 3 damage to a random enemy and get that many *Shivs.",
+      "modifiedUpgradedDescription": "Discard your hand. NL Deal 3 damage to a random enemy and get that many *Shiv+s."
+    },
+    {
+      "relicMatches": ["Wrist Blade"],
+      "cardMatches": ["Accuracy"],
+      "cardName": "Storm of Steel",
+      "modifiedName": "Fiend Fire",
+      "modifiedDescription": "Discard your hand. NL Deal 14 damage for each card discarded.",
+      "modifiedUpgradedDescription": "Discard your hand. NL Deal 16 damage for each card discarded."
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Accuracy"],
+      "cardName": "Storm of Steel",
+      "modifiedName": "Fiend Fire",
+      "modifiedDescription": "Discard your hand. NL Deal 10 damage for each card discarded.",
+      "modifiedUpgradedDescription": "Discard your hand. NL Deal 12 damage for each card discarded."
+    },
+    {
+      "relicMatches": ["Wrist Blade"],
+      "cardMatches": [],
+      "cardName": "Storm of Steel",
+      "modifiedName": "Fiend Fire",
+      "modifiedDescription": "Discard your hand. NL Deal 8 damage for each card discarded.",
+      "modifiedUpgradedDescription": "Discard your hand. NL Deal 10 damage for each card discarded."
+    },
+
+    {
+      "relicMatches": ["Hovering Kite"],
+      "cardMatches": [],
+      "cardName": "Tools of the Trade",
+      "modifiedName": "Energy Relic",
+      "modifiedDescription": "At the start of your turn, draw 1, discard 1 and gain [G] ."
+    },
+    {
+      "relicMatches": ["Snecko Eye"],
+      "cardMatches": ["Sneaky Strike"],
+      "cardName": "Tools of the Trade",
+      "modifiedName": "Hovering Kite",
+      "modifiedDescription": "At the start of your turn, draw 1, discard 1 and gain [G] from *Sneaky *Strike."
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Tactician"],
+      "cardName": "Tools of the Trade",
+      "modifiedName": "Hovering Kite",
+      "modifiedDescription": "At the start of your turn, draw 1, discard 1 and gain [G] [G] from *Tactician."
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Reflex"],
+      "cardName": "Tools of the Trade",
+      "modifiedName": "Ring of the Serpent",
+      "modifiedDescription": "At the start of your turn, draw 1, discard 1 and draw 3 from *Reflex."
+    },
+    {
+      "relicMatches": ["Tough Bandages"],
+      "cardMatches": [],
+      "cardName": "Tools of the Trade",
+      "modifiedName": "Metalicise",
+      "modifiedDescription": "At the start of your turn, draw 1, discard 1 and gain 3 Block. "
+    },
+    {
+      "relicMatches": ["Ting Sha"],
+      "cardMatches": [],
+      "cardName": "Tools of the Trade",
+      "modifiedName": "Mercury Hourglass",
+      "modifiedDescription": "At the start of your turn, draw 1, discard 1 and deal 3 damage to a random enemy. "
+    },
+
+    {
+      "relicMatches": ["Tungsten Rod"],
+      "cardMatches": [],
+      "cardName": "Wraith Form",
+      "modifiedName": "Wraith Daddy",
+      "modifiedDescription": "You literally cannot die. NL ( !M! Intangible, lose 1 Dexterity every turn )"
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Blade Dance", "Cloak and Dagger", "Storm of Steel", "Infinite Blades"],
+      "cardName": "Wraith Form",
+      "modifiedName": "Wraith Daddy",
+      "modifiedDescription": "\"So how do we block Time Eater again?\" NL ( !M! Intangible, lose 1 Dexterity every turn )"
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Nightmare"],
+      "cardName": "Wraith Form",
+      "modifiedName": "Wraith Daddy",
+      "modifiedDescription": "Whenever you play *Nightmare, gain 9 Intangible instead. NL ( !M! Intangible, lose 1 Dexterity every turn )"
+    },
+    {
+      "relicMatches": ["Clockwork Souvenir", "Orange Pellets"],
+      "cardMatches": [],
+      "cardName": "Wraith Form",
+      "modifiedName": "Wraith Daddy",
+      "modifiedDescription": "Just click it, you don't even have to lose the Dexterity. NL ( !M! Intangible, lose 1 Dexterity every turn )"
+    },
+    {
+      "relicMatches": ["Snecko Eye", "Pyramid"],
+      "cardMatches": [],
+      "cardName": "Wraith Form",
+      "modifiedName": "Click",
+      "modifiedDescription": "Just click it. NL ( !M! Intangible, lose 1 Dexterity every turn )"
+    },
+    {
+      "relicMatches": ["Fusion Hammer"],
+      "cardMatches": [],
+      "cardName": "Wraith Form",
+      "modifiedName": "Wraith Form",
+      "modifiedDescription": "What an unfortunate *Fusion *Hammer. NL ( !M! Intangible, lose 1 Dexterity every turn )",
+      "modifiedUpgradedDescription": "Gain 3 Intangible. At the start of your turn, lose 1 Dexterity."
     }
   ]
 }

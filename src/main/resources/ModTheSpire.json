@@ -1,5 +1,5 @@
 {
-  "modid": "dynamic-card-meme",
+  "modid": "dynamic-card-memes",
   "name": "Dynamic Card Memes",
   "author_list": ["Jerry"],
   "description": "Replaces certain card names and descriptions in card reward screens and shops with jokes based on your current relic bar and deck. ",

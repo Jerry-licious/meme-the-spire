@@ -1,12 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>dynamic-card-meme</groupId>
-    <artifactId>dynamic-card-meme</artifactId>
+    <groupId>dynamic-card-memes</groupId>
+    <artifactId>dynamic-card-memes</artifactId>
     <version>v0.1.0</version>
     <packaging>jar</packaging>
 
-    <name>dynamic-card-meme</name>
+    <name>dynamic-card-memes</name>
     <description>Change card names and descriptions in card reward screens
         dynamically based on the player's situation.</description>
 
@@ -32,7 +32,7 @@
     </dependencies>
 
     <build>
-        <finalName>dynamic-card-meme</finalName>
+        <finalName>dynamic-card-memes</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -52,8 +52,8 @@
                         <phase>package</phase>
                         <configuration>
                             <target>
-                                <copy file="target/dynamic-card-meme.jar"
-                                      tofile="../lib/dynamic-card-meme.jar"/>
+                                <copy file="target/dynamic-card-memes.jar"
+                                      tofile="../lib/dynamic-card-memes.jar"/>
                             </target>
                         </configuration>
                         <goals>

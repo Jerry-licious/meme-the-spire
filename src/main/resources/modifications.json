@@ -1,45 +1,6 @@
 {
   "modifications": [
     {
-      "relicMatches": ["The Boot"],
-      "cardMatches": [],
-      "cardName": "Riddle with Holes",
-      "modifiedName": "Nemesis Solution",
-      "modifiedDescription": "Deal 25 damage. NL Intangible and Weak do not affect this card. "
-    },
-    {
-      "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Shuriken"],
-      "cardMatches": [],
-      "cardName": "Riddle with Holes",
-      "modifiedName": "Heavy Dagger",
-      "modifiedDescription": "Deal 15 damage. NL Strength affects this card 5 times.",
-      "modifiedUpgradedDescription": "Deal 20 damage. NL Strength affects this card 5 times."
-    },
-    {
-      "relicMatches": ["Akabeko"],
-      "cardMatches": [],
-      "cardName": "Riddle with Holes",
-      "modifiedName": "Silent Ragnarok",
-      "modifiedDescription": "If you draw this turn 1, deal 55 damage. NL Otherwise contemplate your *life *choices. ",
-      "modifiedUpgradedDescription": "If you draw this turn 1, deal 60 damage. NL Otherwise contemplate your *life *choices. "
-    },
-    {
-      "relicMatches": ["Snecko Skull"],
-      "cardMatches": ["Envenom"],
-      "cardName": "Riddle with Holes",
-      "modifiedName": "Scaling Attack",
-      "modifiedDescription": "Deal 15 damage. NL Apply 10 Poison. ",
-      "modifiedUpgradedDescription": "Deal 20 damage. NL Apply 10 Poison."
-    },
-    {
-      "relicMatches": [],
-      "cardMatches": ["Envenom"],
-      "cardName": "Riddle with Holes",
-      "modifiedName": "Poisoned Stab++",
-      "modifiedDescription": "Deal 15 damage. NL Apply 5 Poison. ",
-      "modifiedUpgradedDescription": "Deal 20 damage. NL Apply 5 Poison. "
-    },
-    {
       "relicMatches": [],
       "cardMatches": ["Searing Blow"],
       "cardName": "Armaments",
@@ -778,8 +739,7 @@
       "modifiedName": "Hovering Kite",
       "modifiedDescription": "This is always decosted trust me. NL (Deal !D! , gain [G] [G] if discarded this turn )"
     },
-    
-    
+
     {
       "relicMatches": ["Ninja Scroll"],
       "cardMatches": [],
@@ -962,6 +922,46 @@
       "cardName": "Terror",
       "modifiedName": "Indignation",
       "modifiedDescription": "If you are in Wrath, apply 99 Vulnerable."
+    },
+
+    {
+      "relicMatches": ["The Boot"],
+      "cardMatches": [],
+      "cardName": "Riddle with Holes",
+      "modifiedName": "Nemesis Solution",
+      "modifiedDescription": "Deal 25 damage. NL Intangible and Weak do not affect this card. "
+    },
+    {
+      "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Shuriken"],
+      "cardMatches": [],
+      "cardName": "Riddle with Holes",
+      "modifiedName": "Heavy Dagger",
+      "modifiedDescription": "Deal 15 damage. NL Strength affects this card 5 times.",
+      "modifiedUpgradedDescription": "Deal 20 damage. NL Strength affects this card 5 times."
+    },
+    {
+      "relicMatches": ["Akabeko"],
+      "cardMatches": [],
+      "cardName": "Riddle with Holes",
+      "modifiedName": "Silent Ragnarok",
+      "modifiedDescription": "If you draw this turn 1, deal 55 damage. NL Otherwise contemplate your *life *choices. ",
+      "modifiedUpgradedDescription": "If you draw this turn 1, deal 60 damage. NL Otherwise contemplate your *life *choices. "
+    },
+    {
+      "relicMatches": ["Snecko Skull"],
+      "cardMatches": ["Envenom"],
+      "cardName": "Riddle with Holes",
+      "modifiedName": "Scaling Attack",
+      "modifiedDescription": "Deal 15 damage. NL Apply 10 Poison. ",
+      "modifiedUpgradedDescription": "Deal 20 damage. NL Apply 10 Poison."
+    },
+    {
+      "relicMatches": [],
+      "cardMatches": ["Envenom"],
+      "cardName": "Riddle with Holes",
+      "modifiedName": "Poisoned Stab++",
+      "modifiedDescription": "Deal 15 damage. NL Apply 5 Poison. ",
+      "modifiedUpgradedDescription": "Deal 20 damage. NL Apply 5 Poison. "
     },
 
     {

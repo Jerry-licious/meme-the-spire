@@ -10,14 +10,14 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.Reader;
 
-public class Config {
+public class MemeCollection {
     private static Gson gson = new Gson();
-    public static Config config;
+    public static MemeCollection defaultCollection;
 
     static {
         try (Reader reader = new InputStreamReader(
                 CardModification.class.getResourceAsStream("/modifications.json"))) {
-            config = gson.fromJson(reader, Config.class);
+            defaultCollection = gson.fromJson(reader, MemeCollection.class);
         }
         // This shouldn't go wrong.
         catch (IOException ignored) {}
@@ -26,7 +26,7 @@ public class Config {
     CardModification[] modifications;
     CardRewardTooltip[] tooltips;
 
-    public Config() {
+    public MemeCollection() {
 
     }
 

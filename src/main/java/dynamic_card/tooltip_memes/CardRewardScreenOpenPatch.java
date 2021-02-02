@@ -5,7 +5,7 @@ import com.evacipated.cardcrawl.modthespire.lib.SpirePostfixPatch;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.rewards.RewardItem;
 import com.megacrit.cardcrawl.screens.CardRewardScreen;
-import dynamic_card.Config;
+import dynamic_card.MemeCollection;
 
 import java.util.ArrayList;
 
@@ -15,6 +15,6 @@ public class CardRewardScreenOpenPatch {
     public static void showTooltips(CardRewardScreen _instance,
                                     ArrayList<AbstractCard> cards,
                                     RewardItem _rItem, String _header) {
-        Config.config.showFirstApplicableTooltip(cards);
+        MemeCollection.defaultCollection.showFirstApplicableTooltip(cards);
     }
 }

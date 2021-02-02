@@ -23,6 +23,6 @@ public class CardRewardScreenOpenPatch {
                                    ArrayList<AbstractCard> cards,
                                    RewardItem _rItem, String _header) {
         cards.forEach((card) ->
-            MemeCollection.defaultCollection.applyFirstApplicableCardModification(card, AbstractDungeon.player));
+            MemeCollection.applyFirstApplicableCardModificationFromAllCollections(card, AbstractDungeon.player));
     }
 }

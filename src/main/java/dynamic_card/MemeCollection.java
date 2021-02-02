@@ -9,26 +9,29 @@ import dynamic_card.tooltip_memes.CardRewardTooltip;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.Reader;
+import java.util.ArrayList;
 
 public class MemeCollection {
     private static Gson gson = new Gson();
-    public static MemeCollection defaultCollection;
+    public static ArrayList<MemeCollection> collections = new ArrayList<>();
+
+    private static MemeCollection loadCollectionFromResources(String path) {
+        Reader reader = new InputStreamReader(
+                CardModification.class.getResourceAsStream(path));
+        return gson.fromJson(reader, MemeCollection.class);
+    }
 
     static {
-        try (Reader reader = new InputStreamReader(
-                CardModification.class.getResourceAsStream("/modifications.json"))) {
-            defaultCollection = gson.fromJson(reader, MemeCollection.class);
-        }
-        // This shouldn't go wrong.
-        catch (IOException ignored) {}
+        collections.add(loadCollectionFromResources(
+                "./meme_collections/ironclad.json"));
+        collections.add(loadCollectionFromResources(
+                "./meme_collections/silent.json"));
     }
 
-    CardModification[] modifications;
-    CardRewardTooltip[] tooltips;
+    CardModification[] modifications = {};
+    CardRewardTooltip[] tooltips = {};
 
-    public MemeCollection() {
-
-    }
+    public MemeCollection() { }
 
     public void applyFirstApplicableCardModification(AbstractCard card,
                                                      AbstractPlayer player) {
@@ -47,6 +50,32 @@ public class MemeCollection {
                 if (tooltip.applicableOnCard(card)) {
                     tooltip.show(card);
                     return;
+                }
+            }
+        }
+    }
+
+    public static void applyFirstApplicableCardModificationFromAllCollections
+            (AbstractCard card, AbstractPlayer player) {
+        for (MemeCollection collection : collections) {
+            for (CardModification modification : collection.modifications) {
+                if (modification.applicableOnCard(card) &&
+                        modification.applicableOnPlayer(player)) {
+                    modification.modify(card);
+                    return;
+                }
+            }
+        }
+    }
+
+    public static void showFirstApplicableTooltipFromAllCollections(Iterable<AbstractCard> cards) {
+        for (AbstractCard card : cards) {
+            for (MemeCollection collection : collections){
+                for (CardRewardTooltip tooltip : collection.tooltips) {
+                    if (tooltip.applicableOnCard(card)) {
+                        tooltip.show(card);
+                        return;
+                    }
                 }
             }
         }

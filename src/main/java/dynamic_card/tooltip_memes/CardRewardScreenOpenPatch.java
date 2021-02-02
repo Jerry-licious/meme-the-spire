@@ -15,6 +15,6 @@ public class CardRewardScreenOpenPatch {
     public static void showTooltips(CardRewardScreen _instance,
                                     ArrayList<AbstractCard> cards,
                                     RewardItem _rItem, String _header) {
-        MemeCollection.defaultCollection.showFirstApplicableTooltip(cards);
+        MemeCollection.showFirstApplicableTooltipFromAllCollections(cards);
     }
 }

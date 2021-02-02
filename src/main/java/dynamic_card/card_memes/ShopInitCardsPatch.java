@@ -12,8 +12,8 @@ public class ShopInitCardsPatch {
     // Modify shown card names and descriptions when a shop is loaded.
     public static void modifyCards(ShopScreen instance) {
         instance.coloredCards.forEach((card) ->
-                MemeCollection.defaultCollection.applyFirstApplicableCardModification(card, AbstractDungeon.player));
+                MemeCollection.applyFirstApplicableCardModificationFromAllCollections(card, AbstractDungeon.player));
         instance.colorlessCards.forEach((card) ->
-                MemeCollection.defaultCollection.applyFirstApplicableCardModification(card, AbstractDungeon.player));
+                MemeCollection.applyFirstApplicableCardModificationFromAllCollections(card, AbstractDungeon.player));
     }
 }

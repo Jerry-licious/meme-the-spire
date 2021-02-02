@@ -2,7 +2,6 @@
   "modifications": [
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Searing Blow"]
       },
       "cardName": "Armaments",
@@ -12,15 +11,13 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Fusion Hammer"],
-        "cardMatches": []
+        "relicMatches": ["Fusion Hammer"]
       },
       "cardName": "Armaments",
       "modifiedUpgradedDescription": "Gain 5 Block. NL Make your *Fusion *Hammer feel less bad."
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Barricade"]
       },
       "cardName": "Body Slam",
@@ -29,8 +26,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Calipers"],
-        "cardMatches": []
+        "relicMatches": ["Calipers"]
       },
       "cardName": "Body Slam",
       "modifiedName": "YEP DAMAGE",
@@ -38,7 +34,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Sever Soul", "Second Wind"]
       },
       "cardName": "Clash",
@@ -47,8 +42,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Clockwork Souvenir", "Orange Pellets"],
-        "cardMatches": []
+        "relicMatches": ["Clockwork Souvenir", "Orange Pellets"]
       },
       "cardName": "Flex",
       "modifiedName": "Free Inflame",
@@ -56,7 +50,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Panacea"]
       },
       "cardName": "Flex",
@@ -74,7 +67,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Corruption"]
       },
       "cardName": "Shrug It Off",
@@ -83,8 +75,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["The Boot"],
-        "cardMatches": []
+        "relicMatches": ["The Boot"]
       },
       "cardName": "Sword Boomerang",
       "modifiedName": "Nemesis Solution",
@@ -92,8 +83,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Akabeko", "Shuriken"],
-        "cardMatches": []
+        "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Akabeko", "Shuriken"]
       },
       "cardName": "Sword Boomerang",
       "modifiedName": "Cheaper Heavy Blade",
@@ -102,7 +92,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Inflame", "Flex", "Limit Break", "Demon Form", "Spot Weakness"]
       },
       "cardName": "Sword Boomerang",
@@ -112,8 +101,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Strike Dummy"],
-        "cardMatches": []
+        "relicMatches": ["Strike Dummy"]
       },
       "cardName": "Twin Strike",
       "modifiedName": "Glass Knife",
@@ -122,7 +110,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Dark Embrace"]
       },
       "cardName": "Warcry",
@@ -132,7 +119,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Fire Breathing"]
       },
       "cardName": "Wild Strike",
@@ -141,8 +127,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Clockwork Souvenir"],
-        "cardMatches": []
+        "relicMatches": ["Clockwork Souvenir"]
       },
       "cardName": "Battle Trance",
       "modifiedName": "Master of Strategy",
@@ -150,7 +135,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Brutality", "Combust"]
       },
       "cardName": "Blood for Blood",
@@ -159,8 +143,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Runic Cube"],
-        "cardMatches": []
+        "relicMatches": ["Runic Cube"]
       },
       "cardName": "Bloodletting",
       "modifiedName": "Adrenaline+",
@@ -169,7 +152,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Rupture"]
       },
       "cardName": "Bloodletting",
@@ -179,8 +161,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Self-Forming Clay"],
-        "cardMatches": []
+        "relicMatches": ["Self-Forming Clay"]
       },
       "cardName": "Bloodletting",
       "modifiedName": "Dodge and Roll",
@@ -189,7 +170,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Rupture"]
       },
       "cardName": "Combust",
@@ -198,8 +178,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Self-Forming Clay"],
-        "cardMatches": []
+        "relicMatches": ["Self-Forming Clay"]
       },
       "cardName": "Combust",
       "modifiedName": "Metalicise",
@@ -207,8 +186,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Tungsten Rod"],
-        "cardMatches": []
+        "relicMatches": ["Tungsten Rod"]
       },
       "cardName": "Combust",
       "modifiedName": "Free Damage",
@@ -216,8 +194,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Runic Cube"],
-        "cardMatches": []
+        "relicMatches": ["Runic Cube"]
       },
       "cardName": "Combust",
       "modifiedName": "Endless Disappointment",
@@ -225,7 +202,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Corruption"]
       },
       "cardName": "Dark Embrace",
@@ -234,7 +210,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Dropkick"]
       },
       "cardName": "Dropkick",
@@ -252,7 +227,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Feed"]
       },
       "cardName": "Dual Wield",
@@ -261,7 +235,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Perfected Strike"]
       },
       "cardName": "Dual Wield",
@@ -271,7 +244,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Feel No Pain"]
       },
       "cardName": "Dual Wield",
@@ -280,7 +252,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Dropkick"]
       },
       "cardName": "Dual Wield",
@@ -308,7 +279,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Barricade"]
       },
       "cardName": "Entrench",
@@ -316,15 +286,13 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Calipers"],
-        "cardMatches": []
+        "relicMatches": ["Calipers"]
       },
       "cardName": "Entrench",
       "modifiedName": "Block Scaling"
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Corruption"]
       },
       "cardName": "Feel No Pain",
@@ -333,7 +301,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Rupture"]
       },
       "cardName": "Hemokinesis",
@@ -342,7 +309,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Fiend Fire"]
       },
       "cardName": "Power Through",
@@ -351,7 +317,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Second Wind"]
       },
       "cardName": "Power Through",
@@ -360,8 +325,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["The Boot"],
-        "cardMatches": []
+        "relicMatches": ["The Boot"]
       },
       "cardName": "Pummel",
       "modifiedName": "Nemesis Solution",
@@ -369,8 +333,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Akabeko", "Shuriken"],
-        "cardMatches": []
+        "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Akabeko", "Shuriken"]
       },
       "cardName": "Pummel",
       "modifiedName": "Cheaper Heavy Blade",
@@ -379,7 +342,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Inflame", "Flex", "Limit Break", "Demon Form", "Spot Weakness"]
       },
       "cardName": "Pummel",
@@ -389,7 +351,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Double Tap", "Headbutt"]
       },
       "cardName": "Rampage",
@@ -398,8 +359,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Snecko Eye"],
-        "cardMatches": []
+        "relicMatches": ["Snecko Eye"]
       },
       "cardName": "Rampage",
       "modifiedName": "Scaling Damage",
@@ -407,7 +367,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Brutality", "Combust"]
       },
       "cardName": "Rupture",
@@ -416,7 +375,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Armaments"]
       },
       "cardName": "Searing Blow",
@@ -425,8 +383,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Warped Tongs"],
-        "cardMatches": []
+        "relicMatches": ["Warped Tongs"]
       },
       "cardName": "Searing Blow",
       "modifiedName": "Scaling Damage",
@@ -434,7 +391,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Clash"]
       },
       "cardName": "Second Wind",
@@ -443,7 +399,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Clash"]
       },
       "cardName": "Sever Soul",
@@ -452,7 +407,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Corruption", "Feel No Pain"]
       },
       "cardName": "Barricade",
@@ -460,8 +414,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Snecko Eye"],
-        "cardMatches": []
+        "relicMatches": ["Snecko Eye"]
       },
       "cardName": "Barricade",
       "modifiedName": "C L I C K",
@@ -469,8 +422,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Clockwork Souvenir", "Orange Pellets"],
-        "cardMatches": []
+        "relicMatches": ["Clockwork Souvenir", "Orange Pellets"]
       },
       "cardName": "Berserk",
       "modifiedName": "Free Energy",
@@ -478,7 +430,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Panacea"]
       },
       "cardName": "Berserk",
@@ -487,8 +438,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Snecko Eye"],
-        "cardMatches": []
+        "relicMatches": ["Snecko Eye"]
       },
       "cardName": "Bludgeon",
       "modifiedName": "B L U D G E D",
@@ -496,7 +446,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Rupture"]
       },
       "cardName": "Brutality",
@@ -506,8 +455,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Self-Forming Clay"],
-        "cardMatches": []
+        "relicMatches": ["Self-Forming Clay"]
       },
       "cardName": "Brutality",
       "modifiedName": "Metalicise",
@@ -516,8 +464,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Tungsten Rod"],
-        "cardMatches": []
+        "relicMatches": ["Tungsten Rod"]
       },
       "cardName": "Brutality",
       "modifiedName": "Cheap Machine Learning",
@@ -526,8 +473,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Runic Cube"],
-        "cardMatches": []
+        "relicMatches": ["Runic Cube"]
       },
       "cardName": "Brutality",
       "modifiedName": "Machine Learning++",
@@ -536,8 +482,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Snecko Eye"],
-        "cardMatches": []
+        "relicMatches": ["Snecko Eye"]
       },
       "cardName": "Demon Form",
       "modifiedName": "Inflame Every Turn",
@@ -545,7 +490,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Rupture"]
       },
       "cardName": "Demon Form",
@@ -554,8 +498,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Brimstone"],
-        "cardMatches": []
+        "relicMatches": ["Brimstone"]
       },
       "cardName": "Demon Form",
       "modifiedName": "Brimstone at Home",
@@ -563,7 +506,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Rampage"]
       },
       "cardName": "Double Tap",
@@ -573,7 +515,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Reaper"]
       },
       "cardName": "Double Tap",
@@ -583,7 +524,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Feed"]
       },
       "cardName": "Exhume",
@@ -592,7 +532,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Disarm"]
       },
       "cardName": "Exhume",
@@ -601,16 +540,14 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Philosopher's Stone"],
-        "cardMatches": []
+        "relicMatches": ["Philosopher's Stone"]
       },
       "cardName": "Disarm",
       "modifiedDescription": "Told you the Philosopher's Stone is free energy. NL ( Enemy loses !M! Strength, Exhaust. )"
     },
     {
       "conditions": {
-        "relicMatches": ["Brimstone"],
-        "cardMatches": []
+        "relicMatches": ["Brimstone"]
       },
       "cardName": "Disarm",
       "modifiedName": "Heart Solution",
@@ -618,7 +555,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Dark Embrace"]
       },
       "cardName": "Fiend Fire",
@@ -627,7 +563,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Battle Trance"]
       },
       "cardName": "Offering",
@@ -635,8 +570,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Red Skull"],
-        "cardMatches": []
+        "relicMatches": ["Red Skull"]
       },
       "cardName": "Reaper",
       "modifiedName": "Red Skull Disabler",
@@ -644,8 +578,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Coffee Dripper"],
-        "cardMatches": []
+        "relicMatches": ["Coffee Dripper"]
       },
       "cardName": "Reaper",
       "modifiedName": "Rest",
@@ -653,7 +586,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Tactician"]
       },
       "cardName": "Acrobatics",
@@ -662,7 +594,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Reflex"]
       },
       "cardName": "Acrobatics",
@@ -671,8 +602,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Hovering Kite"],
-        "cardMatches": []
+        "relicMatches": ["Hovering Kite"]
       },
       "cardName": "Acrobatics",
       "modifiedName": "Free Draw",
@@ -680,7 +610,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Deadly Poison", "Poisoned Stab", "Bouncing Flask", "Noxious Fumes", "Crippling Cloud", "Corpse Explosion"]
       },
       "cardName": "Bane",
@@ -689,8 +618,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Twisted Funnel"],
-        "cardMatches": []
+        "relicMatches": ["Twisted Funnel"]
       },
       "cardName": "Bane",
       "modifiedName": "Glass Knife",
@@ -708,7 +636,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Accuracy"]
       },
       "cardName": "Blade Dance",
@@ -718,8 +645,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Wrist Blade"],
-        "cardMatches": []
+        "relicMatches": ["Wrist Blade"]
       },
       "cardName": "Blade Dance",
       "modifiedName": "Free Sunder",
@@ -728,8 +654,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Shuriken"],
-        "cardMatches": []
+        "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Shuriken"]
       },
       "cardName": "Blade Dance",
       "modifiedName": "Heavy Shiv",
@@ -748,7 +673,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Envenom"]
       },
       "cardName": "Blade Dance",
@@ -758,8 +682,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Kunai"],
-        "cardMatches": []
+        "relicMatches": ["Kunai"]
       },
       "cardName": "Blade Dance",
       "modifiedName": "Footwork",
@@ -768,8 +691,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Shuriken"],
-        "cardMatches": []
+        "relicMatches": ["Shuriken"]
       },
       "cardName": "Blade Dance",
       "modifiedName": "Inflame",
@@ -788,8 +710,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Wrist Blade"],
-        "cardMatches": []
+        "relicMatches": ["Wrist Blade"]
       },
       "cardName": "Cloak and Dagger",
       "modifiedName": "Dash",
@@ -798,7 +719,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Accuracy"]
       },
       "cardName": "Cloak and Dagger",
@@ -808,8 +728,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Akabeko"],
-        "cardMatches": []
+        "relicMatches": ["Akabeko"]
       },
       "cardName": "Dagger Spray",
       "modifiedName": "Die Die Die",
@@ -818,15 +737,13 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Shuriken"],
-        "cardMatches": []
+        "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Shuriken"]
       },
       "cardName": "Dagger Spray",
       "modifiedName": "Double Cleave"
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Slice"]
       },
       "cardName": "Flying Knee",
@@ -835,8 +752,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Art of War"],
-        "cardMatches": []
+        "relicMatches": ["Art of War"]
       },
       "cardName": "Flying Knee",
       "modifiedName": "Slice",
@@ -844,8 +760,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Wrist Blade"],
-        "cardMatches": []
+        "relicMatches": ["Wrist Blade"]
       },
       "cardName": "Slice",
       "modifiedName": "Free Damage",
@@ -854,8 +769,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Shuriken"],
-        "cardMatches": []
+        "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Shuriken"]
       },
       "cardName": "Slice",
       "modifiedName": "Strength Scaling",
@@ -872,7 +786,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Envenom"]
       },
       "cardName": "Slice",
@@ -890,8 +803,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Ninja Scroll"],
-        "cardMatches": []
+        "relicMatches": ["Ninja Scroll"]
       },
       "cardName": "Accuracy",
       "modifiedName": "Backstab",
@@ -900,7 +812,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Blade Dance", "Cloak and Dagger", "Storm of Steel", "Infinite Blades"]
       },
       "cardName": "Accuracy",
@@ -909,8 +820,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Dead Branch"],
-        "cardMatches": []
+        "relicMatches": ["Dead Branch"]
       },
       "cardName": "Backstab",
       "modifiedName": "Infinite Backstabs",
@@ -918,8 +828,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Tough Bandages"],
-        "cardMatches": []
+        "relicMatches": ["Tough Bandages"]
       },
       "cardName": "Calculated Gamble",
       "modifiedName": "Spirit Shield",
@@ -928,8 +837,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Ting Sha"],
-        "cardMatches": []
+        "relicMatches": ["Ting Sha"]
       },
       "cardName": "Calculated Gamble",
       "modifiedName": "Bludgeon",
@@ -938,7 +846,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Eviscerate"]
       },
       "cardName": "Calculated Gamble",
@@ -947,8 +854,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Twisted Funnel"],
-        "cardMatches": []
+        "relicMatches": ["Twisted Funnel"]
       },
       "cardName": "Catalyst",
       "modifiedName": "Deadly Poison",
@@ -957,7 +863,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Deadly Poison", "Poisoned Stab", "Bouncing Flask", "Noxious Fumes", "Crippling Cloud", "Corpse Explosion"]
       },
       "cardName": "Catalyst",
@@ -967,8 +872,7 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
-        "cardMatches": []
+        "relicMatches": []
       },
       "cardName": "Catalyst",
       "modifiedName": "Catacurse",
@@ -977,7 +881,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Blade Dance", "Cloak and Dagger", "Storm of Steel", "Infinite Blades"]
       },
       "cardName": "Choke",
@@ -986,8 +889,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Ting Sha"],
-        "cardMatches": []
+        "relicMatches": ["Ting Sha"]
       },
       "cardName": "Concentrate",
       "modifiedName": "Sword Boomerang",
@@ -995,8 +897,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Unceasing Top"],
-        "cardMatches": []
+        "relicMatches": ["Unceasing Top"]
       },
       "cardName": "Concentrate",
       "modifiedName": "Free Energy",
@@ -1004,7 +905,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Reflex"]
       },
       "cardName": "Concentrate",
@@ -1013,16 +913,14 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Snecko Eye"],
-        "cardMatches": []
+        "relicMatches": ["Snecko Eye"]
       },
       "cardName": "Crippling Cloud",
       "modifiedDescription": "Just click it, you have *Snecko. NL ( !M! Poison and 2 Weak to all enemies )"
     },
     {
       "conditions": {
-        "relicMatches": ["Necronomicon"],
-        "cardMatches": []
+        "relicMatches": ["Necronomicon"]
       },
       "cardName": "Dash",
       "modifiedName": "Talk Ragnarok",
@@ -1031,8 +929,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Wrist Blade"],
-        "cardMatches": []
+        "relicMatches": ["Wrist Blade"]
       },
       "cardName": "Endless Agony",
       "modifiedName": "Twin Slice",
@@ -1041,7 +938,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Calculated Gamble"]
       },
       "cardName": "Eviscerate",
@@ -1050,8 +946,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Snecko Eye"],
-        "cardMatches": []
+        "relicMatches": ["Snecko Eye"]
       },
       "cardName": "Eviscerate",
       "modifiedName": "Bludgeon",
@@ -1060,7 +955,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Blade Dance", "Cloak and Dagger", "Storm of Steel", "Infinite Blades"]
       },
       "cardName": "Finisher",
@@ -1069,7 +963,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Heel Hook", "Escape Plan", "Reflex"]
       },
       "cardName": "Heel Hook",
@@ -1087,8 +980,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Dead Branch"],
-        "cardMatches": []
+        "relicMatches": ["Dead Branch"]
       },
       "cardName": "Infinite Blades",
       "modifiedName": "Machine Learning",
@@ -1097,7 +989,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Phantasmal Killer"]
       },
       "cardName": "Terror",
@@ -1106,8 +997,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["The Boot"],
-        "cardMatches": []
+        "relicMatches": ["The Boot"]
       },
       "cardName": "Riddle with Holes",
       "modifiedName": "Nemesis Solution",
@@ -1115,8 +1005,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Shuriken"],
-        "cardMatches": []
+        "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Shuriken"]
       },
       "cardName": "Riddle with Holes",
       "modifiedName": "Heavy Dagger",
@@ -1125,8 +1014,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Akabeko"],
-        "cardMatches": []
+        "relicMatches": ["Akabeko"]
       },
       "cardName": "Riddle with Holes",
       "modifiedName": "Silent Ragnarok",
@@ -1145,7 +1033,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Envenom"]
       },
       "cardName": "Riddle with Holes",
@@ -1155,8 +1042,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Runic Pyramid"],
-        "cardMatches": []
+        "relicMatches": ["Runic Pyramid"]
       },
       "cardName": "Well-Laid Plans",
       "modifiedName": "Just In Time",
@@ -1164,7 +1050,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Blade Dance", "Cloak and Dagger", "Storm of Steel", "Infinite Blades", "Wraith Form"]
       },
       "cardName": "After Image",
@@ -1172,8 +1057,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Toy Ornithopter"],
-        "cardMatches": []
+        "relicMatches": ["Toy Ornithopter"]
       },
       "cardName": "Alchemize",
       "modifiedName": "Burning Blood",
@@ -1181,8 +1065,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Sozu"],
-        "cardMatches": []
+        "relicMatches": ["Sozu"]
       },
       "cardName": "Alchemize",
       "modifiedName": "Slimed",
@@ -1190,8 +1073,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Snecko Eye", "Runic Pyramid"],
-        "cardMatches": []
+        "relicMatches": ["Snecko Eye", "Runic Pyramid"]
       },
       "cardName": "Bullet Time",
       "modifiedName": "",
@@ -1199,7 +1081,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Catalyst"]
       },
       "cardName": "Burst",
@@ -1209,7 +1090,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Dagger Spray"]
       },
       "cardName": "Corpse Explosion",
@@ -1218,7 +1098,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Sadistic Nature"]
       },
       "cardName": "Envenom",
@@ -1227,7 +1106,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Envenom"]
       },
       "cardName": "Sadistic Nature",
@@ -1236,8 +1114,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Snecko Skull"],
-        "cardMatches": []
+        "relicMatches": ["Snecko Skull"]
       },
       "cardName": "Envenom",
       "modifiedName": "Poison Scaling",
@@ -1245,7 +1122,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Blade Dance", "Cloak and Dagger", "Storm of Steel", "Infinite Blades"]
       },
       "cardName": "Envenom",
@@ -1254,7 +1130,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Slice"]
       },
       "cardName": "Envenom",
@@ -1263,8 +1138,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Runic Pyramid", "Frozen Eye"],
-        "cardMatches": []
+        "relicMatches": ["Runic Pyramid", "Frozen Eye"]
       },
       "cardName": "Grand Finale",
       "modifiedName": "Free Damage",
@@ -1272,7 +1146,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Well-Laid Plans"]
       },
       "cardName": "Grand Finale",
@@ -1281,8 +1154,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Wrist Blade"],
-        "cardMatches": []
+        "relicMatches": ["Wrist Blade"]
       },
       "cardName": "Grand Finale",
       "modifiedName": "Wrist Blade Synergy",
@@ -1291,8 +1163,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Philosopher's Stone"],
-        "cardMatches": []
+        "relicMatches": ["Philosopher's Stone"]
       },
       "cardName": "Malaise",
       "modifiedDescription": "Told you the Philosopher's Stone is free energy. NL ( Enemy loses X Strength, apply X Weak, Exhaust. ) ",
@@ -1300,8 +1171,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Ice Cream"],
-        "cardMatches": []
+        "relicMatches": ["Ice Cream"]
       },
       "cardName": "Malaise",
       "modifiedName": "Ice Cream Malaise",
@@ -1309,7 +1179,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Blade Dance", "Cloak and Dagger", "Storm of Steel", "Infinite Blades"]
       },
       "cardName": "Malaise",
@@ -1317,7 +1186,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Infinite Blades", "Accuracy", "Noxious Fumes", "Caltrops", "Well-Laid Plans", "Envenom", "A Thousand Cuts"]
       },
       "cardName": "Malaise",
@@ -1325,7 +1193,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Nightmare"]
       },
       "cardName": "Nightmare",
@@ -1334,7 +1201,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Wraith Form"]
       },
       "cardName": "Nightmare",
@@ -1343,7 +1209,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Apparition"]
       },
       "cardName": "Nightmare",
@@ -1352,7 +1217,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Catalyst"]
       },
       "cardName": "Nightmare",
@@ -1361,7 +1225,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Phantasmal Killer"]
       },
       "cardName": "Nightmare",
@@ -1370,8 +1233,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Snecko Eye"],
-        "cardMatches": []
+        "relicMatches": ["Snecko Eye"]
       },
       "cardName": "Nightmare",
       "modifiedName": "Click the Card",
@@ -1379,7 +1241,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Terror"]
       },
       "cardName": "Phantasmal Killer",
@@ -1388,7 +1249,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Blade Dance", "Cloak and Dagger", "Storm of Steel", "Infinite Blades"]
       },
       "cardName": "Phantasmal Killer",
@@ -1397,8 +1257,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Dead Branch"],
-        "cardMatches": []
+        "relicMatches": ["Dead Branch"]
       },
       "cardName": "Storm of Steel",
       "modifiedName": "Uncalculated Gamble",
@@ -1407,8 +1266,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Tough Bandages"],
-        "cardMatches": []
+        "relicMatches": ["Tough Bandages"]
       },
       "cardName": "Storm of Steel",
       "modifiedName": "Impervious",
@@ -1417,8 +1275,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Tingsha"],
-        "cardMatches": []
+        "relicMatches": ["Tingsha"]
       },
       "cardName": "Storm of Steel",
       "modifiedName": "Fiend Fire",
@@ -1437,7 +1294,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Accuracy"]
       },
       "cardName": "Storm of Steel",
@@ -1447,8 +1303,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Wrist Blade"],
-        "cardMatches": []
+        "relicMatches": ["Wrist Blade"]
       },
       "cardName": "Storm of Steel",
       "modifiedName": "Fiend Fire",
@@ -1457,8 +1312,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Hovering Kite"],
-        "cardMatches": []
+        "relicMatches": ["Hovering Kite"]
       },
       "cardName": "Tools of the Trade",
       "modifiedName": "Energy Relic",
@@ -1475,7 +1329,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Tactician"]
       },
       "cardName": "Tools of the Trade",
@@ -1484,7 +1337,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Reflex"]
       },
       "cardName": "Tools of the Trade",
@@ -1493,8 +1345,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Tough Bandages"],
-        "cardMatches": []
+        "relicMatches": ["Tough Bandages"]
       },
       "cardName": "Tools of the Trade",
       "modifiedName": "Metalicise",
@@ -1502,8 +1353,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Ting Sha"],
-        "cardMatches": []
+        "relicMatches": ["Ting Sha"]
       },
       "cardName": "Tools of the Trade",
       "modifiedName": "Mercury Hourglass",
@@ -1511,8 +1361,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Tungsten Rod"],
-        "cardMatches": []
+        "relicMatches": ["Tungsten Rod"]
       },
       "cardName": "Wraith Form",
       "modifiedName": "Wraith Daddy",
@@ -1520,7 +1369,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Blade Dance", "Cloak and Dagger", "Storm of Steel", "Infinite Blades"]
       },
       "cardName": "Wraith Form",
@@ -1529,7 +1377,6 @@
     },
     {
       "conditions": {
-        "relicMatches": [],
         "cardMatches": ["Nightmare"]
       },
       "cardName": "Wraith Form",
@@ -1538,8 +1385,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Clockwork Souvenir", "Orange Pellets"],
-        "cardMatches": []
+        "relicMatches": ["Clockwork Souvenir", "Orange Pellets"]
       },
       "cardName": "Wraith Form",
       "modifiedName": "Wraith Daddy",
@@ -1547,8 +1393,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Snecko Eye", "Pyramid"],
-        "cardMatches": []
+        "relicMatches": ["Snecko Eye", "Pyramid"]
       },
       "cardName": "Wraith Form",
       "modifiedName": "Click",
@@ -1556,8 +1401,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Fusion Hammer"],
-        "cardMatches": []
+        "relicMatches": ["Fusion Hammer"]
       },
       "cardName": "Wraith Form",
       "modifiedName": "Wraith Form",

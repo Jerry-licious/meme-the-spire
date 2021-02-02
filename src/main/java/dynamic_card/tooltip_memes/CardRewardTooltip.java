@@ -1,9 +1,8 @@
 package dynamic_card.tooltip_memes;
 
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.ui.FtueTip;
 import dynamic_card.PlayerConditions;
 
 import java.util.Arrays;
@@ -13,6 +12,10 @@ import java.util.Arrays;
  * reward screen.
  */
 public class CardRewardTooltip {
+    /**
+     * The conditions of the player where the tooltip becomes applicable.
+     */
+    PlayerConditions conditions;
     /**
      * The cards that the tooltip applies to. One tooltip can cover multiple
      * cards.
@@ -26,6 +29,21 @@ public class CardRewardTooltip {
      * The content of the tooltip.
      */
     String content;
+    /**
+     * Some tooltips are very long, they are broken into parts that are
+     * separated by the new line character (\n) and then shown
+     * separately with the help of the ToolTipDismissalPatch.
+     */
+    String[] contentParts;
+    private void breakContentIntoParts() {
+        if (contentParts == null){
+            contentParts = content.split("\n");
+        }
+    }
+
+    public boolean applicableOnPlayer(AbstractPlayer player) {
+        return conditions.applicableOnPlayer(player);
+    }
 
     public boolean applicableOnCard(AbstractCard card) {
         return Arrays.stream(cardNames).anyMatch((cardName) ->
@@ -33,9 +51,16 @@ public class CardRewardTooltip {
     }
 
     public void show(AbstractCard card) {
-        AbstractDungeon.ftue = new FtueTip(title, content,
-                (float) Settings.WIDTH / 2.0F - 500.0F * Settings.scale,
-                (float) Settings.HEIGHT / 2.0F, card);
-        // AbstractDungeon.ftue.type = FtueTip.TipType.POWER;
+        breakContentIntoParts();
+
+        // Show the first tooltip.
+        AbstractDungeon.ftue = new TooltipSkeleton(title, contentParts[0], card)
+                .makeTooltip();
+
+        // Then queue the rest.
+        for (int i = 1; i < contentParts.length; i++) {
+            TooltipDismissalPatch.queueTooltip(
+                    new TooltipSkeleton(title, contentParts[i], card));
+        }
     }
 }

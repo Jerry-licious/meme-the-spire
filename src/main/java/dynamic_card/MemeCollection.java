@@ -23,9 +23,11 @@ public class MemeCollection {
 
     static {
         collections.add(loadCollectionFromResources(
-                "./meme_collections/ironclad.json"));
+                "/meme_collections/genuine_tips.json"));
         collections.add(loadCollectionFromResources(
-                "./meme_collections/silent.json"));
+                "/meme_collections/ironclad.json"));
+        collections.add(loadCollectionFromResources(
+                "/meme_collections/silent.json"));
     }
 
     CardModification[] modifications = {};
@@ -44,10 +46,12 @@ public class MemeCollection {
     }
 
     // Accept all cards at once so only one tooltip can be shown at once.
-    public void showFirstApplicableTooltip(Iterable<AbstractCard> cards) {
+    public void showFirstApplicableTooltip(Iterable<AbstractCard> cards,
+                                           AbstractPlayer player) {
         for (AbstractCard card : cards) {
             for (CardRewardTooltip tooltip : tooltips) {
-                if (tooltip.applicableOnCard(card)) {
+                if (tooltip.applicableOnCard(card) &&
+                        tooltip.applicableOnPlayer(player)) {
                     tooltip.show(card);
                     return;
                 }
@@ -68,11 +72,13 @@ public class MemeCollection {
         }
     }
 
-    public static void showFirstApplicableTooltipFromAllCollections(Iterable<AbstractCard> cards) {
+    public static void showFirstApplicableTooltipFromAllCollections(
+            Iterable<AbstractCard> cards, AbstractPlayer player) {
         for (AbstractCard card : cards) {
             for (MemeCollection collection : collections){
                 for (CardRewardTooltip tooltip : collection.tooltips) {
-                    if (tooltip.applicableOnCard(card)) {
+                    if (tooltip.applicableOnCard(card) &&
+                            tooltip.applicableOnPlayer(player)) {
                         tooltip.show(card);
                         return;
                     }

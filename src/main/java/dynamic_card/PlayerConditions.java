@@ -1,4 +1,4 @@
-package dynamiccard;
+package dynamic_card;
 
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;

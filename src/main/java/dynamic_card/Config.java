@@ -1,8 +1,9 @@
-package dynamiccard;
+package dynamic_card;
 
 import com.google.gson.Gson;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import dynamic_card.card_memes.CardModification;
 
 import java.io.IOException;
 import java.io.InputStreamReader;

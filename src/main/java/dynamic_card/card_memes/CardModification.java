@@ -1,8 +1,9 @@
-package dynamiccard;
+package dynamic_card.card_memes;
 
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.localization.CardStrings;
+import dynamic_card.PlayerConditions;
 
 public class CardModification {
     /**

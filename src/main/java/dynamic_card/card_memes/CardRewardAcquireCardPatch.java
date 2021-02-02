@@ -1,4 +1,4 @@
-package dynamiccard;
+package dynamic_card.card_memes;
 
 import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePostfixPatch;

@@ -5,6 +5,10 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import dynamic_card.PlayerConditions;
 
+/**
+ * A modification that is applied to cards seen in card reward screens and
+ * shop screens based on the player's current situation.
+ */
 public class CardModification {
     /**
      * The conditions of the player where the modification becomes applicable.

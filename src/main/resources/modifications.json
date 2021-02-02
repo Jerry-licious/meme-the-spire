@@ -1564,5 +1564,12 @@
       "modifiedDescription": "What an unfortunate *Fusion *Hammer. NL ( !M! Intangible, lose 1 Dexterity every turn )",
       "modifiedUpgradedDescription": "Gain 3 Intangible. At the start of your turn, lose 1 Dexterity."
     }
+  ],
+  "tooltips": [
+    {
+      "cardNames": ["Rampage", "Claw", "Pressure Points"],
+      "title": "Scaling Card",
+      "content": "Scaling damage is good. "
+    }
   ]
 }

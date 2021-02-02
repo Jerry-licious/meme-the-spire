@@ -12,8 +12,8 @@ public class ShopInitCardsPatch {
     // Modify shown card names and descriptions when a shop is loaded.
     public static void modifyCards(ShopScreen instance) {
         instance.coloredCards.forEach((card) ->
-                Config.config.modifyWithFirstApplicable(card, AbstractDungeon.player));
+                Config.config.applyFirstApplicableCardModification(card, AbstractDungeon.player));
         instance.colorlessCards.forEach((card) ->
-                Config.config.modifyWithFirstApplicable(card, AbstractDungeon.player));
+                Config.config.applyFirstApplicableCardModification(card, AbstractDungeon.player));
     }
 }

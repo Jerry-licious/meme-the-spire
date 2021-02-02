@@ -17,9 +17,9 @@ import org.apache.logging.log4j.Logger;
 import java.util.ArrayList;
 
 @SpirePatch(clz = CardRewardScreen.class, method = "open")
-public class CardRewardScreenPatch {
+public class CardRewardScreenOpenPatch {
     private static final Logger logger =
-            LogManager.getLogger(CardRewardScreenPatch.class);
+            LogManager.getLogger(CardRewardScreenOpenPatch.class);
 
     @SpirePostfixPatch
     // Modify shown card names and descriptions when a card reward is seen.
@@ -27,13 +27,6 @@ public class CardRewardScreenPatch {
                                    ArrayList<AbstractCard> cards,
                                    RewardItem _rItem, String _header) {
         cards.forEach((card) ->
-            Config.config.modifyWithFirstApplicableCardModification(card, AbstractDungeon.player));
-        AbstractDungeon.ftue = new FtueTip(AbstractPlayer.LABEL[0],
-                AbstractPlayer.MSG[0], (float) Settings.WIDTH / 2.0F - 500.0F * Settings.scale,
-                (float)Settings.HEIGHT / 2.0F, cards.get(0));
-        AbstractDungeon.ftue.type = FtueTip.TipType.POWER;
-        TipTracker.neverShowAgain("POWER_TIP");
-        // _instance.skipButton.hide();
-        // _instance.bowlButton.hide();
+            Config.config.applyFirstApplicableCardModification(card, AbstractDungeon.player));
     }
 }

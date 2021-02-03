@@ -1,0 +1,37 @@
+{
+  "modifications": [
+    {
+      "conditions": {},
+      "cardName": "Omniscience",
+      "modifiedDescription": "Choose a card in your draw pile. NL Give it Exhaust and play it twice. NL Exhaust."
+    },
+    {
+      "conditions": {},
+      "cardName": "Blasphemy",
+      "modifiedDescription": "Enter Divinity. NL At the start of your next turn, take 99999 damage. NL Exhaust.",
+      "modifiedUpgradedDescription": "Retain. NL Enter Divinity. NL At the start of your next turn, take 99999 damage. NL Exhaust."
+    }
+  ],
+  "tooltips": [
+    {
+      "conditions": {
+        "relicMatches": ["Strange Spoon"]
+      },
+      "cardNames": ["Omniscience"],
+      "title": "Omniscience",
+      "content": "When Omniscience is played, it gives the selected card exhaust, plays the card and then plays a copy of that card. Thus, the card played by Omniscience can be prevented from being exhausted by Strange Spoon. \nHowever, after the card is played by Omniscience, it still has Exhaust, so when you play that card again, it can be exhausted. Powers or cards that exhaust can still be played twice. "
+    },
+    {
+      "conditions": {},
+      "cardNames": ["Blasphemy"],
+      "title": "Blasphemy",
+      "content": "Blasphemy originally reads \"die next turn\". However, the effect is actually \"at the start of your next turn, take 99999 damage\". The \"die next turn\" effect is a Power and not a debuff, thus it cannot be blocked by artefact or removed by Orange Pellets. \nInstead, you can prevent the 99999 damage by having a stack of Intangible or Buffer next turn to block the hit. "
+    },
+    {
+      "conditions": {},
+      "cardNames": ["Vault"],
+      "title": "Vault",
+      "content": "Vault ends your turn and then lets you take another turn, taking another turn activates all end of turn and start of turn effects such as Establishment, Battle Hymn or Mercury Hourglass and increments turn counting relics such as Happy Flower and Incense Burner. \nIf Vault is played against Time Eater after you have played 11 cards, Time Eater's turn is ended instead, but it still gains strength. "
+    }
+  ]
+}

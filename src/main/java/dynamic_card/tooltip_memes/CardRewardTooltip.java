@@ -35,6 +35,12 @@ public class CardRewardTooltip {
      * separately with the help of the ToolTipDismissalPatch.
      */
     String[] contentParts;
+    /**
+     * Prevent tooltips from being overly obnoxious by preventing the same
+     * tooltip from being shown multiple times in one session.
+     */
+    public transient boolean shown = false;
+
     private void breakContentIntoParts() {
         if (contentParts == null){
             contentParts = content.split("\n");
@@ -62,5 +68,7 @@ public class CardRewardTooltip {
             TooltipDismissalPatch.queueTooltip(
                     new TooltipSkeleton(title, contentParts[i], card));
         }
+
+        shown = true;
     }
 }

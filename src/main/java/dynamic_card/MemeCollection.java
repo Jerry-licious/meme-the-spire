@@ -50,7 +50,7 @@ public class MemeCollection {
                                            AbstractPlayer player) {
         for (AbstractCard card : cards) {
             for (CardRewardTooltip tooltip : tooltips) {
-                if (tooltip.applicableOnCard(card) &&
+                if (!tooltip.shown && tooltip.applicableOnCard(card) &&
                         tooltip.applicableOnPlayer(player)) {
                     tooltip.show(card);
                     return;

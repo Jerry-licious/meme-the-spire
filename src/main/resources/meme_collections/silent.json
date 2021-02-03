@@ -288,8 +288,7 @@
     },
     {
       "conditions": {
-        "relicMatches": [
-]
+        "relicMatches": []
       },
       "cardName": "Catalyst",
       "modifiedName": "Catacurse",

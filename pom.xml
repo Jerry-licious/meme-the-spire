@@ -7,8 +7,9 @@
     <packaging>jar</packaging>
 
     <name>dynamic-card-memes</name>
-    <description>Change card names and descriptions in card reward screens
-        dynamically based on the player's situation.</description>
+    <description>Replaces certain card names and descriptions in card reward
+        screens and shops with jokes and shows joke tooltips based on your
+        current relic bar and deck. </description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

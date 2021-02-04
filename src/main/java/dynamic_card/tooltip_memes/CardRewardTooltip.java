@@ -34,7 +34,7 @@ public class CardRewardTooltip {
      * separated by the new line character (\n) and then shown
      * separately with the help of the ToolTipDismissalPatch.
      */
-    String[] contentParts;
+    transient String[] contentParts;
     /**
      * Prevent tooltips from being overly obnoxious by preventing the same
      * tooltip from being shown multiple times in one session.

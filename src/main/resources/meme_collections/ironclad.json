@@ -1,4 +1,6 @@
 {
+  "receiveUpdates": true,
+  "enabled": true,
   "modifications": [
     {
       "conditions": {

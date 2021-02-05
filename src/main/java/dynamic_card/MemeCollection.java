@@ -30,7 +30,7 @@ public class MemeCollection {
 
     // If a base collection file does not exist in the meme collections
     // folder, copy the default collection there.
-    private static void updateBaseMemeCollections(String name) {
+    private static void updateBaseMemeCollection(String name) {
         try {
             logger.info("Looking for base meme collection: " + name + ".");
             File collectionFile =
@@ -83,9 +83,9 @@ public class MemeCollection {
         }
 
         logger.info("Filling base collections.");
-        updateBaseMemeCollections("genuine_tips");
-        updateBaseMemeCollections("ironclad");
-        updateBaseMemeCollections("silent");
+        updateBaseMemeCollection("genuine_tips");
+        updateBaseMemeCollection("ironclad");
+        updateBaseMemeCollection("silent");
         logger.info("Finished filling base collections.");
 
         logger.info("Loading collections from meme collections folder.");

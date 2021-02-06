@@ -15,15 +15,15 @@ import java.util.stream.Collectors;
  */
 public class PlayerConditions {
     /**
-     * The relics that the modification looks for. The modification will only
-     * be applied if the player has one of the relics in the list. If left as
-     * empty, the modification will not consider the player's relic bar.
+     * The relics that the player need to satisfy the condition. The player
+     * must have at least one of the relics named in this list. If left as
+     * empty, the player's relic bar will not be checked.
      */
     String[] relicMatches = {};
     /**
-     * The cards that the modification looks for. The modification will only
-     * be applied if the player has on eof the cards in the list. If left as
-     * empty, the modification will not consider the player's deck.
+     * The cards that the player need to satisfy the condition. The player
+     * must have at least one of the cards named in this list. If left as
+     * empty, the player's deck will not be checked.
      */
     String[] cardMatches = {};
 

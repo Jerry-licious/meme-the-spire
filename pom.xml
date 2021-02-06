@@ -3,7 +3,7 @@
 
     <groupId>dynamic-card-memes</groupId>
     <artifactId>dynamic-card-memes</artifactId>
-    <version>v0.1.1</version>
+    <version>v0.1.2</version>
     <packaging>jar</packaging>
 
     <name>dynamic-card-memes</name>

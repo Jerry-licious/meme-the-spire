@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.1.2] - 2021-02-06
+
+#### Features
+
+* Added act number check option in `PlayerConditions` through the `actNumbers` attribute in the conditions field of meme entries. 
+
+#### Content
+
+* Added more genuine tips.
+  * Tip for dual wield dagger interaction.
+  * Tip for spoon havoc interaction.
+* Added more ironclad card and tooltip memes.
+* Added 2 silent tooltip memes. 
+
+#### Fixes
+
+* Fixed the bug where the same tooltip can be shown repeatedly in one session. 
+
 ## [0.1.1] - 2021-02-03
 
 #### Features

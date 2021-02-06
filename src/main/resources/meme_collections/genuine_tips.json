@@ -37,7 +37,7 @@
     },
     {
       "conditions": {
-        "cardMatches": "Ritual Dagger"
+        "cardMatches": ["Ritual Dagger"]
       },
       "cardNames": ["Dual Wield"],
       "title": "Dual Wield Ritual Dagger",

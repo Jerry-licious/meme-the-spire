@@ -32,10 +32,15 @@ In most meme "definitions" there will be a field named `conditions`. This field 
 ```json
 {
   "relicMatches": ["Relic Match", "Relic Match"],
-  "cardMatches": ["Relic Match", "Relic Match"]
+  "cardMatches": ["Relic Match", "Relic Match"],
+  "actNumbers": [1, 2, 3, 4]
 }
 ```
-If the player has one of the relics named in `relicMatches` *and* has one of the cards named in `cardMatches`, the patch will be able to be applied on the card. If `relicMatches` is left as empty or not defined, the player's relic bar will not be checked; if `cardMatches` is left as empty or not defined, the player's deck will not be checked.
+**relicMatches**: The player must have at least one of the relics in this list. If left as empty or not defined, this criterion will automatically pass.
+
+**cardMatches**: The player must have at least one of the cards in this list. If left as empty or not defined, this criterion will automatically pass.
+
+**actNumbers**: The player must be in one of the acts in this list. If left as empty or not defined, this criterion will automatically pass.
 
 If all conditions pass, then the meme will be shown. 
 
@@ -77,3 +82,4 @@ One tooltip can only be shown once in one session of the game to minimise disrup
 ### Base Collections
 
 Base collections are meme collections that come with the mod. When the game is launched, they are automatically copied from the mod into the `meme_collection` folder. Base collections are **overridden** every time you start the game if you do not set their `receiveUpdates` attribute to false. If you wish to turn off a base collection, change the value of `enabled` and `receiveUpdates` to both be false.
+

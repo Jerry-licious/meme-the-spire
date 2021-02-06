@@ -2,6 +2,7 @@ package dynamic_card;
 
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 
 import java.lang.reflect.Field;
@@ -17,15 +18,21 @@ public class PlayerConditions {
     /**
      * The relics that the player need to satisfy the condition. The player
      * must have at least one of the relics named in this list. If left as
-     * empty, the player's relic bar will not be checked.
+     * empty, this criterion will automatically pass.
      */
     String[] relicMatches = {};
     /**
      * The cards that the player need to satisfy the condition. The player
      * must have at least one of the cards named in this list. If left as
-     * empty, the player's deck will not be checked.
+     * empty, this criterion will automatically pass.
      */
     String[] cardMatches = {};
+    /**
+     * The acts that the player must be in to satisfy the condition. The
+     * player must be in one of the acts numbered in this list. If left as
+     * empty, this criterion will automatically pass.
+     */
+    int[] actNumbers = {};
 
     // Used to fetch the original card names and descriptions.
     public static CardStrings getCardStrings(AbstractCard card) {
@@ -61,6 +68,8 @@ public class PlayerConditions {
                 Arrays.stream(cardMatches).anyMatch((cardName) ->
                     player.masterDeck.group.stream().map(
                         (card) -> getCardStrings(card).NAME)
-                        .collect(Collectors.toList()).contains(cardName)));
+                        .collect(Collectors.toList()).contains(cardName))) &&
+            (actNumbers.length == 0 || Arrays.stream(actNumbers).anyMatch(
+                    (actNumber) -> actNumber == AbstractDungeon.actNum));
     }
 }

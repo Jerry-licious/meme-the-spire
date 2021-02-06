@@ -20,7 +20,7 @@
         "relicMatches": ["Strange Spoon"]
       },
       "cardNames": ["Omniscience"],
-      "title": "Omniscience",
+      "title": "Spoon Omniscience",
       "content": "When Omniscience is played, it gives the selected card exhaust, plays the card and then plays a copy of that card. Thus, the card played by Omniscience can be prevented from being exhausted by Strange Spoon. \nHowever, after the card is played by Omniscience, it still has Exhaust, so when you play that card again, it can be exhausted. Powers or cards that exhaust can still be played twice. "
     },
     {
@@ -34,6 +34,22 @@
       "cardNames": ["Vault"],
       "title": "Vault",
       "content": "Vault ends your turn and then lets you take another turn, taking another turn activates all end of turn and start of turn effects such as Establishment, Battle Hymn or Mercury Hourglass and increments turn counting relics such as Happy Flower and Incense Burner. \nIf Vault is played against Time Eater after you have played 11 cards, Time Eater's turn is ended instead, but it still gains strength. "
+    },
+    {
+      "conditions": {
+        "cardMatches": "Ritual Dagger"
+      },
+      "cardNames": ["Dual Wield"],
+      "title": "Dual Wield Ritual Dagger",
+      "content": "When you Dual Wield a Ritual Dagger, all copies of the Ritual Dagger (including the original) do not increase the card's damage when you land a fatal kill, likely due to a bug. \nHowever, this does not happen if you do not use the card selection menu (when it is the only attack and power card in your hand). In this case, the original dagger increases the card's damage when a fatal is landed. "
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Strange Spoon"]
+      },
+      "cardNames": ["Havoc"],
+      "title": "Spoon Havoc",
+      "content": "Cards played by Havoc can be saved by Strange Spoon. "
     }
   ]
 }

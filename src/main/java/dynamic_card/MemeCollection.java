@@ -163,7 +163,7 @@ public class MemeCollection {
         for (AbstractCard card : cards) {
             for (MemeCollection collection : collections){
                 for (CardRewardTooltip tooltip : collection.tooltips) {
-                    if (tooltip.applicableOnCard(card) &&
+                    if (!tooltip.shown && tooltip.applicableOnCard(card) &&
                             tooltip.applicableOnPlayer(player)) {
                         tooltip.show(card);
                         return;

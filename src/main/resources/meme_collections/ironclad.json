@@ -560,7 +560,7 @@
         "cardMatches": ["Dark Embrace"]
       },
       "cardName": "Fiend Fire",
-      "modifiedName": "Uncalculated Gamble",
+      "modifiedName": "Calculated Gamble",
       "modifiedDescription": "Exhaust your hand. NL Deal !D! damage and draw 1 card for each card Exhausted. NL Exhaust."
     },
     {
@@ -585,6 +585,83 @@
       "cardName": "Reaper",
       "modifiedName": "Rest",
       "modifiedDescription": "Told you the *Dripper is free energy. NL (Deal !D! to all, heal for unblocked) NL Exhaust. "
+    },
+
+    {
+      "conditions": {
+        "relicMatches": ["Clockwork Souvenir"]
+      },
+      "cardName": "Battle Trance",
+      "modifiedName": "Master of Strategy",
+      "modifiedDescription": "Draw !M! cards. NL Say *goodbye to your Artifact."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Battle Trance"]
+      },
+      "cardName": "Battle Trance",
+      "modifiedDescription": "Draw 2 cards and a *Battle *Trance. NL You cannot draw additional cards this turn.",
+      "modifiedUpgradedDescription": "Draw 3 cards and a *Battle Trance. NL You cannot draw additional cards this turn."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Pandora's Box"]
+      },
+      "cardName": "Perfected Strike",
+      "modifiedName": "Strike",
+      "modifiedDescription": "Deal 6 damage. NL Nice Pandora's box you've got there. "
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Mark of Pain"]
+      },
+      "cardName": "Fire Breathing",
+      "modifiedDescription": "Scaling damage with *Mark *of *Pain. NL ( !M! to all when you draw a *Status or *Curse )"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Power Through"]
+      },
+      "cardName": "Fire Breathing",
+      "modifiedDescription": "Scaling damage with *Power *Through. NL ( !M! to all when you draw a *Status or *Curse )"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Toxic Egg"]
+      },
+      "cardName": "Corruption",
+      "modifiedName": "Click the Cards",
+      "modifiedDescription": "Just... click this."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Feel no Pain"]
+      },
+      "cardName": "Fiend Fire",
+      "modifiedName": "Spirit Shield",
+      "modifiedDescription": "Exhaust your hand. NL Gain 4 Block and deal !D! damage for each card Exhausted. NL Exhaust."
+    }
+  ],
+  "tooltips": [
+    {
+      "conditions": {},
+      "cardNames": ["Clash"],
+      "title": "Clash",
+      "content": "Lately I've begun to think Clash has as much of an impact on my losses as cards like Writhe, Normality, and Regret. It especially shines during the Sentries fight, where it's completely unplayable. \nClash has become an auto-skip for me until the card gets reworked, where the playability may increase. I'll even skip 6 or 7 copies if they're offered. \nThere are still quite a few situations where it's trash in act 3, like being completely unplayable against Donu & Deca."
+    },
+    {
+      "conditions": {},
+      "cardNames": ["Rampage"],
+      "title": "Rampage",
+      "content": "Scaling damage is good. "
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Snecko Eye"]
+      },
+      "cardNames": ["Bludgeon", "Barricade", "Corruption"],
+      "title": "Snecko Eye",
+      "content": "Click the 3 cost thing. "
     }
   ]
 }

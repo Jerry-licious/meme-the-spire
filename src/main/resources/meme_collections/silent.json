@@ -826,5 +826,21 @@
       "modifiedDescription": "What an unfortunate *Fusion *Hammer. NL ( !M! Intangible, lose 1 Dexterity every turn )",
       "modifiedUpgradedDescription": "Gain 3 Intangible. At the start of your turn, lose 1 Dexterity."
     }
+  ],
+  "tooltips": [
+    {
+      "conditions": {
+        "actNumbers": [1]
+      },
+      "cardNames": ["Blade Dance", "Dagger Spray", "Dagger Throw", "Flying Knee", "Poisoned Stab", "Quick Slash", "Sneaky Strike", "Sucker Punch"],
+      "title": "Damage Common",
+      "content": "You have to take it."
+    },
+    {
+      "conditions": {},
+      "cardNames": ["Slice"],
+      "title": "Slice",
+      "content": "Lately I've begun to think Slice has as much of an impact on my wins as cards like burst, Wraith form, and catalyst. It especially shines during the act 2 elites, where it deals 6 damage for 0 mana. \nSlice has become an autopick for me until act 3 where the usefulness starts to fall off a bit, I'll even take 3 or 4 copies if they're offered. \nThere are still quite a few situations where it shines in act 3, like dealing up to 12 damage to Reptomancer with Phantasmal killer."
+    }
   ]
 }

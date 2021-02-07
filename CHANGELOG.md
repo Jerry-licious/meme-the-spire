@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.3] - 2021-02-07
+
+### Fixes
+
+* Fixed a bug where the game would crash when you see a Slice. 
+
 ## [0.1.2] - 2021-02-06
 
 #### Features

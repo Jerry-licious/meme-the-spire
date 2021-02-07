@@ -8,14 +8,14 @@ import com.megacrit.cardcrawl.ui.FtueTip;
 import com.megacrit.cardcrawl.ui.buttons.GotItButton;
 
 import java.lang.reflect.Field;
-import java.util.PriorityQueue;
+import java.util.LinkedList;
 
 /**
  * Some tooltips are too long to display
  */
 @SpirePatch(clz = FtueTip.class, method = "update")
 public class TooltipDismissalPatch {
-    private static PriorityQueue<TooltipSkeleton> tooltipQueue = new PriorityQueue<>();
+    private static LinkedList<TooltipSkeleton> tooltipQueue = new LinkedList<>();
 
     public static void queueTooltip(TooltipSkeleton tooltip) {
         tooltipQueue.add(tooltip);

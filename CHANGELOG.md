@@ -10,6 +10,7 @@
 
 * Added more genuine tips.
   * Tip for artefact and pellets interaction with Biased Cognition.
+* Added the defect meme collection, containing an incredibly colourful aggregate and an unhealthy amount of claw jokes.
 
 ## [0.1.3] - 2021-02-07
 

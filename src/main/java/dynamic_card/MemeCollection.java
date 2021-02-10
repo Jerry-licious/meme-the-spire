@@ -86,6 +86,7 @@ public class MemeCollection {
         updateBaseMemeCollection("genuine_tips");
         updateBaseMemeCollection("ironclad");
         updateBaseMemeCollection("silent");
+        updateBaseMemeCollection("defect");
         logger.info("Finished filling base collections.");
 
         logger.info("Loading collections from meme collections folder.");

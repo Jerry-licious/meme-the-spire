@@ -1,0 +1,502 @@
+{
+  "receiveUpdates": true,
+  "enabled": true,
+  "modifications": [
+    {
+      "conditions": {
+        "relicMatches": ["Inserter"]
+      },
+      "cardName": "Barrage",
+      "modifiedName": "Inserter Scaling"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Tempest"]
+      },
+      "cardName": "Barrage",
+      "modifiedName": "Skewer",
+      "modifiedDescription": "If you have played a *Tempest this turn, deal !D! damage X times."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Claw"]
+      },
+      "cardName": "Claw",
+      "modifiedDescription": "You have a *Claw already, don't pretend that you aren't going to click this."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["All for One", "Scrape"]
+      },
+      "cardName": "Claw",
+      "modifiedName": "0-Cost Scaling"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Rainbow", "Chaos", "Darkness", "Glacier", "Coolheaded", "Cold Snap", "Doom and Gloom", "Meteor Strike", "Fusion"]
+      },
+      "cardName": "Compile Driver",
+      "modifiedName": "Pommel Strike"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Runic Dome"]
+      },
+      "cardName": "Go for the Eyes",
+      "modifiedName": "Intent Checker",
+      "modifiedDescription": "Deal !D! damage. NL If this card applies !M! Weak, you are *Screwed."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Claw"]
+      },
+      "cardName": "Hologram",
+      "modifiedName": "Claw",
+      "modifiedDescription": "Gain !B! Block. NL Play a *Claw from your discard pile. NL Exhaust. ",
+      "modifiedUpgradedDescription": "Gain !B! Block. NL Play a *Claw from your discard pile."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Snecko Eye"],
+        "cardMatches": ["Hologram", "All for One"]
+      },
+      "cardName": "Hologram",
+      "modifiedName": "Infinite"
+    },
+    {
+      "conditions": {
+        "maxDeckSize": 10
+      },
+      "cardName": "Aggregate",
+      "modifiedDescription": "I know what you are thinking, don't. NL (Gain [B] for every 3 cards in draw pile.)",
+      "modifiedUpgradedDescription": "Gain [B] . NL (Gain [B] for every 3 cards in draw pile.)"
+    },
+    {
+      "conditions": {
+        "minDeckSize": 11,
+        "maxDeckSize": 15
+      },
+      "cardName": "Aggregate",
+      "modifiedDescription": "Gain [B] . NL (Gain [B] for every 4 cards in draw pile.)",
+      "modifiedUpgradedDescription": "Gain [B] [G] . NL (Gain [B] for every 3 cards in draw pile.)"
+    },
+    {
+      "conditions": {
+        "minDeckSize": 16,
+        "maxDeckSize": 25
+      },
+      "cardName": "Aggregate",
+      "modifiedDescription": "Gain [B] [G] . NL (Gain [B] for every 4 cards in draw pile.)",
+      "modifiedUpgradedDescription": "Gain [B] [G] [R] . NL (Gain [B] for every 3 cards in draw pile.)"
+    },
+    {
+      "conditions": {
+        "minDeckSize": 26,
+        "maxDeckSize": 30
+      },
+      "cardName": "Aggregate",
+      "modifiedDescription": "Gain [B] [G] [R] . NL (Gain [B] for every 4 cards in draw pile.)",
+      "modifiedUpgradedDescription": "Gain [B] [G] [R] [W] . NL (Gain [B] for every 3 cards in draw pile.)"
+    },
+    {
+      "conditions": {
+        "minDeckSize": 31,
+        "maxDeckSize": 35
+      },
+      "cardName": "Aggregate",
+      "modifiedDescription": "Gain [B] [G] [R] [W] . NL (Gain [B] for every 4 cards in draw pile.)",
+      "modifiedUpgradedDescription": "Gain [B] [G] [R] [W] [B] . NL (Gain [B] for every 3 cards in draw pile.)"
+    },
+    {
+      "conditions": {
+        "minDeckSize": 36,
+        "maxDeckSize": 40
+      },
+      "cardName": "Aggregate",
+      "modifiedDescription": "Gain [B] [G] [R] [W] . NL (Gain [B] for every 4 cards in draw pile.)",
+      "modifiedUpgradedDescription": "Gain [B] [G] [R] [W] [B] [G] . NL (Gain [B] for every 3 cards in draw pile.)"
+    },
+    {
+      "conditions": {
+        "minDeckSize": 41,
+        "maxDeckSize": 45
+      },
+      "cardName": "Aggregate",
+      "modifiedDescription": "Gain [B] [G] [R] [W] [B] . NL (Gain [B] for every 4 cards in draw pile.)",
+      "modifiedUpgradedDescription": "Gain [B] [G] [R] [W] [B] [G] [R] . NL (Gain [B] for every 3 cards in draw pile.)"
+    },
+    {
+      "conditions": {
+        "minDeckSize": 46,
+        "maxDeckSize": 55
+      },
+      "cardName": "Aggregate",
+      "modifiedDescription": "Gain [B] [G] [R] [W] [B] [G] . NL (Gain [B] for every 4 cards in draw pile.)",
+      "modifiedUpgradedDescription": "Gain [B] [G] [R] [W] [B] [G] [R] [W] . NL (Gain [B] for every 3 cards in draw pile.)"
+    },
+    {
+      "conditions": {
+        "minDeckSize": 56
+      },
+      "cardName": "Aggregate",
+      "modifiedDescription": "Gain [B] [G] [R] [W] [B] [G] [R] . NL (Gain [B] for every 4 cards in draw pile.)",
+      "modifiedUpgradedDescription": "Gain [B] [G] [R] [W] [B] [G] [R] [W] [B] . NL (Gain [B] for every 3 cards in draw pile.)"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Claw"]
+      },
+      "cardName": "Rebound",
+      "modifiedName": "Claw",
+      "modifiedDescription": "Deal !D! damage. NL Put the next *Claw you play this turn on top of your draw pile."
+    },
+    {
+      "conditions": {
+        "minDeckSize": 30
+      },
+      "cardName": "Stack",
+      "modifiedName": "Impervious"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Creative AI", "Hello World"]
+      },
+      "cardName": "Stack",
+      "modifiedName": "Block Scaling"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Dead Branch"]
+      },
+      "cardName": "TURBO",
+      "modifiedDescription": "Gain [B] [B] . NL Pray on this to give you a scaling power card.",
+      "modifiedUpgradedDescription": "Gain [B] [B] [B] . NL Pray on this to give you a scaling power card."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Loop"]
+      },
+      "cardName": "Auto-Shields",
+      "modifiedDescription": "If you have *Loop in play, gain 0 Block and regret your *life *choices. NL Otherwise gain !B! Block. "
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Glacier", "Coolheaded", "Cold Snap"],
+        "actNumbers": [3, 4]
+      },
+      "cardName": "Blizzard",
+      "modifiedName": "Scaling Damage"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Dead Branch"]
+      },
+      "cardName": "Boot Sequence",
+      "modifiedName": "Anchor",
+      "modifiedDescription": "Start each combat with !B! Block and a random card."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Anchor"]
+      },
+      "cardName": "Boot Sequence",
+      "modifiedName": "Anchor Upgrade",
+      "modifiedDescription": "Start each combat with 20 Block.",
+      "modifiedUpgradedDescription": "Start each combat with 23 Block."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Inserter"]
+      },
+      "cardName": "Consume",
+      "modifiedName": "Free Focus",
+      "modifiedDescription": "Don't pretend that you aren't going to click this. NL ( !M! Focus, lose Orb slot. )"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Snecko Eye"]
+      },
+      "cardName": "Doom and Gloom",
+      "modifiedName": "Dramatic Entrance",
+      "modifiedDescription": "This always costs 0 trust me. NL ( !D! damage to all, Channel 1 Dark )"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Akabeko", "Bag of Marbles"],
+        "actNumbers": [1]
+      },
+      "cardName": "Doom and Gloom",
+      "modifiedDescription": "Slime gang and gremlin gang lose their *will *to *live. NL ( !D! damage to all, Channel 1 Dark )"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Akebeko", "Bag of Marbles"],
+        "cardMatches": [2]
+      },
+      "cardName": "Doom and Gloom",
+      "modifiedDescription": "Destroy all gremlin minions. NL ( !D! damage to all, Channel 1 Dark )"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Akabeko"]
+      },
+      "cardName": "Doom and Gloom",
+      "modifiedDescription": "How can you be so gloomy with cute cow. NL ( !D! damage to all, Channel 1 Dark )"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Meteor Strike", "Turbo"]
+      },
+      "cardName": "Double Energy",
+      "modifiedDescription": "Gain [B] [G] [R] [W] [B] [G] [R] [W] . NL ( Double your energy, Exaust. )"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Runic Pyramid"]
+      },
+      "cardName": "Equilibrium",
+      "modifiedName": "Just In Time",
+      "modifiedDescription": "Gain !B! Block."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Snecko Eye"]
+      },
+      "cardName": "Equilibrium",
+      "modifiedName": "Hand Clog",
+      "modifiedDescription": "Gain !B! Block. NL Retain your hand this turn."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Calipers"],
+        "actNumbers": [1, 2]
+      },
+      "cardName": "Genetic Algorithm",
+      "modifiedName": "Calipers Dream"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Echo Form"],
+        "actNumbers": [1, 2]
+      },
+      "cardName": "Genetic Algorithm",
+      "modifiedName": "Side Quest"
+    },
+    {
+      "conditions": {
+        "actNumbers": [1]
+      },
+      "cardName": "Genetic Algorithm",
+      "modifiedName": "Build Your Apparition",
+      "modifiedDescription": "Gain 1 Intangible. NL ( !B! Block, !M! Increase, Exhaust. )"
+    },
+    {
+      "conditions": {
+        "actNumbers": [4]
+      },
+      "cardName": "Genetic Algorithm",
+      "modifiedName": "LMAO",
+      "modifiedDescription": "Gain 1 Block. NL Exhaust."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Blizzard"]
+      },
+      "cardName": "Glacier",
+      "modifiedName": "Damage Scaling",
+      "modifiedDescription": "Gain !B! Block. NL Channel !M! Frost. NL Increase the damage of your *Blizzard by 6."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Aggregate"]
+      },
+      "cardName": "Hello World",
+      "modifiedName": "Happy Flower",
+      "modifiedDescription": "Every 3 turns, increase the energy of your *Aggregate by 1. NL ( Random common every turn. )",
+      "modifiedUpgradedDescription": "Innate. NL Every 3 turns, increase the energy of your *Aggregate by 1. NL ( Random common every turn. )"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Stack"]
+      },
+      "cardName": "Hello World",
+      "modifiedName": "Block Scaling",
+      "modifiedDescription": "At the start of your turn, increase the Block of your *Stack by 1. NL ( Random common every turn. )",
+      "modifiedUpgradedDescription": "Innate. NL At the start of your turn, increase the Block of your *Stack by 1. NL ( Random common every turn. )"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Auto-Shields"]
+      },
+      "cardName": "Loop",
+      "modifiedDescription": "At the start of your turn, disable your *Auto-Shields. ( Next orb passive trigger on turn start. )",
+      "modifiedUpgradedDescription": "At the start of your turn, disable your *Auto-Shields. ( Next orb passive trigger on turn start. )"
+    },
+    {
+      "conditions": {
+        "actNumbers": [2, 3]
+      },
+      "cardName": "Melter",
+      "modifiedDescription": "Destroy a *Baseball. NL ( !D! damage, remove enemy Block. )"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Dead Branch"]
+      },
+      "cardName": "Recycle",
+      "modifiedName": "Printer",
+      "modifiedDescription": "Exhaust a card. NL gain [B] equal to its cost and add a random card to your hand. "
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Echo Form"]
+      },
+      "cardName": "Recycle",
+      "modifiedDescription": "You don't need an *Echo *Form. NL Gain [B] [B] [B] . NL ( Exhaust card, gain [B] equal to cost. )"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Multi-Cast", "Tempest", "Reinforced Body"]
+      },
+      "cardName": "Recycle",
+      "modifiedName": "Double Energy",
+      "modifiedDescription": "Exhaust an X cost card. NL Double your energy."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Biased Cognition"]
+      },
+      "cardName": "Reprogram",
+      "modifiedDescription": "You are losing 1 Focus per turn anyways why not just click this? NL ( Lose !M! Focus, Gain !M! Strength and Dexterity )"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Hyperbeam"]
+      },
+      "cardName": "Reprogram",
+      "modifiedDescription": "You are losing your Focus anyways why not just click this? NL ( Lose !M! Focus, Gain !M! Strength and Dexterity )"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Claw"]
+      },
+      "cardName": "Scrape",
+      "modifiedName": "Cut Through Fate",
+      "modifiedDescription": "Deal !D! damage. NL Scry !M! cards *Automatically (discard all cards that are not *Claws). NL Draw undiscarded cards. "
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Snecko Eye"]
+      },
+      "cardName": "Scrape",
+      "modifiedDescription": "You have snecko, click this. NL ( !D! damage , draw !M! , discard non-0-costs. )"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Coffee Dripper"]
+      },
+      "cardName": "Self Repair",
+      "modifiedName": "Burning Blood",
+      "modifiedDescription": "Told you *Dripper is free energy. NL ( Heal !M! at end of combat )"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Snecko Eye"]
+      },
+      "cardName": "Sunder",
+      "modifiedName": "J U D G E D",
+      "modifiedDescription": "Just click this. NL ( !D! damage, if the enemy dies gain [B] [B] [B] )"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Snecko Eye"],
+        "cardMatches": ["All for One", "Hologram"]
+      },
+      "cardName": "All for One",
+      "modifiedName": "Infinite"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Snecko Eye"]
+      },
+      "cardName": "All for One",
+      "modifiedName": "Click",
+      "modifiedDescription": "Come on, you have Snecko eye, just click it. NL ( !D! damage, retrieve 0-costs from discard pile )"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Claw"]
+      },
+      "cardName": "All for One",
+      "modifiedName": "Claw Scaling",
+      "modifiedDescription": "Deal !D! damage, put all *Claws from your discard pile into your hand. "
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Orange Pellets"]
+      },
+      "cardName": "Biased Cognition",
+      "modifiedName": "Defragment+++",
+      "modifiedDescription": "Gain !M! Focus. NL You have *Pellets right?"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Core Surge", "Panacea"]
+      },
+      "cardName": "Biased Cognition",
+      "modifiedName": "Defragment+++",
+      "modifiedDescription": "Gain !M! Focus. NL You have Artifact right?"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Biased Cognition"]
+      },
+      "cardName": "Core Surge",
+      "modifiedName": "Free Focus"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Snecko Eye"]
+      },
+      "cardName": "Meteor Strike",
+      "modifiedName": "Click",
+      "modifiedDescription": "Come on, you have Snecko eye, just click it. ( !D! damage, !M! Plasma )"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Strike Dummy"]
+      },
+      "cardName": "Meteor Strike",
+      "modifiedName": "Strike Dummy Value",
+      "modifiedDescription": "Deal *27 damage. NL Channel 3 Plasma.",
+      "modifiedUpgradedDescription": "Deal *33 damage. NL Channel 3 Plasma."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Strike Dummy"]
+      },
+      "cardName": "Thunder Strike",
+      "modifiedName": "Strike Dummy Value",
+      "modifiedDescription": "Deal *10 damage to a random enemy for each lightning orb channeled this combat.",
+      "modifiedUpgradedDescription": "Deal *13 damage to a random enemy for each lightning orb channeled this combat."
+    }
+  ],
+  "tooltips": [
+    {
+      "conditions": {
+        "cardMatches": ["Claw"]
+      },
+      "cardNames": ["Claw"],
+      "title": "Claw",
+      "content": "Click the claw."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Snecko Eye"]
+      },
+      "cardNames": ["Thunder Strike", "Meteor Strike", "Echo Form", "Creative AI", "Sunder"],
+      "title": "Snecko Eye",
+      "content": "Click the expensive thing."
+    }
+  ]
+}

@@ -50,6 +50,22 @@
       "cardNames": ["Havoc"],
       "title": "Spoon Havoc",
       "content": "Cards played by Havoc can be saved by Strange Spoon. "
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Core Surge", "Panacea"]
+      },
+      "cardNames": ["Biased Cognition"],
+      "title": "Free Focus",
+      "content": "The second part of Biased Cognition, where you lose 1 Focus at the start of your turn, is considered a debuff. If you have artefact before you play the card, the debuff will not be applied. \nHowever, artefact gained after the card is played will not remove the debuff, as artefact only prevents future debuffs. Though losing focus is a debuff as well, so artefact gained after the card is played can preserve one turn worth of focus."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Orange Pellets"]
+      },
+      "cardNames": ["Biased Cognition"],
+      "title": "Free Focus",
+      "content": "The second part of Biased Cognition, where you lose 1 Focus at the start of your turn, is considered a debuff. Thus you can remove it with Orange Pellets."
     }
   ]
 }

@@ -34,6 +34,19 @@ public class PlayerConditions {
      */
     int[] actNumbers = {};
 
+    /**
+     * The minimum amount of cards that the player must have in their deck to
+     * satisfy the condition. If left as null, this criterion will
+     * automatically pass.
+     */
+    int minDeckSize = -1;
+    /**
+     * The maximum amount of cards that the player can have in their deck to
+     * satisfy the condition. If left as null, this criterion will
+     * automatically pass.
+     */
+    int maxDeckSize = -1;
+
     // Used to fetch the original card names and descriptions.
     public static CardStrings getCardStrings(AbstractCard card) {
         Class<? extends AbstractCard> cardClass = card.getClass();
@@ -70,6 +83,8 @@ public class PlayerConditions {
                         (card) -> getCardStrings(card).NAME)
                         .collect(Collectors.toList()).contains(cardName))) &&
             (actNumbers.length == 0 || Arrays.stream(actNumbers).anyMatch(
-                    (actNumber) -> actNumber == AbstractDungeon.actNum));
+                    (actNumber) -> actNumber == AbstractDungeon.actNum)) &&
+            (minDeckSize == -1 || player.masterDeck.size() >= minDeckSize) &&
+            (maxDeckSize == -1 || player.masterDeck.size() <= maxDeckSize);
     }
 }

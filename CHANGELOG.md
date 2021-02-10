@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased]
+
+#### Features
+
+* Added deck size checks in `PlayerConditions` through the `minDeckSize` and `maxDeckSize` attribute in the conditions field of meme entries.
+
 ## [0.1.3] - 2021-02-07
 
 ### Fixes

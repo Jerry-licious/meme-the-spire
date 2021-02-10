@@ -33,7 +33,9 @@ In most meme "definitions" there will be a field named `conditions`. This field 
 {
   "relicMatches": ["Relic Match", "Relic Match"],
   "cardMatches": ["Relic Match", "Relic Match"],
-  "actNumbers": [1, 2, 3, 4]
+  "actNumbers": [1, 2, 3, 4],
+  "minDeckSize": 0,
+  "maxDeckSize": 10,
 }
 ```
 **relicMatches**: The player must have at least one of the relics in this list. If left as empty or not defined, this criterion will automatically pass.
@@ -41,6 +43,10 @@ In most meme "definitions" there will be a field named `conditions`. This field 
 **cardMatches**: The player must have at least one of the cards in this list. If left as empty or not defined, this criterion will automatically pass.
 
 **actNumbers**: The player must be in one of the acts in this list. If left as empty or not defined, this criterion will automatically pass.
+
+**minDeckSize**: The minimum amount of cards that the player must have in their deck. If left undefined, this criterion will automatically pass.
+
+**maxDeckSize**: The maximum amount of cards that the player can have in their deck. If left undefined, this criterion will automatically pass.
 
 If all conditions pass, then the meme will be shown. 
 

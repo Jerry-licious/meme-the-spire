@@ -4,6 +4,7 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
+import dynamic_card.card_memes.CardModification;
 
 import java.lang.reflect.Field;
 import java.util.Arrays;
@@ -47,24 +48,6 @@ public class PlayerConditions {
      */
     int maxDeckSize = -1;
 
-    // Used to fetch the original card names and descriptions.
-    public static CardStrings getCardStrings(AbstractCard card) {
-        Class<? extends AbstractCard> cardClass = card.getClass();
-        try {
-            Field cardStringsField = cardClass.getDeclaredField("cardStrings");
-            // Access the private static field.
-            cardStringsField.setAccessible(true);
-            return (CardStrings) cardStringsField.get(null);
-        }
-        // Safe to avoid these exceptions as all card classes are
-        // guaranteed to have the cardStrings field, and since the private
-        // field is changed to be accessible, no IllegalAccessException
-        // should happen either.
-        catch (NoSuchFieldException | IllegalAccessException ignored) {
-            return null;
-        }
-    }
-
     public boolean applicableOnPlayer(AbstractPlayer player) {
         return
             // Relic matching
@@ -80,7 +63,7 @@ public class PlayerConditions {
                 // Or if the player has one of the cards.
                 Arrays.stream(cardMatches).anyMatch((cardName) ->
                     player.masterDeck.group.stream().map(
-                        (card) -> getCardStrings(card).NAME)
+                        (card) -> CardModification.getCardStrings(card).NAME)
                         .collect(Collectors.toList()).contains(cardName))) &&
             (actNumbers.length == 0 || Arrays.stream(actNumbers).anyMatch(
                     (actNumber) -> actNumber == AbstractDungeon.actNum)) &&

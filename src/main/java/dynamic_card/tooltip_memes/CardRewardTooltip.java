@@ -4,6 +4,7 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import dynamic_card.PlayerConditions;
+import dynamic_card.card_memes.CardModification;
 
 import java.util.Arrays;
 
@@ -53,7 +54,7 @@ public class CardRewardTooltip {
 
     public boolean applicableOnCard(AbstractCard card) {
         return Arrays.stream(cardNames).anyMatch((cardName) ->
-                cardName.equals(PlayerConditions.getCardStrings(card).NAME));
+                cardName.equals(CardModification.getCardStrings(card).NAME));
     }
 
     public void show(AbstractCard card) {

@@ -5,6 +5,8 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import dynamic_card.PlayerConditions;
 
+import java.lang.reflect.Field;
+
 /**
  * A modification that is applied to cards seen in card reward screens and
  * shop screens based on the player's current situation.
@@ -43,7 +45,7 @@ public class CardModification {
     }
 
     public boolean applicableOnCard(AbstractCard card) {
-        return cardName.equals(PlayerConditions.getCardStrings(card).NAME);
+        return cardName.equals(getCardStrings(card).NAME);
     }
 
     public void modify(AbstractCard card) {
@@ -60,7 +62,7 @@ public class CardModification {
 
     // Restore the card to its original name and description.
     public static void restore(AbstractCard card) {
-        CardStrings cardStrings = PlayerConditions.getCardStrings(card);
+        CardStrings cardStrings = getCardStrings(card);
         // Revert the name to the original name.
         card.name = cardStrings.NAME;
         // Revert the description to the original description.
@@ -69,5 +71,23 @@ public class CardModification {
                         cardStrings.DESCRIPTION : cardStrings.UPGRADE_DESCRIPTION) :
                 cardStrings.DESCRIPTION;
         card.initializeDescription();
+    }
+
+    // Used to fetch the original card names and descriptions.
+    public static CardStrings getCardStrings(AbstractCard card) {
+        Class<? extends AbstractCard> cardClass = card.getClass();
+        try {
+            Field cardStringsField = cardClass.getDeclaredField("cardStrings");
+            // Access the private static field.
+            cardStringsField.setAccessible(true);
+            return (CardStrings) cardStringsField.get(null);
+        }
+        // Safe to avoid these exceptions as all card classes are
+        // guaranteed to have the cardStrings field, and since the private
+        // field is changed to be accessible, no IllegalAccessException
+        // should happen either.
+        catch (NoSuchFieldException | IllegalAccessException ignored) {
+            return null;
+        }
     }
 }

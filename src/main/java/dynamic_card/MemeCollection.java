@@ -122,30 +122,6 @@ public class MemeCollection {
 
     public MemeCollection() { }
 
-    public void applyFirstApplicableCardModification(AbstractCard card,
-                                                     AbstractPlayer player) {
-        for (CardModification modification : modifications) {
-            if (modification.applicableOnCard(card) && modification.applicableOnPlayer(player)) {
-                modification.modify(card);
-                return;
-            }
-        }
-    }
-
-    // Accept all cards at once so only one tooltip can be shown at once.
-    public void showFirstApplicableTooltip(Iterable<AbstractCard> cards,
-                                           AbstractPlayer player) {
-        for (AbstractCard card : cards) {
-            for (CardRewardTooltip tooltip : tooltips) {
-                if (!tooltip.shown && tooltip.applicableOnCard(card) &&
-                        tooltip.applicableOnPlayer(player)) {
-                    tooltip.show(card);
-                    return;
-                }
-            }
-        }
-    }
-
     public static void applyFirstApplicableCardModificationFromAllCollections
             (AbstractCard card, AbstractPlayer player) {
         for (MemeCollection collection : collections) {

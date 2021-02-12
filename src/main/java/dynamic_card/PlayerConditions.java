@@ -1,12 +1,9 @@
 package dynamic_card;
 
-import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.localization.CardStrings;
 import dynamic_card.card_memes.CardModification;
 
-import java.lang.reflect.Field;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 

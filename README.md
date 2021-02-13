@@ -33,10 +33,10 @@ In most meme "definitions" there will be a field named `conditions`. This field 
 ```json
 {
   "relicMatches": ["Relic Match", "Relic Match"],
-  "cardMatches": ["Relic Match", "Relic Match"],
+  "cardMatches": ["Card Match", "Card Match"],
   "actNumbers": [1, 2, 3, 4],
   "minDeckSize": 0,
-  "maxDeckSize": 10,
+  "maxDeckSize": 10
 }
 ```
 **relicMatches**: The player must have at least one of the relics in this list. If left as empty or not defined, this criterion will automatically pass.

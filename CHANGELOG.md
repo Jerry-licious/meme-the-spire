@@ -15,6 +15,7 @@
 
 #### Content
 
+* Added the watcher meme collection: containing 38 card memes and 6 tooltip memes.
 * Added one new defect meme.
 * Added two new silent memes.
 * Added more genuine tips.

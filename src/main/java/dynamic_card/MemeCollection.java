@@ -94,9 +94,9 @@ public class MemeCollection {
         logger.info("Filling base collections.");
         updateBaseMemeCollection("genuine_tips");
         updateBaseMemeCollection("ironclad");
-        updateBaseMemeCollection("ironclad_messages");
         updateBaseMemeCollection("silent");
         updateBaseMemeCollection("defect");
+        updateBaseMemeCollection("watcher");
         logger.info("Finished filling base collections.");
 
         logger.info("Loading collections from meme collections folder.");

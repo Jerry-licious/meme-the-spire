@@ -1,0 +1,362 @@
+{
+  "receiveUpdates": true,
+  "enabled": true,
+  "modifications": [
+    {
+      "conditions": {
+        "relicMatches": ["Snecko Eye"]
+      },
+      "cardName": "Flurry of Blows",
+      "modifiedName": "Just In Time",
+      "modifiedDescription": "This costs 3. NL ( !D! damage, retrieve this when you change Stances )"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Golden Eye"]
+      },
+      "cardName": "Just Lucky",
+      "modifiedName": "Third Eye",
+      "modifiedDescription": "Scry 3. NL Gain !B! Block. NL Deal !D! damage.",
+      "modifiedUpgradedDescription": "Scry 4. NL Gain !B! Block. NL Deal !B! damage."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Fasting"]
+      },
+      "cardName": "Just Lucky",
+      "modifiedName": "Iron Wave",
+      "modifiedDescription": "Scry !M! . NL Gain 6 Block. NL Deal 7 damage.",
+      "modifiedUpgradedDescription": "Scry !M! . NL Gain 7 Block. NL Deal 8 damage."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Pressure Points"]
+      },
+      "cardName": "Pressure Points",
+      "modifiedName": "Click",
+      "modifiedDescription": "You have a *Pressure *Points already, don't pretend that you aren't going to click this."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Cloak Clasp"]
+      },
+      "cardName": "Protect",
+      "modifiedName": "Metalicise",
+      "modifiedDescription": "Retain. NL Gain !B! Block. NL Gain 1 block at the end of your turn while this is in your hand."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Runic Pyramid"]
+      },
+      "cardName": "Battle Hymn",
+      "modifiedName": "Hand Clog"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Dead Branch"]
+      },
+      "cardName": "Battle Hymn",
+      "modifiedName": "Machine Learning",
+      "modifiedDescription": "At the start of your turn, add a *Smite into your hand that adds a random card into your hand.",
+      "modifiedUpgradedDescription": "Innate. NL At the start of your turn, add a *Smite into your hand that adds a random card into your hand."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Orange Pellets"]
+      },
+      "cardName": "Fasting",
+      "modifiedName": "Free Stats",
+      "modifiedDescription": "Gain 4 Dexterity. NL Gain 4 Strength. NL You have Pellets right?"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Clockwork Souvenir"]
+      },
+      "cardName": "Fasting",
+      "modifiedName": "Free Stats",
+      "modifiedDescription": "Gain 4 Dexterity. NL Gain 4 Strength. NL You have Artifact right?"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Panacea"]
+      },
+      "cardName": "Fasting",
+      "modifiedName": "Free Stats",
+      "modifiedDescription": "Gain 4 Dexterity. NL Gain 4 Strength. NL You have Artifact right?"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Master Reality"]
+      },
+      "cardName": "Foreign Influence",
+      "modifiedDescription": "Choose 1 of 3 *Upgraded Attacks of any colour to add into your hand. NL Exhaust.",
+      "modifiedUpgradedDescription": "Choose 1 of 3 *Upgraded Attacks of any colour to add into your hand. NL It costs 0 this turn. NL Exhaust."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Golden Eye"]
+      },
+      "cardName": "Foresight",
+      "modifiedName": "Fivesight",
+      "modifiedUpgradedName": "Sixsight"
+    },
+    {
+      "conditions": {},
+      "cardName": "Foresight",
+      "modifiedName": "Threesight",
+      "modifiedUpgradedName": "Foursight"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Establishment"]
+      },
+      "cardName": "Meditate",
+      "modifiedName": "Infinite Starter",
+      "modifiedDescription": "Retain a card from your discard pile and reduce its cost by 1. NL Enter Calm. NL End your turn.",
+      "modifiedUpgradedDescription": "Retain 2 cards from your discard pile and reduce their costs by 1. NL Enter Calm. NL End your turn."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Runic Pyramid", "Violet Lotus", "Sundial"]
+      },
+      "cardName": "Rushdown",
+      "modifiedName": "Infinite Dream"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Runic Pyramid", "Snecko Eye"]
+      },
+      "cardName": "Signature Move",
+      "modifiedName": "Injury",
+      "modifiedDescription": "Unplayable."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Signature Move"]
+      },
+      "cardName": "Signature Move",
+      "modifiedName": "Injury",
+      "modifiedDescription": "Unplayable."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Snecko EYe"]
+      },
+      "cardName": "Study",
+      "modifiedName": "Hand Clog",
+      "modifiedDescription": "At the end of your turn, shuffle an *Insight into your draw pile. NL It costs 3."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Shuriken"]
+      },
+      "cardName": "Tantrum",
+      "modifiedName": "Heavy Eruption",
+      "modifiedDescription": "Deal 9 damage. NL Strength affects this card !M! times. NL Enter Wrath, insert this into draw pile.",
+      "modifiedUpgradedDescription": "Deal 12 damage. NL Strength affects this card !M! times. NL Enter Wrath, insert this into draw pile."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Talk to the Hand"]
+      },
+      "cardName": "Tantrum",
+      "modifiedName": "Iron Wave+",
+      "modifiedDescription": "Deal !D! damage and gain 3 Block !M! times. NL Enter Wrath. NL Insert this card at a random position in your draw pile."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Snecko Eye"]
+      },
+      "cardName": "Weave",
+      "modifiedName": "Just In Time",
+      "modifiedDescription": "This costs 3. NL ( !D! damage, retrieve this after you Scry )"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Strike Dummy"]
+      },
+      "cardName": "Windmill Strike",
+      "modifiedName": "Strike Dummy Value",
+      "modifiedDescription": "Retain. NL Deal 10 damage. NL When *Retained, increase its damage by !M! this combat.",
+      "modifiedUpgradedDescription": "Retain. NL Deal 13 damage. NL When *Retained, increase its damage by !M! this combat."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Ragnarok"]
+      },
+      "cardName": "Wreath of Flame",
+      "modifiedDescription": "Your next *Ragnarok deals 30 additional damage. NL ( Next attack deals !M! more. )",
+      "modifiedUpgradedDescription": "Your next Ragnarok deals 40 additional damage. ( Next attack deals !M! more. )"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Chemical X"]
+      },
+      "cardName": "Conjure Blade",
+      "modifiedName": "Chemical X Value",
+      "modifiedDescription": "Insert an *Expunger with X+2 at a random position in your draw pile. NL Exhaust.",
+      "modifiedUpgradedDescription": "Insert an *Expunger with X+3 at a random position in your draw pile. NL Exhaust."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Deus Ex Machina"]
+      },
+      "cardName": "Conjure Blade",
+      "modifiedName": "Click",
+      "modifiedDescription": "You have energy generation. NL ( Insert an *Expunger into your draw pile, Exhaust. )",
+      "modifiedUpgradedDescription": "You have energy generation. NL ( Insert an *Expunger with X+1 into your draw pile, Exhaust. )"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Master Reality"]
+      },
+      "cardName": "Conjure Blade",
+      "modifiedDescription": "Insert an *Expunger+ at a random position in your draw pile. NL Exhaust.",
+      "modifiedUpgradedDescription": "Insert an *Expunger+ with X+1 at a random position in your draw pile. NL Exhaust."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Master Reality"]
+      },
+      "cardName": "Deus Ex Machina",
+      "modifiedName": "Seeing Red+++",
+      "modifiedUpgradedName": "Seeing Red+++++",
+      "modifiedDescription": "Unplayable. NL When you draw this card, add !M! *Miracle+s into your hand."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Snecko Eye"]
+      },
+      "cardName": "Deva Form",
+      "modifiedName": "Energy Relic",
+      "modifiedDescription": "Snecko eye has energy problems? Never heard of it. NL ( Ethereal, [W] energy at the start of your turn and increase this gain by 1. )",
+      "modifiedUpgradedDescription": "Snecko eye has energy problems? Never heard of it. NL ( [W] energy at the start of your turn and increase this gain by 1. )"
+    },
+    {
+      "conditions": {
+        "actNumbers": [2, 3]
+      },
+      "cardName": "Judgment",
+      "modifiedDescription": "Destroy a *Baseball. NL ( Kill an enemy with !M! or less health )"
+    },
+    {
+      "conditions": {
+        "actNumbers": [4]
+      },
+      "cardName": "Judgment",
+      "modifiedName": "Heart Solution",
+      "modifiedDescription": "Goes through the damage cap. NL ( Kill an enemy with !M! or less health )"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Fusion Hammer"]
+      },
+      "cardName": "Lesson Learned",
+      "modifiedName": "Smith",
+      "modifiedDescription": "Told you *Hammer is free energy. NL ( !D! damage, if *Fatal upgrade random card )"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Dead Branch"]
+      },
+      "cardName": "Master Reality",
+      "modifiedName": "Branch Value"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Lesson Learned"]
+      },
+      "cardName": "Omniscience",
+      "modifiedName": "Double Upgrade",
+      "modifiedDescription": "Play a *Lesson *Learned in your draw pile twice. NL Exhaust. NL ( Give a card in your draw pile Exhaust and play it twice. )"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Wish"]
+      },
+      "cardName": "Omniscience",
+      "modifiedName": "60 Gold",
+      "modifiedDescription": "Play a *WIsh in your draw pile twice. NL Exhaust. NL ( Give a card in your draw pile Exhaust and play it twice. )"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Akabeko"]
+      },
+      "cardName": "Ragnarok",
+      "modifiedName": "Heavy Smite",
+      "modifiedDescription": "If you draw this turn 1, deal 65 damage. NL ( !D! x !M! randomly )",
+      "modifiedUpgradedDescription": "If you draw this turn 1, deal 84 damage. NL ( !D! x !M! randomly )"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Shuriken"]
+      },
+      "cardName": "Ragnarok",
+      "modifiedName": "Heavy Smite",
+      "modifiedDescription": "Deal 25 damage. NL Strength affects this card !M! times. NL ( !D! damage to a random enemy !M! times. )",
+      "modifiedUpgradedDescription": "Deal 36 damage. NL Strength affects this card !M! times. NL ( !D! damage to a random enemy !M! times. )"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Ectoplasm"]
+      },
+      "cardName": "Wish",
+      "modifiedName": "Sl:imed++",
+      "modifiedDescription": "What's the point of this if you don't get gold? NL Exhaust. NL ( 6 Plated, 3 Strength or 25 Gold )",
+      "modifiedUpgradedDescription": "What's the point of this if you don't get gold? NL Exhaust. NL ( 8 Plated, 4 Strength or 30 Gold )"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Snecko Eye", "Runic Pyramid"]
+      },
+      "cardName": "Spirit Shield",
+      "modifiedName": "Impervious"
+    }
+  ],
+  "tooltips": [
+    {
+      "conditions": {
+        "actNumbers": [1, 2]
+      },
+      "cardNames": ["Bowling Bash"],
+      "title": "S Tier",
+      "content": "Lately I've begun to think Bowling Bash has as much of an impact on my wins as cards like Scrawl, Talk to the Hand, and Vault. It especially shines during the act 2 elites, where it deals 60 damage for 1 mana. \nBowling Bash has become an autopick for me until act 3 where the usefulness starts to fall off a bit, I'll even take 3 or 4 copies if they're offered."
+    },
+    {
+      "conditions": {
+        "actNumbers": [3]
+      },
+      "cardNames": ["Bowling Bash"],
+      "title": "S Tier",
+      "content": "There are still quite a few situations where it shines in act 3, like dealing up to 150 damage to Reptomancer in divinity stance or the various multi-mob fights such as darklings. "
+    },
+    {
+      "conditions": {
+        "actNumbers": [4]
+      },
+      "cardNames": ["Bowling Bash"],
+      "title": "S Tier",
+      "content": "It does a bit of damage vs act 4 elites, but at that point you're looking for better combos than \"slightly stronger strike\"."
+    },
+    {
+      "conditions": {},
+      "cardNames": ["Pressure Points"],
+      "title": "Scaling Damage",
+      "content": "Scaling damage is good."
+    },
+    {
+      "conditions": {},
+      "cardNames": ["Judgment"],
+      "title": "Judgment",
+      "content": "So judgment is really good against the heart, it goes through the damage cap in case you don't draw the exit. \nIt also shines greatly in act 3 where you can kill the daggers quickly. It doesn't have much scaling potential, but if you get a burst it intimidates the enemies twice as good. \nAt the end of act 3 you can take out the cultists in the awakened one fight. Notice how judgment isn't a power card so it's really good against the awakened one. \nI really recommend the upgrade for the late game especially for the cultist kills. Even in single enemy fights it's really good, such as incrementing slow in giant head fight and going through intangible for nemesis. \nOverall it's a really generalists card, effective in almost all the fights, and it really shines in late game boss fights. \nNot only that, notice how it's a skill, so you can end your turn killing a minion with judgment and draw cards with sanctity next turn or activate crush joints to kill high health threats. "
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Snecko Eye"]
+      },
+      "cardNames": ["Wish", "Vault", "Ragnarok", "Omniscience", "Deva Form", "Sands of Time"],
+      "title": "Snecko Eye",
+      "content": "Click the expensive thing. "
+    }
+  ]
+}

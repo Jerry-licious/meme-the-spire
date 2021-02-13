@@ -432,6 +432,16 @@
     },
     {
       "conditions": {
+        "relicMatches": ["Wrist Blade"],
+        "cardMatches": ["Madness"]
+      },
+      "cardName": "Riddle with Holes",
+      "modifiedName": "Wrist Blade Value",
+      "modifiedDescription": "*Madness will land on this I promise. NL Deal 35 damage. NL ( !D! damage 5 times. )",
+      "modifiedUpgradedDescription": "*Madness will land on this I promise. NL Deal 40 damage. NL ( !D! damage 5 times. )"
+    },
+    {
+      "conditions": {
         "relicMatches": ["Akabeko"]
       },
       "cardName": "Riddle with Holes",

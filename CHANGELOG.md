@@ -6,6 +6,10 @@
 
 * Added a new type of meme: card play message, where the player says a line through their textbox before they play specific cards.
 
+#### Changes
+
+* Changed numerous silent card modifications to better reflect what the cards originally do.
+
 #### Content
 
 * Added one new defect meme.

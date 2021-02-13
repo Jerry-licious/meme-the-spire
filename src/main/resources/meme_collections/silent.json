@@ -419,7 +419,7 @@
       },
       "cardName": "Riddle with Holes",
       "modifiedName": "Nemesis Solution",
-      "modifiedDescription": "Deal 25 damage. NL Intangible and Weak do not affect this card. NL ( !D! damage 5 times. )"
+      "modifiedDescription": "Deal 25 damage. NL Intangible and Weak do not affect this card. NL ( !D! x !M! )"
     },
     {
       "conditions": {
@@ -427,8 +427,8 @@
       },
       "cardName": "Riddle with Holes",
       "modifiedName": "Heavy Dagger",
-      "modifiedDescription": "Deal 15 damage. NL Strength affects this card 5 times. NL ( !D! damage 5 times. )",
-      "modifiedUpgradedDescription": "Deal 20 damage. NL Strength affects this card 5 times. NL ( !D! damage 5 times. )"
+      "modifiedDescription": "Deal 15 damage. NL Strength affects this card 5 times. NL ( !D! x !M! )",
+      "modifiedUpgradedDescription": "Deal 20 damage. NL Strength affects this card 5 times. NL ( !D! x !M! )"
     },
     {
       "conditions": {
@@ -437,8 +437,8 @@
       },
       "cardName": "Riddle with Holes",
       "modifiedName": "Wrist Blade Value",
-      "modifiedDescription": "*Madness will land on this I promise. NL Deal 35 damage. NL ( !D! damage 5 times. )",
-      "modifiedUpgradedDescription": "*Madness will land on this I promise. NL Deal 40 damage. NL ( !D! damage 5 times. )"
+      "modifiedDescription": "*Madness will land on this I promise. NL Deal 35 damage. NL ( !D! x !M! )",
+      "modifiedUpgradedDescription": "*Madness will land on this I promise. NL Deal 40 damage. NL ( !D! x !M! )"
     },
     {
       "conditions": {
@@ -446,8 +446,8 @@
       },
       "cardName": "Riddle with Holes",
       "modifiedName": "Silent Ragnarok",
-      "modifiedDescription": "If you draw this turn 1, deal 55 damage. NL Otherwise contemplate your *life *choices. NL ( !D! damage 5 times. )",
-      "modifiedUpgradedDescription": "If you draw this turn 1, deal 60 damage. NL Otherwise contemplate your *life *choices. NL ( !D! damage 5 times. )"
+      "modifiedDescription": "If you draw this turn 1, deal 55 damage. NL Otherwise contemplate your *life *choices. NL ( !D! x !M! )",
+      "modifiedUpgradedDescription": "If you draw this turn 1, deal 60 damage. NL Otherwise contemplate your *life *choices. NL ( !D! x !M! )"
     },
     {
       "conditions": {
@@ -456,8 +456,8 @@
       },
       "cardName": "Riddle with Holes",
       "modifiedName": "Scaling Attack",
-      "modifiedDescription": "Deal 15 damage. NL Apply 10 Poison. NL ( !D! damage 5 times. )",
-      "modifiedUpgradedDescription": "Deal 20 damage. NL Apply 10 Poison. NL ( !D! damage 5 times. )"
+      "modifiedDescription": "Deal 15 damage. NL Apply 10 Poison. NL ( !D! x !M! )",
+      "modifiedUpgradedDescription": "Deal 20 damage. NL Apply 10 Poison. NL ( !D! x !M! )"
     },
     {
       "conditions": {
@@ -465,15 +465,15 @@
       },
       "cardName": "Riddle with Holes",
       "modifiedName": "Poisoned Stab++",
-      "modifiedDescription": "Deal 15 damage. NL Apply 5 Poison. NL ( !D! damage 5 times. )",
-      "modifiedUpgradedDescription": "Deal 20 damage. NL Apply 5 Poison. NL ( !D! damage 5 times. )"
+      "modifiedDescription": "Deal 15 damage. NL Apply 5 Poison. NL ( !D! x !M! )",
+      "modifiedUpgradedDescription": "Deal 20 damage. NL Apply 5 Poison. NL ( !D! x !M! )"
     },
     {
       "conditions": {
         "actNumbers": [3]
       },
       "cardName": "Riddle with Holes",
-      "modifiedDescription": "Take 35 damage against a *Spiker. NL ( !D! x 5 )"
+      "modifiedDescription": "Take 35 damage against a *Spiker. NL ( !D! x !M! )"
     },
     {
       "conditions": {

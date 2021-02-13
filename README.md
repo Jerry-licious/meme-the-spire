@@ -8,6 +8,8 @@ When the card is picked or purchased (added to your deck), the original name and
 
 When a card reward screen is opened, it looks for tooltip memes to apply on the cards, when a tooltip meme is found to be applicable on a card, it will be shown on the screen. One card reward screen can only generate one tooltip screen ~~(best with busted crown)~~. 
 
+Before a card is played, it looks for card play messages to apply on the card, when a message is found to be applicable on the card, it will be shown on the screen. One card play can only trigger one message.
+
 ## Meme Collections
 
 Each JSON file in the `resources/meme_collections` directory defines a collection of memes. They are structured as follows:
@@ -22,9 +24,15 @@ Each JSON file in the `resources/meme_collections` directory defines a collectio
 }
 ```
 
-If the `enabled` attribute is set to true, the meme collection will be enabled and used in the game, otherwise it will be ignored. 
+**enabled**: Whether the memes defined in this collection will show up or not. Used to allow players to configure their set of collections.
 
-*Only applicable for [base collections](#base-collections)*: If the `receiveUpdates` attribute is set to true, the base collection file will be overridden every time the game starts to install potential updates. 
+**receiveUpdates**: Only applicable to [base collections](#base-collections). If set to true, this file will be overridden by the mod every time the game starts to install potential upgrades.
+
+**modifications**: The card modifications defined in this collection. Can be left undefined.
+
+**tooltips**: The tooltip memes defined in this collection. Can be left undefined.
+
+**cardPlayMessages**: The card play messages defined in this collection. Can be left undefined.
 
 ### Player Condition
 
@@ -66,7 +74,17 @@ A card modification changes the cards seen at card reward screens and shops, it 
   "modifiedUpgradedDescription": "New upgraded description..."
 }
 ```
-`modifiedName`, `modifiedDescription` and `modifiedUpgradedDescription` are optional fields, if they are not defined, the corresponding property of the card will not be changed. If `modifiedUpgradedDescription` is not defined, the mod will fall back and use the `modifiedDescription` instead. However, if `modifiedDescription` is not defined, the mod will not consider `modifiedUpgradedDescription` at all. If `modifiedUpgradedName` is not defined, the mod will fall back and use the `modifiedName` instead. However, if `modifiedName` is not defined, the mod will not consider `modifiedUpgradedName` at all.
+**cardName**: The name of the card that the modification will change.
+
+**modifiedName**: The new name of the card. If left undefined, the card's name will not be changed.
+
+**modifiedUpgradedName**: The new name of the card if the card is upgraded. If left undefined, the mod will use the `modifiedName` field. **if `modifiedName` is undefined, this field will not be considered.**
+
+**modifiedDescription**: The new description of the card. If left undefined, the card's description will not be changed.
+
+**modifiedUpgradedDescription**: The new description of the card if the card is upgraded. If left undefined, the mod will use the `modifiedDescription` field. **If `modifiedDescription` is undefined, this field will not be considered.** 
+
+Card modifications only affect cards shown in the shop and in card rewards. The cards will be restored into their original text after they are added into your deck.
 
 ### Reward Screen Tooltips (`tooltips`)
 
@@ -81,9 +99,13 @@ A reward screen tooltip shows the player a tooltip about a card when that card i
 }
 ```
 
-The same tooltip can be applied to multiple cards and will show for all of them if they are seen, the tooltip will show as long as one of the names in its `cardNames` match with the card's name. Note that the player can only see *one* tooltip in one card reward screen, so the first defined tooltip in the list will be shown first. 
+**cardNames**: The name of the cards that will trigger this tooltip.
 
-Some tooltips have extended descriptions that do not fit in one tooltip box, so line break characters(`\n`) can be added in the `content` field to split the tooltip into multiple parts that will be shown in order (the next will show after the first is dismissed). 
+**title**: The title of the tooltip. Note: you do not need to add "Tip: " as the game does that for you.
+
+**content:** The content of the tooltip. Some tooltips have extended descriptions that do not fit in one tooltip box, so line break characters(`\n`) can be added in the `content` field to split the tooltip into multiple parts that will be shown in order (the next will show after the first is dismissed). 
+
+The same tooltip can be applied to multiple cards and will show for all of them if they are seen, the tooltip will show as long as one of the names in its `cardNames` match with the card's name. Note that the player can only see *one* tooltip in one card reward screen, so the first defined tooltip in the list will be shown first. 
 
 One tooltip can only be shown once in one session of the game to minimise disruption (restarting the game will reset the record).
 
@@ -98,9 +120,13 @@ A card play message is a line that the character will say (through a textbox) be
 }
 ```
 
-One card play message can define multiple lines. Before the player plays the card, a random message will be chosen and the player will say the line. 
+**cardName**: The name of the card that will trigger this message.
+
+**lines**: The possible lines that the player will say when you play the card. Before the player plays the card, a random line will be chosen.
 
 The player can only say one line when they play one card, in which case the first defined card play message will be shown.
+
+Note that the textbox stays up for about one second, and the card play animation waits for the textbox to disappear, so please consider not adding messages to cards that are played very frequently (such as Flurry of Blows and Shivs) as this will be highly disruptive.
 
 ### Base Collections
 

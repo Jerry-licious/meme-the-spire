@@ -61,11 +61,12 @@ A card modification changes the cards seen at card reward screens and shops, it 
   "conditions": {},
   "cardName": "Card to modify",
   "modifiedName": "New Name",
+  "modifiedUpgradedName": "New Upgraded Name",
   "modifiedDescription": "New description...",
   "modifiedUpgradedDescription": "New upgraded description..."
 }
 ```
-`modifiedName`, `modifiedDescription` and `modifiedUpgradedDescription` are optional fields, if they are not defined, the corresponding property of the card will not be changed. If `modifiedUpgradedDescription` is not defined, the mod will fall back and use the `modifiedDescription` instead. However, if `modifiedDescription` is not defined, the mod will not consider `modifiedUpgradedDescription` at all.
+`modifiedName`, `modifiedDescription` and `modifiedUpgradedDescription` are optional fields, if they are not defined, the corresponding property of the card will not be changed. If `modifiedUpgradedDescription` is not defined, the mod will fall back and use the `modifiedDescription` instead. However, if `modifiedDescription` is not defined, the mod will not consider `modifiedUpgradedDescription` at all. If `modifiedUpgradedName` is not defined, the mod will fall back and use the `modifiedName` instead. However, if `modifiedName` is not defined, the mod will not consider `modifiedUpgradedName` at all.
 
 ### Reward Screen Tooltips (`tooltips`)
 

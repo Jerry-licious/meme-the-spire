@@ -26,6 +26,11 @@ public class CardModification {
      */
     String modifiedName;
     /**
+     * The new name of the card if it is upgraded. If left as null. the
+     * modification will use the unupgraded name instead.
+     */
+    String modifiedUpgradedName;
+    /**
      * The new description of the card. If left as null, the card's description
      * will not be changed.
      */
@@ -49,8 +54,10 @@ public class CardModification {
     }
 
     public void modify(AbstractCard card) {
-        if (modifiedName != null) card.name = modifiedName +
-                (card.upgraded ? "+" : "");
+        if (modifiedName != null) card.name =
+                card.upgraded ? (modifiedUpgradedName == null ?
+                        modifiedName + "+" : modifiedUpgradedName) :
+                        modifiedName;
         if (modifiedDescription != null) {
             card.rawDescription = card.upgraded ?
                     (modifiedUpgradedDescription == null ?

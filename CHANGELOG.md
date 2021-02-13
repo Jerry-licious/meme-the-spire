@@ -5,6 +5,7 @@
 #### Features
 
 * Added a new type of meme: card play message, where the player says a line through their textbox before they play specific cards.
+* Added modified upgraded card names to `CardModifications` through the `modifiedUpgradedName` field of card modification entries.
 
 #### Changes
 

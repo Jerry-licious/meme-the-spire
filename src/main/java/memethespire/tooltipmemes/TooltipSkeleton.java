@@ -1,4 +1,4 @@
-package dynamic_card.tooltip_memes;
+package memethespire.tooltipmemes;
 
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.core.Settings;

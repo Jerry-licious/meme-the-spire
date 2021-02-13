@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased]
+## [0.1.5] - 2021-02-13
 
 #### Features
 
@@ -9,6 +9,7 @@
 
 #### Changes
 
+* Changed the name of the mod from "Dynamic Card Memes" to "Meme the Spire".
 * Changed numerous silent card modifications to better reflect what the cards originally do.
 * Changed a few defect card modifications to better reflect what the cards originally do.
 * Changed a few ironclad card modifications to better reflect what the cards originally do.

@@ -1,12 +1,12 @@
-package dynamic_card;
+package memethespire;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
-import dynamic_card.card_memes.CardModification;
-import dynamic_card.card_play_messages.CardPlayMessage;
-import dynamic_card.tooltip_memes.CardRewardTooltip;
+import memethespire.cardmemes.CardModification;
+import memethespire.cardplaymessages.CardPlayMessage;
+import memethespire.tooltipmemes.CardRewardTooltip;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

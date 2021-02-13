@@ -1,5 +1,5 @@
-# Dynamic Card Meme
-Replaces certain card names and descriptions in card reward screens and shops with jokes based on your current relic bar and deck.
+# Meme the Spire
+Adds various different memes to your Slay the Spire experience. 
 
 ### How It Works
 When a card reward screen is opened or when cards are shown in a shop, it looks for card memes to apply on the cards, when a modification is found to be applicable on a card, the card's name and description will be replaced. 

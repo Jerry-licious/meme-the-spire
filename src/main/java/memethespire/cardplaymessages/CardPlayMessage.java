@@ -1,9 +1,9 @@
-package dynamic_card.card_play_messages;
+package memethespire.cardplaymessages;
 
 import com.megacrit.cardcrawl.actions.animations.TalkAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import dynamic_card.card_memes.CardModification;
+import memethespire.cardmemes.CardModification;
 
 import java.util.Random;
 

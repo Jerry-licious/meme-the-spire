@@ -1,9 +1,9 @@
-package dynamic_card.card_memes;
+package memethespire.cardmemes;
 
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.localization.CardStrings;
-import dynamic_card.PlayerConditions;
+import memethespire.PlayerConditions;
 
 import java.lang.reflect.Field;
 

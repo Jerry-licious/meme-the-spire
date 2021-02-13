@@ -1,4 +1,4 @@
-package dynamic_card.tooltip_memes;
+package memethespire.tooltipmemes;
 
 import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePostfixPatch;

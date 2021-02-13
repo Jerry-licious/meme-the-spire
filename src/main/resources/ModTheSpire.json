@@ -1,9 +1,9 @@
 {
-  "modid": "dynamic-card-memes",
-  "name": "Dynamic Card Memes",
+  "modid": "meme_the_spire",
+  "name": "Meme the Spire",
   "author_list": ["Jerry"],
-  "description": "Replaces certain card names and descriptions in card reward screens and shops with jokes and shows joke tooltips based on your current relic bar and deck. ",
-  "version": "0.1.4",
+  "description": "Adds various different memes to your Slay the Spire experience. ",
+  "version": "0.1.5",
   "sts_version": "12-22-2020",
   "mts_version": "2.7.0"
 }

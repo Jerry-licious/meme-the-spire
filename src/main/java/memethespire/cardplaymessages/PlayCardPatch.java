@@ -1,9 +1,9 @@
-package dynamic_card.card_play_messages;
+package memethespire.cardplaymessages;
 
 import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePrefixPatch;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
-import dynamic_card.MemeCollection;
+import memethespire.MemeCollection;
 
 @SpirePatch(clz = AbstractPlayer.class, method = "playCard")
 public class PlayCardPatch {

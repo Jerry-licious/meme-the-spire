@@ -1,15 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>dynamic-card-memes</groupId>
-    <artifactId>dynamic-card-memes</artifactId>
-    <version>v0.1.4</version>
+    <groupId>memethespire</groupId>
+    <artifactId>meme_the_spire</artifactId>
+    <version>v0.1.5</version>
     <packaging>jar</packaging>
 
-    <name>dynamic-card-memes</name>
-    <description>Replaces certain card names and descriptions in card reward
-        screens and shops with jokes and shows joke tooltips based on your
-        current relic bar and deck. </description>
+    <name>Meme the Spire</name>
+    <description>Adds various different memes to your Slay the Spire experience.
+    </description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -53,8 +52,8 @@
                         <phase>package</phase>
                         <configuration>
                             <target>
-                                <copy file="target/dynamic-card-memes.jar"
-                                      tofile="../lib/dynamic-card-memes.jar"/>
+                                <copy file="target/meme_the_spire.jar"
+                                      tofile="../lib/meme_the_spire.jar"/>
                             </target>
                         </configuration>
                         <goals>

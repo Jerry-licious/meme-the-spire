@@ -1,8 +1,8 @@
-package dynamic_card;
+package memethespire;
 
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import dynamic_card.card_memes.CardModification;
+import memethespire.cardmemes.CardModification;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;

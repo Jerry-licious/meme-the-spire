@@ -11,7 +11,9 @@ import java.lang.reflect.Field;
 import java.util.LinkedList;
 
 /**
- * Some tooltips are too long to display
+ * Some tooltips are too long to display, thus they are displayed over
+ * multiple tooltip screens.
+ * dismissed.
  */
 @SpirePatch(clz = FtueTip.class, method = "update")
 public class TooltipDismissalPatch {

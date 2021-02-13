@@ -4,6 +4,6 @@
   "author_list": ["Jerry"],
   "description": "Replaces certain card names and descriptions in card reward screens and shops with jokes and shows joke tooltips based on your current relic bar and deck. ",
   "version": "0.1.4",
-  "sts_version": "07-30-2020+",
+  "sts_version": "12-22-2020",
   "mts_version": "2.7.0"
 }

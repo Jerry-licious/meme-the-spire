@@ -9,6 +9,16 @@
 #### Content
 
 * Added one new defect meme.
+* Added more genuine tips.
+  * Watcher cards with "shuffle a card into your draw pile" are now reworded to "insert a card at a random position in your draw pile".
+  * Watcher cards with "shuffle a card into your draw pile" now have a tooltip explaining what they actually do.
+  * Weave description changed to *Deal 4(6) damage. **After** you Scry, return this from your discard pile into your hand.* to better reflect the interaction where the card returns to your hand if it is scried.
+  * Weave now has a tooltip explaining its interaction with Scry.
+  * Cards that generate cards (Hello World, Infinite Blades, Creative AI, Battle Hymn, Deus Ex Machina) now have a tooltip explaining their interaction with Snecko Eye.
+  * Nightmare now has a tooltip explaining its interaction with Snecko Eye (cards retain their modified cost).
+  * Recycle now has a tooltip explaining its interaction with X cost cards.
+  * Establishment now has a tooltip explaining its interaction with Runic Pyramid.
+  * Lesson Learned now has a tooltip explaining that the upgrade is not applied immediately.
 
 #### Known Bugs
 

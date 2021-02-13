@@ -479,6 +479,14 @@
       "modifiedName": "Strike Dummy Value",
       "modifiedDescription": "Deal *10 damage to a random enemy for each lightning orb channeled this combat.",
       "modifiedUpgradedDescription": "Deal *13 damage to a random enemy for each lightning orb channeled this combat."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Bird-Faced Urn"]
+      },
+      "cardName": "Creative AI",
+      "modifiedName": "Infinite Healing",
+      "modifiedDescription": "Heal 2 HP. NL At the start of your turn, heal 2 HP. NL ( Random power at start of each turn. )"
     }
   ],
   "tooltips": [

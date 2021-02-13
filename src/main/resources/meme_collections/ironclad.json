@@ -81,7 +81,7 @@
       },
       "cardName": "Sword Boomerang",
       "modifiedName": "Nemesis Solution",
-      "modifiedDescription": "Deal 5 damage to a random enemy !M! times. NL Intangible and Weak do not affect this card. "
+      "modifiedDescription": "Deal 5 damage to a random enemy !M! times. NL Intangible and Weak do not affect this card. NL ( !D! x !M! randomly )"
     },
     {
       "conditions": {
@@ -89,8 +89,8 @@
       },
       "cardName": "Sword Boomerang",
       "modifiedName": "Cheaper Heavy Blade",
-      "modifiedDescription": "Deal 9 damage. NL Strength affects this card 3 times. ",
-      "modifiedUpgradedDescription": "Deal 12 damage. NL Strength affects this card 4 times. "
+      "modifiedDescription": "Deal 9 damage. NL Strength affects this card 3 times. NL ( !D! x !M! randomly )",
+      "modifiedUpgradedDescription": "Deal 12 damage. NL Strength affects this card 4 times. NL ( !D! x !M! randomly )"
     },
     {
       "conditions": {
@@ -98,8 +98,8 @@
       },
       "cardName": "Sword Boomerang",
       "modifiedName": "Cheaper Heavy Blade",
-      "modifiedDescription": "Deal 9 damage. NL Strength affects this card 3 times. ",
-      "modifiedUpgradedDescription": "Deal 12 damage. NL Strength affects this card 4 times. "
+      "modifiedDescription": "Deal 9 damage. NL Strength affects this card 3 times. NL ( !D! x !M! randomly )",
+      "modifiedUpgradedDescription": "Deal 12 damage. NL Strength affects this card 4 times. NL ( !D! x !M! randomly )"
     },
     {
       "conditions": {
@@ -331,7 +331,7 @@
       },
       "cardName": "Pummel",
       "modifiedName": "Nemesis Solution",
-      "modifiedDescription": "Deal 5 damage !M! times. NL Intangible and Weak do not affect this card."
+      "modifiedDescription": "Deal 5 damage !M! times. NL Intangible and Weak do not affect this card. NL ( !D! x !M! , Exhaust. )"
     },
     {
       "conditions": {
@@ -339,8 +339,8 @@
       },
       "cardName": "Pummel",
       "modifiedName": "Cheaper Heavy Blade",
-      "modifiedDescription": "Deal 8 damage. NL Strength affects this card 4 times. NL Exhaust. ",
-      "modifiedUpgradedDescription": "Deal 10 damage. NL Strength affects this card 5 times. NL Exhaust."
+      "modifiedDescription": "Deal 8 damage. NL Strength affects this card 4 times. NL ( !D! x !M! , Exhaust. )",
+      "modifiedUpgradedDescription": "Deal 10 damage. NL Strength affects this card 5 times. NL ( !D! x !M! , Exhaust. )"
     },
     {
       "conditions": {
@@ -348,8 +348,8 @@
       },
       "cardName": "Pummel",
       "modifiedName": "Cheaper Heavy Blade",
-      "modifiedDescription": "Deal 8 damage. NL Strength affects this card 4 times. NL Exhaust.",
-      "modifiedUpgradedDescription": "Deal 10 damage. NL Strength affects this card 5 times. NL Exhaust."
+      "modifiedDescription": "Deal 8 damage. NL Strength affects this card 4 times. NL ( !D! x !M! randomly )",
+      "modifiedUpgradedDescription": "Deal 10 damage. NL Strength affects this card 5 times. NL ( !D! x !M! randomly )"
     },
     {
       "conditions": {

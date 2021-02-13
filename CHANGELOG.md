@@ -9,7 +9,8 @@
 #### Changes
 
 * Changed numerous silent card modifications to better reflect what the cards originally do.
-* Change a few defect modifications to better reflect what the cards originally do.
+* Changed a few defect card modifications to better reflect what the cards originally do.
+* Changed a few ironclad card modifications to better reflect what the cards originally do.
 
 #### Content
 

@@ -470,6 +470,13 @@
     },
     {
       "conditions": {
+        "actNumbers": [3]
+      },
+      "cardName": "Riddle with Holes",
+      "modifiedDescription": "Take 35 damage against a *Spiker. NL ( !D! x 5 )"
+    },
+    {
+      "conditions": {
         "relicMatches": ["Runic Pyramid"]
       },
       "cardName": "Well-Laid Plans",

@@ -13,7 +13,7 @@
 #### Content
 
 * Added one new defect meme.
-* Added one new silent meme.
+* Added two new silent memes.
 * Added more genuine tips.
   * Watcher cards with "shuffle a card into your draw pile" are now reworded to "insert a card at a random position in your draw pile".
   * Watcher cards with "shuffle a card into your draw pile" now have a tooltip explaining what they actually do.

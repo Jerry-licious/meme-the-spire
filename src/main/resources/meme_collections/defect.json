@@ -329,15 +329,15 @@
         "cardMatches": ["Auto-Shields"]
       },
       "cardName": "Loop",
-      "modifiedDescription": "At the start of your turn, disable your *Auto-Shields. ( Next orb passive trigger on turn start. )",
-      "modifiedUpgradedDescription": "At the start of your turn, disable your *Auto-Shields. ( Next orb passive trigger on turn start. )"
+      "modifiedDescription": "At the start of your turn, disable your *Auto-Shields. ( Trigger next orb passive on turn start. )",
+      "modifiedUpgradedDescription": "At the start of your turn, disable your *Auto-Shields. ( Trigger next orb passive twice on turn start. )"
     },
     {
       "conditions": {
         "actNumbers": [2, 3]
       },
       "cardName": "Melter",
-      "modifiedDescription": "Destroy a *Baseball. NL ( !D! damage, remove enemy Block. )"
+      "modifiedDescription": "Destroy a *Baseball. NL ( Remove enemy Block, !D! damage. )"
     },
     {
       "conditions": {

@@ -1,9 +1,11 @@
 package dynamic_card;
 
 import com.google.gson.Gson;
+import com.google.gson.JsonSyntaxException;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import dynamic_card.card_memes.CardModification;
+import dynamic_card.card_play_messages.CardPlayMessage;
 import dynamic_card.tooltip_memes.CardRewardTooltip;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -37,10 +39,17 @@ public class MemeCollection {
                     new File("./meme_collections/" + name + ".json");
             if (collectionFile.exists()) {
                 logger.info("Base meme collection found: " + name + ".");
-                MemeCollection collection = gson.fromJson(
-                        new FileReader(collectionFile), MemeCollection.class);
-                if (collection.receiveUpdates) {
-                    logger.info("Giving collection update: " + name + ".");
+                try {
+                    MemeCollection collection = gson.fromJson(
+                            new FileReader(collectionFile), MemeCollection.class);
+                    if (collection.receiveUpdates) {
+                        logger.info("Giving collection update: " + name + ".");
+                        copyBaseMemeCollectionFromDefault(name);
+                    }
+                } catch (JsonSyntaxException e) {
+                    logger.info("Base meme collection \"" + name +
+                            "\" is invalid, copying from default.");
+
                     copyBaseMemeCollectionFromDefault(name);
                 }
             } else {
@@ -85,6 +94,7 @@ public class MemeCollection {
         logger.info("Filling base collections.");
         updateBaseMemeCollection("genuine_tips");
         updateBaseMemeCollection("ironclad");
+        updateBaseMemeCollection("ironclad_messages");
         updateBaseMemeCollection("silent");
         updateBaseMemeCollection("defect");
         logger.info("Finished filling base collections.");
@@ -119,6 +129,7 @@ public class MemeCollection {
     boolean receiveUpdates = false;
     CardModification[] modifications = {};
     CardRewardTooltip[] tooltips = {};
+    CardPlayMessage[] cardPlayMessages = {};
 
     public MemeCollection() { }
 
@@ -145,6 +156,17 @@ public class MemeCollection {
                         tooltip.show(card);
                         return;
                     }
+                }
+            }
+        }
+    }
+
+    public static void showFirstApplicableCardPlayMessage(AbstractCard card) {
+        for (MemeCollection collection : collections){
+            for (CardPlayMessage message : collection.cardPlayMessages) {
+                if (message.applicableOnCard(card)) {
+                    message.showTextbox();
+                    return;
                 }
             }
         }

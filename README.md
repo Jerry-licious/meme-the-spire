@@ -17,7 +17,8 @@ Each JSON file in the `resources/meme_collections` directory defines a collectio
   "enabled": true,
   "receiveUpdates": false,
   "modifications": [],
-  "tooltips": []
+  "tooltips": [],
+  "cardPlayMessages": []
 }
 ```
 
@@ -84,6 +85,21 @@ The same tooltip can be applied to multiple cards and will show for all of them 
 Some tooltips have extended descriptions that do not fit in one tooltip box, so line break characters(`\n`) can be added in the `content` field to split the tooltip into multiple parts that will be shown in order (the next will show after the first is dismissed). 
 
 One tooltip can only be shown once in one session of the game to minimise disruption (restarting the game will reset the record).
+
+### Card Play Messages (`cardPlayMessages`)
+
+A card play message is a line that the character will say (through a textbox) before you play a specific card. A list of these messages can be defined in the `cardPlayMessages` field of the JSON files. Its format is as follows:
+
+```json
+{
+  "cardName": "Card Name",
+  "lines": ["message", "message"]
+}
+```
+
+One card play message can define multiple lines. Before the player plays the card, a random message will be chosen and the player will say the line. 
+
+The player can only say one line when they play one card, in which case the first defined card play message will be shown.
 
 ### Base Collections
 

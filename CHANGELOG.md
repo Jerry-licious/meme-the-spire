@@ -1,5 +1,15 @@
 # Changelog
 
+## [Unreleased]
+
+#### Features
+
+* Added a new type of meme: card play message, where the player says a line through their textbox before they play specific cards.
+
+#### Known Bugs
+
+* In a boss reward screen, if the player receives a card and the mod shows a tooltip with multiple sections, after the player skip the card they will not be able to press the skip card button (skip rewards). The cause of this bug is still to be found and can only be worked around by saving and quitting to reload the screen, in which case the player will be moved on to the next floor (for some reason).
+
 ## [0.1.4] - 2021-02-09
 
 #### Features

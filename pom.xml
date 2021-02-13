@@ -32,7 +32,7 @@
     </dependencies>
 
     <build>
-        <finalName>dynamic-card-memes</finalName>
+        <finalName>meme_the_spire</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

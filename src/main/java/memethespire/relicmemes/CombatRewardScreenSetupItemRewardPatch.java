@@ -13,7 +13,7 @@ public class CombatRewardScreenSetupItemRewardPatch {
     public static void modifyRelics(CombatRewardScreen instance) {
         instance.rewards.forEach((reward) -> {
             if (reward.type == RewardItem.RewardType.RELIC) {
-                MemeCollection.applyFirstApplicableRelicModification(reward.relic, AbstractDungeon.player);
+                MemeCollection.applyFirstApplicableRelicModificationFromAllCollections(reward.relic, AbstractDungeon.player);
                 // Update the name on the reward item as well.
                 reward.text = reward.relic.name;
             }

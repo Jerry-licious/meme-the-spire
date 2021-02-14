@@ -22,7 +22,7 @@ public class ShopInitCardsPatch {
 
         ((ArrayList<StoreRelic>)ReflectionUtils.getPrivate(instance,
                 ShopScreen.class, "relics")).forEach((storeRelic) ->
-                    MemeCollection.applyFirstApplicableRelicModification(
+                    MemeCollection.applyFirstApplicableRelicModificationFromAllCollections(
                             storeRelic.relic, AbstractDungeon.player));
     }
 }

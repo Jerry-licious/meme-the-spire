@@ -172,7 +172,8 @@ public class MemeCollection {
         }
     }
 
-    public static void showFirstApplicableCardPlayMessage(AbstractCard card) {
+    public static void showFirstApplicableCardPlayMessageFromAllCollections
+            (AbstractCard card) {
         if (MemeTheSpire.config.enableCardPlayMessages) {
             for (MemeCollection collection : collections){
                 for (CardPlayMessage message : collection.cardPlayMessages) {
@@ -185,7 +186,7 @@ public class MemeCollection {
         }
     }
 
-    public static void applyFirstApplicableRelicModification
+    public static void applyFirstApplicableRelicModificationFromAllCollections
             (AbstractRelic relic, AbstractPlayer player) {
         if (MemeTheSpire.config.enableRelicModifications) {
             for (MemeCollection collection : collections) {

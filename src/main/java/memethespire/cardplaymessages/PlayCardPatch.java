@@ -9,6 +9,6 @@ import memethespire.MemeCollection;
 public class PlayCardPatch {
     @SpirePrefixPatch
     public static void showTextbox(AbstractPlayer instance) {
-        MemeCollection.showFirstApplicableCardPlayMessage(instance.hoveredCard);
+        MemeCollection.showFirstApplicableCardPlayMessageFromAllCollections(instance.hoveredCard);
     }
 }

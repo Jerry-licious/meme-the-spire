@@ -18,5 +18,6 @@ public class MemeTheSpire implements PostInitializeSubscriber {
     public void receivePostInitialize() {
         config = Config.loadConfig();
         Config.setupConfigMenu();
+        MemeCollection.loadMemeCollections();
     }
 }

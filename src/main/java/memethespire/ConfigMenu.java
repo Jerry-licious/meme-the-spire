@@ -45,7 +45,7 @@ public class ConfigMenu extends ModPanel {
         this.addUIElement(enableCardPlayMessages);
 
         ModLabeledToggleButton enableRelicModifications = new ModLabeledToggleButton(
-                "Enable Card Play Messages",
+                "Enable Relic Modifications",
                 TOGGLE_BUTTON_X, TOGGLE_BUTTON_Y - TOGGLE_BUTTON_SPACE * 3,
                 Settings.CREAM_COLOR, FontHelper.charDescFont,
                 MemeTheSpire.config.enableRelicModifications,

@@ -6,6 +6,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.controller.CInputActionSet;
 import com.megacrit.cardcrawl.ui.FtueTip;
 import com.megacrit.cardcrawl.ui.buttons.GotItButton;
+import memethespire.ReflectionUtils;
 
 import java.lang.reflect.Field;
 import java.util.LinkedList;
@@ -25,21 +26,16 @@ public class TooltipDismissalPatch {
 
     @SpirePostfixPatch
     public static void showNextTooltip(FtueTip instance) {
-        Class<FtueTip> ftueTipClass = (Class<FtueTip>) instance.getClass();
-        try {
-            Field gotItButtonField = ftueTipClass.getDeclaredField("button");
-            gotItButtonField.setAccessible(true);
-            GotItButton gotItButton = (GotItButton) gotItButtonField.get(instance);
-            // When the button is pressed.
-            if (gotItButton.hb.clicked) {
-                if (!tooltipQueue.isEmpty()) {
-                    AbstractDungeon.ftue = tooltipQueue.poll().makeTooltip();
-                }
+        GotItButton gotItButton = (GotItButton) ReflectionUtils.getPrivate(
+                instance, FtueTip.class, "button");
+        // When the button is pressed.
+        if (gotItButton.hb.clicked) {
+            if (!tooltipQueue.isEmpty()) {
+                AbstractDungeon.ftue = tooltipQueue.poll().makeTooltip();
             }
-            if (CInputActionSet.proceed.isJustPressed()) {
-                CInputActionSet.proceed.unpress();
-            }
-        } // This shouldn't happen.
-        catch (NoSuchFieldException | IllegalAccessException ignored) { }
+        }
+        if (CInputActionSet.proceed.isJustPressed()) {
+            CInputActionSet.proceed.unpress();
+        }
     }
 }

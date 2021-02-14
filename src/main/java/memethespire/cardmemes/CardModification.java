@@ -4,6 +4,7 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import memethespire.PlayerConditions;
+import memethespire.ReflectionUtils;
 
 import java.lang.reflect.Field;
 
@@ -50,7 +51,7 @@ public class CardModification {
     }
 
     public boolean applicableOnCard(AbstractCard card) {
-        return cardName.equals(getCardStrings(card).NAME);
+        return getCardStrings(card).NAME.equalsIgnoreCase(cardName);
     }
 
     public void modify(AbstractCard card) {
@@ -82,19 +83,8 @@ public class CardModification {
 
     // Used to fetch the original card names and descriptions.
     public static CardStrings getCardStrings(AbstractCard card) {
-        Class<? extends AbstractCard> cardClass = card.getClass();
-        try {
-            Field cardStringsField = cardClass.getDeclaredField("cardStrings");
-            // Access the private static field.
-            cardStringsField.setAccessible(true);
-            return (CardStrings) cardStringsField.get(null);
-        }
-        // Safe to avoid these exceptions as all card classes are
-        // guaranteed to have the cardStrings field, and since the private
-        // field is changed to be accessible, no IllegalAccessException
-        // should happen either.
-        catch (NoSuchFieldException | IllegalAccessException ignored) {
-            return null;
-        }
+        // Potential bug with modded cards.
+        return (CardStrings) ReflectionUtils.getPrivateStatic(
+                card.getClass(), "cardStrings");
     }
 }

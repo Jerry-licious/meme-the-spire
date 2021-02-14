@@ -3,9 +3,9 @@ package memethespire;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import memethespire.cardmemes.CardModification;
+import memethespire.relicmemes.RelicModification;
 
 import java.util.Arrays;
-import java.util.stream.Collectors;
 
 /**
  * The conditions of the player in which a modification can be applied.
@@ -45,9 +45,15 @@ public class PlayerConditions {
      */
     int maxDeckSize = -1;
 
+    /**
+     * The player's deck must contain a card whose description contains one
+     * of these words. If left as empty, this criterion will automatically pass.
+     */
+    String[] cardsContain = {};
+
     public boolean applicableOnPlayer(AbstractPlayer player) {
         return relicMatchesCheck(player) && cardMatchesCheck(player) &&
-            actNumberCheck(player) && deckSizeCheck(player);
+            actNumberCheck() && deckSizeCheck(player) && cardsContainCheck(player);
     }
 
     private boolean relicMatchesCheck(AbstractPlayer player) {
@@ -55,8 +61,9 @@ public class PlayerConditions {
         return relicMatches.length == 0 ||
                 // Or if the player has one of the relics.
                 Arrays.stream(relicMatches).anyMatch((relicName) ->
-                        player.relics.stream().map((relic) -> relic.name)
-                                .collect(Collectors.toList()).contains(relicName));
+                        player.relics.stream().anyMatch(
+                                (relic) -> RelicModification.getRelicStrings(relic).NAME
+                                        .equalsIgnoreCase(relicName)));
     }
 
     private boolean cardMatchesCheck(AbstractPlayer player) {
@@ -64,12 +71,12 @@ public class PlayerConditions {
         return cardMatches.length == 0 ||
                 // Or if the player has one of the cards.
                 Arrays.stream(cardMatches).anyMatch((cardName) ->
-                        player.masterDeck.group.stream().map(
-                                (card) -> CardModification.getCardStrings(card).NAME)
-                                .collect(Collectors.toList()).contains(cardName));
+                        player.masterDeck.group.stream().anyMatch(
+                                (card) -> CardModification.getCardStrings(card).NAME
+                                        .equalsIgnoreCase(cardName)));
     }
 
-    private boolean actNumberCheck(AbstractPlayer player) {
+    private boolean actNumberCheck() {
         // If there are no act number requirements
         return actNumbers.length == 0 ||
                 // Or if the player is in one of the acts.
@@ -82,5 +89,15 @@ public class PlayerConditions {
         // requirements.
         return (minDeckSize == -1 || player.masterDeck.size() >= minDeckSize) &&
                 (maxDeckSize == -1 || player.masterDeck.size() <= maxDeckSize);
+    }
+
+    private boolean cardsContainCheck(AbstractPlayer player) {
+        return cardsContain.length == 0 ||
+                Arrays.stream(cardsContain).anyMatch((word) ->
+                        player.masterDeck.group.stream().anyMatch((card) ->
+                                (card.upgraded ?
+                                        CardModification.getCardStrings(card).UPGRADE_DESCRIPTION :
+                                        CardModification.getCardStrings(card).DESCRIPTION)
+                                        .toLowerCase().contains(word.toLowerCase())));
     }
 }

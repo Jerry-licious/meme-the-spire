@@ -4,6 +4,7 @@ import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePostfixPatch;
 import com.megacrit.cardcrawl.shop.ShopScreen;
 import com.megacrit.cardcrawl.shop.StoreRelic;
+import memethespire.ReflectionUtils;
 
 import java.lang.reflect.Field;
 
@@ -13,17 +14,8 @@ public class ShopRelicPurchasePatch {
     // When a relic is purchased, update the card descriptions as new
     // modifications may be applicable.
     public static void updateCards(StoreRelic instance) {
-        Class<? extends StoreRelic> relicClass = instance.getClass();
-        try {
-            Field shopScreenField = relicClass.getDeclaredField("shopScreen");
-            shopScreenField.setAccessible(true);
-            ShopScreen shopScreen = (ShopScreen) shopScreenField.get(instance);
-            ShopInitCardsPatch.modifyCards(shopScreen);
-        }
-        // Safe to avoid these exceptions as StoreRelic classes are
-        // guaranteed to have the shopScreen field, and since the private
-        // field is changed to be accessible, no IllegalAccessException
-        // should happen either.
-        catch (NoSuchFieldException | IllegalAccessException ignore) {}
+        ShopScreen shopScreen = (ShopScreen) ReflectionUtils.getPrivate(
+                instance, StoreRelic.class, "shopScreen");
+        ShopInitCardsPatch.modifyCards(shopScreen);
     }
 }

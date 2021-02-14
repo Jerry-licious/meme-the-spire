@@ -1,5 +1,15 @@
 # Changelog
 
+## [Unreleased]
+
+#### Features
+
+* Added cards contain check in `PlayerConditions` through the `cardsContain` attribute in the conditions field of meme entries.
+
+#### Changes
+
+* Card and relic name matches in `PlayerConditions` and `CardModification` are no longer case sensitive.
+
 ## [0.2.0] - 2021-02-13
 
 #### Features

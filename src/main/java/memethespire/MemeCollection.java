@@ -35,8 +35,7 @@ public class MemeCollection {
     private static void updateBaseMemeCollection(String name) {
         try {
             logger.info("Looking for base meme collection: " + name + ".");
-            File collectionFile =
-                    new File("./meme_collections/" + name + ".json");
+            File collectionFile = new File("./meme_collections/" + name + ".json");
             if (collectionFile.exists()) {
                 logger.info("Base meme collection found: " + name + ".");
                 try {
@@ -70,7 +69,8 @@ public class MemeCollection {
         // Load the default collection
         String defaultFileContent = new BufferedReader(
                 new InputStreamReader(CardModification.class
-                        .getResourceAsStream("/meme_collections/" + name + ".json")))
+                        .getResourceAsStream("/meme_the_spire/meme_collections/"
+                                + name + ".json")))
                 .lines().collect(Collectors.joining(System.lineSeparator()));
         try {
             // And write it into the corresponding collection file.

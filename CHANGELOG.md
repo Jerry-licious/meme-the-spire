@@ -1,5 +1,15 @@
 # Changelog
 
+## [Unreleased]
+
+#### Features
+
+* Added a menu that allows the player to turn on and off different types of memes.
+
+#### Changes
+
+* Now requires [BaseMod](https://github.com/daviscook477/BaseMod) as a dependency.
+
 ## [0.1.5] - 2021-02-13
 
 #### Features

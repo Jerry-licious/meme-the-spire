@@ -135,25 +135,14 @@ public class MemeCollection {
 
     public static void applyFirstApplicableCardModificationFromAllCollections
             (AbstractCard card, AbstractPlayer player) {
-        for (MemeCollection collection : collections) {
-            for (CardModification modification : collection.modifications) {
-                if (modification.applicableOnCard(card) &&
-                        modification.applicableOnPlayer(player)) {
-                    modification.modify(card);
-                    return;
-                }
-            }
-        }
-    }
-
-    public static void showFirstApplicableTooltipFromAllCollections(
-            Iterable<AbstractCard> cards, AbstractPlayer player) {
-        for (AbstractCard card : cards) {
-            for (MemeCollection collection : collections){
-                for (CardRewardTooltip tooltip : collection.tooltips) {
-                    if (!tooltip.shown && tooltip.applicableOnCard(card) &&
-                            tooltip.applicableOnPlayer(player)) {
-                        tooltip.show(card);
+        // Placing the config check here because this function is called from
+        // multiple places.
+        if (MemeTheSpire.config.enableCardModifications){
+            for (MemeCollection collection : collections) {
+                for (CardModification modification : collection.modifications) {
+                    if (modification.applicableOnCard(card) &&
+                            modification.applicableOnPlayer(player)) {
+                        modification.modify(card);
                         return;
                     }
                 }
@@ -161,12 +150,31 @@ public class MemeCollection {
         }
     }
 
+    public static void showFirstApplicableTooltipFromAllCollections(
+            Iterable<AbstractCard> cards, AbstractPlayer player) {
+        if (MemeTheSpire.config.enableTooltipMemes){
+            for (AbstractCard card : cards) {
+                for (MemeCollection collection : collections){
+                    for (CardRewardTooltip tooltip : collection.tooltips) {
+                        if (!tooltip.shown && tooltip.applicableOnCard(card) &&
+                                tooltip.applicableOnPlayer(player)) {
+                            tooltip.show(card);
+                            return;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     public static void showFirstApplicableCardPlayMessage(AbstractCard card) {
-        for (MemeCollection collection : collections){
-            for (CardPlayMessage message : collection.cardPlayMessages) {
-                if (message.applicableOnCard(card)) {
-                    message.showTextbox();
-                    return;
+        if (MemeTheSpire.config.enableCardPlayMessages) {
+            for (MemeCollection collection : collections){
+                for (CardPlayMessage message : collection.cardPlayMessages) {
+                    if (message.applicableOnCard(card)) {
+                        message.showTextbox();
+                        return;
+                    }
                 }
             }
         }

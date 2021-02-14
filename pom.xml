@@ -3,7 +3,7 @@
 
     <groupId>memethespire</groupId>
     <artifactId>meme_the_spire</artifactId>
-    <version>v0.2.0</version>
+    <version>v0.2.1</version>
     <packaging>jar</packaging>
 
     <name>Meme the Spire</name>

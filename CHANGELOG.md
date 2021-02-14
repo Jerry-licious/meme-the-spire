@@ -5,6 +5,7 @@
 #### Features
 
 * Added a menu that allows the player to turn on and off different types of memes.
+* Fixed a bug where the mod crashes the game if a meme collection is invalid.
 
 #### Changes
 

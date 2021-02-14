@@ -113,6 +113,8 @@ public class MemeCollection {
                 }
             } catch (FileNotFoundException e) {
                 logger.error("Failed loading meme collection: " + file.getName() + ".");
+            } catch (JsonSyntaxException e) {
+                logger.error("Meme collection " + file.getName() + " is invalid, skipping.");
             }
         }
         logger.info("Finished loading all meme collections. ");

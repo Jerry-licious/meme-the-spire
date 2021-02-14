@@ -46,25 +46,41 @@ public class PlayerConditions {
     int maxDeckSize = -1;
 
     public boolean applicableOnPlayer(AbstractPlayer player) {
-        return
-            // Relic matching
-            // If there are not relic requirements
-            (relicMatches.length == 0 ||
+        return relicMatchesCheck(player) && cardMatchesCheck(player) &&
+            actNumberCheck(player) && deckSizeCheck(player);
+    }
+
+    private boolean relicMatchesCheck(AbstractPlayer player) {
+        // If there are no relic requirements
+        return relicMatches.length == 0 ||
                 // Or if the player has one of the relics.
                 Arrays.stream(relicMatches).anyMatch((relicName) ->
-                    player.relics.stream().map((relic) -> relic.name)
-                        .collect(Collectors.toList()).contains(relicName))) &&
-            // Card matching
-            // If there are not relic requirements
-            (cardMatches.length == 0 ||
+                        player.relics.stream().map((relic) -> relic.name)
+                                .collect(Collectors.toList()).contains(relicName));
+    }
+
+    private boolean cardMatchesCheck(AbstractPlayer player) {
+        // If there are no card requirements
+        return cardMatches.length == 0 ||
                 // Or if the player has one of the cards.
                 Arrays.stream(cardMatches).anyMatch((cardName) ->
-                    player.masterDeck.group.stream().map(
-                        (card) -> CardModification.getCardStrings(card).NAME)
-                        .collect(Collectors.toList()).contains(cardName))) &&
-            (actNumbers.length == 0 || Arrays.stream(actNumbers).anyMatch(
-                    (actNumber) -> actNumber == AbstractDungeon.actNum)) &&
-            (minDeckSize == -1 || player.masterDeck.size() >= minDeckSize) &&
-            (maxDeckSize == -1 || player.masterDeck.size() <= maxDeckSize);
+                        player.masterDeck.group.stream().map(
+                                (card) -> CardModification.getCardStrings(card).NAME)
+                                .collect(Collectors.toList()).contains(cardName));
+    }
+
+    private boolean actNumberCheck(AbstractPlayer player) {
+        // If there are no act number requirements
+        return actNumbers.length == 0 ||
+                // Or if the player is in one of the acts.
+                Arrays.stream(actNumbers).anyMatch(
+                        (actNumber) -> actNumber == AbstractDungeon.actNum);
+    }
+
+    private boolean deckSizeCheck(AbstractPlayer player) {
+        // If the deck size requirements are undefined or if they meet the
+        // requirements.
+        return (minDeckSize == -1 || player.masterDeck.size() >= minDeckSize) &&
+                (maxDeckSize == -1 || player.masterDeck.size() <= maxDeckSize);
     }
 }

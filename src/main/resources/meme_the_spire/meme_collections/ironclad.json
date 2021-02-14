@@ -1,7 +1,7 @@
 {
   "receiveUpdates": true,
   "enabled": true,
-  "modifications": [
+  "cardModifications": [
     {
       "conditions": {
         "cardMatches": ["Searing Blow"]

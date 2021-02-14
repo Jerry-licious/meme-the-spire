@@ -6,6 +6,7 @@
 
 * Added cards contain check in `PlayerConditions` through the `cardsContain` attribute in the conditions field of meme entries.
 * Added a new type of meme: relic modification, where the names and descriptions of relics can be modified based on the player's current condition.
+* Renamed the `modifications` field (card modifications) in meme collection JSONs to `cardModifications` for clarity since `relicModifications` have been added.
 
 #### Changes
 

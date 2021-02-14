@@ -18,7 +18,7 @@ Each JSON file in the `resources/meme_collections` directory defines a collectio
 {
   "enabled": true,
   "receiveUpdates": false,
-  "modifications": [],
+  "cardModifications": [],
   "tooltips": [],
   "cardPlayMessages": [],
   "relicModifications": []
@@ -29,7 +29,7 @@ Each JSON file in the `resources/meme_collections` directory defines a collectio
 
 **receiveUpdates**: Only applicable to [base collections](#base-collections). If set to true, this file will be overridden by the mod every time the game starts to install potential upgrades.
 
-**modifications**: The card modifications defined in this collection. Can be left undefined.
+**cardModifications**: The card modifications defined in this collection. Can be left undefined.
 
 **tooltips**: The tooltip memes defined in this collection. Can be left undefined.
 
@@ -68,8 +68,8 @@ If all conditions pass, then the meme will be shown.
 Though the fields *of* the condition can be left undefined or as empty arrays, the `conditions` field *must* be defined for every meme entry that requires it, even if it is empty. 
 
 
-### Card Modifications (`modifications`)
-A card modification changes the cards seen at card reward screens and shops, it can modify the card's name and description. A list of these card modifications can be defined in the `modifications` field of the JSON files. Its format is as follows:
+### Card Modifications (`cardModifications`)
+A card modification changes the cards seen at card reward screens and shops, it can modify the card's name and description. A list of these card modifications can be defined in the `cardModifications` field of the JSON files. Its format is as follows:
 ```json
 {
   "conditions": {},

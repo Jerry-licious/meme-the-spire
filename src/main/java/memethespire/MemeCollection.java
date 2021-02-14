@@ -131,7 +131,7 @@ public class MemeCollection {
      * the game starts, only applicable for base collections.
      */
     boolean receiveUpdates = false;
-    CardModification[] modifications = {};
+    CardModification[] cardModifications = {};
     CardRewardTooltip[] tooltips = {};
     CardPlayMessage[] cardPlayMessages = {};
     RelicModification[] relicModifications = {};
@@ -144,7 +144,7 @@ public class MemeCollection {
         // multiple places.
         if (MemeTheSpire.config.enableCardModifications){
             for (MemeCollection collection : collections) {
-                for (CardModification modification : collection.modifications) {
+                for (CardModification modification : collection.cardModifications) {
                     if (modification.applicableOnCard(card) &&
                             modification.applicableOnPlayer(player)) {
                         modification.modify(card);

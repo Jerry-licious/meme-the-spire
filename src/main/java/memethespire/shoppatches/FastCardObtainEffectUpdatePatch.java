@@ -1,4 +1,4 @@
-package memethespire.cardmemes;
+package memethespire.shoppatches;
 
 import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePostfixPatch;
@@ -12,8 +12,9 @@ public class FastCardObtainEffectUpdatePatch {
     public static void update(FastCardObtainEffect instance) {
         // The card is added to the deck after the animation is complete.
         if (instance.isDone && ShopCardPurchasePatch.currentScreen != null) {
-            // Update the cards.
-            ShopInitCardsPatch.modifyCards(ShopCardPurchasePatch.currentScreen);
+            // Update the cards and relics.
+            ShopInitCardsPatch.modifyCardsAndRelics(ShopCardPurchasePatch.currentScreen);
+
             // The FastCardObtainEffect is likely used in other places as
             // well, thus it is better to make sure that the other uses do
             // not interfere with a shop screen that has been left behind.

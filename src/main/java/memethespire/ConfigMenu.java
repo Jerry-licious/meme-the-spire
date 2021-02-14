@@ -43,5 +43,16 @@ public class ConfigMenu extends ModPanel {
             Config.saveConfig();
         });
         this.addUIElement(enableCardPlayMessages);
+
+        ModLabeledToggleButton enableRelicModifications = new ModLabeledToggleButton(
+                "Enable Card Play Messages",
+                TOGGLE_BUTTON_X, TOGGLE_BUTTON_Y - TOGGLE_BUTTON_SPACE * 3,
+                Settings.CREAM_COLOR, FontHelper.charDescFont,
+                MemeTheSpire.config.enableRelicModifications,
+                this, (modLabel) -> {}, (modToggleButton) -> {
+            MemeTheSpire.config.enableRelicModifications = !MemeTheSpire.config.enableRelicModifications;
+            Config.saveConfig();
+        });
+        this.addUIElement(enableRelicModifications);
     }
 }

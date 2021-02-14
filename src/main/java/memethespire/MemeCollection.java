@@ -4,8 +4,10 @@ import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
 import memethespire.cardmemes.CardModification;
 import memethespire.cardplaymessages.CardPlayMessage;
+import memethespire.relicmemes.RelicModification;
 import memethespire.tooltipmemes.CardRewardTooltip;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -132,6 +134,7 @@ public class MemeCollection {
     CardModification[] modifications = {};
     CardRewardTooltip[] tooltips = {};
     CardPlayMessage[] cardPlayMessages = {};
+    RelicModification[] relicModifications = {};
 
     public MemeCollection() { }
 
@@ -175,6 +178,21 @@ public class MemeCollection {
                 for (CardPlayMessage message : collection.cardPlayMessages) {
                     if (message.applicableOnCard(card)) {
                         message.showTextbox();
+                        return;
+                    }
+                }
+            }
+        }
+    }
+
+    public static void applyFirstApplicableRelicModification
+            (AbstractRelic relic, AbstractPlayer player) {
+        if (MemeTheSpire.config.enableRelicModifications) {
+            for (MemeCollection collection : collections) {
+                for (RelicModification modification : collection.relicModifications) {
+                    if (modification.applicableOnRelic(relic) &&
+                            modification.applicableOnPlayer(player)) {
+                        modification.modify(relic);
                         return;
                     }
                 }

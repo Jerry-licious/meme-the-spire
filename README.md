@@ -20,7 +20,8 @@ Each JSON file in the `resources/meme_collections` directory defines a collectio
   "receiveUpdates": false,
   "modifications": [],
   "tooltips": [],
-  "cardPlayMessages": []
+  "cardPlayMessages": [],
+  "relicModifications": []
 }
 ```
 
@@ -33,6 +34,8 @@ Each JSON file in the `resources/meme_collections` directory defines a collectio
 **tooltips**: The tooltip memes defined in this collection. Can be left undefined.
 
 **cardPlayMessages**: The card play messages defined in this collection. Can be left undefined.
+
+**relicModifications**: The relic modifications defined in this collection. Can be left undefined.
 
 ### Player Condition
 
@@ -130,6 +133,27 @@ A card play message is a line that the character will say (through a textbox) be
 The player can only say one line when they play one card, in which case the first defined card play message will be shown.
 
 Note that the textbox stays up for about one second, and the card play animation waits for the textbox to disappear, so please consider not adding messages to cards that are played very frequently (such as Flurry of Blows and Shivs) as this will be highly disruptive.
+
+### Relic Modifications (`relicModifications`)
+
+A relic modification changes the relics seen in rewards and shops, it can modify the relic's name and description. A list of these relic modifications can be defined in the `relicModifications` field of the JSON files. Its format is as follows:
+
+```json
+{
+  "conditions": {},
+  "relicName": "Relic to modify",
+  "modifiedName": "New Name",
+  "modifiedDescription": "New description..."
+}
+```
+
+**relicName**: The name of the relic that the modification will change.
+
+**modifiedName**: The new name of the relic. If left undefined, the relic's name will not be changed.
+
+**modifiedDescription**: The new description of the relic. If left undefined, the relic's description will not be changed.
+
+Relic modifications only affect relics seen in rewards and shops. The relics will be restored into their original text after you pick them up.
 
 ### Base Collections
 

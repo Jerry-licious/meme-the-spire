@@ -1,4 +1,4 @@
-package memethespire.cardmemes;
+package memethespire.shoppatches;
 
 import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePostfixPatch;
@@ -6,6 +6,7 @@ import com.evacipated.cardcrawl.modthespire.lib.SpirePrefixPatch;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.shop.ShopScreen;
+import memethespire.cardmemes.CardModification;
 
 @SpirePatch(clz = ShopScreen.class, method = "purchaseCard")
 public class ShopCardPurchasePatch {

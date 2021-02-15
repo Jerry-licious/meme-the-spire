@@ -358,5 +358,31 @@
       "title": "Snecko Eye",
       "content": "Click the expensive thing. "
     }
+  ],
+  "cardPlayMessages": [
+    {
+      "cardName": "Foreign Influence",
+      "lines": [
+        "Can I please get a Bludgeon?",
+        "Can I please get a Meteor Strike?",
+        "Can I please get a Sunder?"
+      ]
+    },
+    {
+      "cardName": "Talk to the Hand",
+      "lines": ["Taking damage? Never heard of it."]
+    },
+    {
+      "cardName": "Blasphemy",
+      "lines": ["Seems Lethal"]
+    },
+    {
+      "cardName": "Vault",
+      "lines": ["My turn!"]
+    },
+    {
+      "cardName": "Wish",
+      "lines": ["Here comes the money!", "Moneh moneh moneh moneh moneh"]
+    }
   ]
 }

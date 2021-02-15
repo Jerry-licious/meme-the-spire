@@ -506,5 +506,27 @@
       "title": "Snecko Eye",
       "content": "Click the expensive thing."
     }
+  ],
+  "cardPlayMessages": [
+    {
+      "cardName": "Aggregate",
+      "lines": ["Let me gain 5 energy real quick."]
+    },
+    {
+      "cardName": "Self Repair",
+      "lines": ["Mmm donut!"]
+    },
+    {
+      "cardName": "White Noise",
+      "lines": ["Can I please get an Echo Form?"]
+    },
+    {
+      "cardName": "Meteor Strike",
+      "lines": ["BONK"]
+    },
+    {
+      "cardName": "Thunder Strike",
+      "lines": ["Commence the zappening!"]
+    }
   ]
 }

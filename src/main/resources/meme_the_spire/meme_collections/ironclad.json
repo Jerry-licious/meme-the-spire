@@ -663,5 +663,31 @@
       "title": "Snecko Eye",
       "content": "Click the 3 cost thing. "
     }
+  ],
+  "cardPlayMessages": [
+    {
+      "cardName": "Clash",
+      "lines": ["Get IN there Clash!"]
+    },
+    {
+      "cardName": "Infernal Blade",
+      "lines": ["Can I please get a Bludgeon?"]
+    },
+    {
+      "cardName": "Whirlwind",
+      "lines": ["Brrrrrrrrrr"]
+    },
+    {
+      "cardName": "Bludgeon",
+      "lines": ["BLUDGED", "BONK"]
+    },
+    {
+      "cardName": "Exhume",
+      "lines": ["Where's my feed again..."]
+    },
+    {
+      "cardName": "Feed",
+      "lines": ["FEED"]
+    }
   ]
 }

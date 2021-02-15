@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased]
+
+#### Content
+
+* Added a few card play messages for each class.
+
 ## [0.2.1] - 2021-02-14
 
 #### Features

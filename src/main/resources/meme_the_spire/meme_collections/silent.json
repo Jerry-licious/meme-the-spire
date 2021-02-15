@@ -860,5 +860,19 @@
       "title": "Slice",
       "content": "Lately I've begun to think Slice has as much of an impact on my wins as cards like burst, Wraith form, and catalyst. It especially shines during the act 2 elites, where it deals 6 damage for 0 mana. \nSlice has become an autopick for me until act 3 where the usefulness starts to fall off a bit, I'll even take 3 or 4 copies if they're offered. \nThere are still quite a few situations where it shines in act 3, like dealing up to 12 damage to Reptomancer with Phantasmal killer."
     }
+  ],
+  "cardPlayMessages": [
+    {
+      "cardName": "Finisher",
+      "lines": ["TATATATATATA BWOOSH"]
+    },
+    {
+      "cardName": "Grand Finale",
+      "lines": ["Grand Finale!"]
+    },
+    {
+      "cardName": "Wraith Form",
+      "lines": ["Taking damage is cringe."]
+    }
   ]
 }

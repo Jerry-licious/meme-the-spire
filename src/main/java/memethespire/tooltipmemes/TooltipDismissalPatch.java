@@ -8,7 +8,6 @@ import com.megacrit.cardcrawl.ui.FtueTip;
 import com.megacrit.cardcrawl.ui.buttons.GotItButton;
 import memethespire.ReflectionUtils;
 
-import java.lang.reflect.Field;
 import java.util.LinkedList;
 
 /**

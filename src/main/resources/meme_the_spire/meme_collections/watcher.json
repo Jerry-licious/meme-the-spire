@@ -440,6 +440,101 @@
       "relicName": "The Boot",
       "modifiedName": "Tantrum Value",
       "modifiedDescription": "Your #yTantrum deals #b2 additional damage per hit."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Wish"]
+      },
+      "relicName": "Ectoplasm",
+      "modifiedName": "Nice Wish",
+      "modifiedDescription": "What's the point of #yWish if you don't get #yGold?"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Lesson Learned"]
+      },
+      "relicName": "Fusion Hammer",
+      "modifiedName": "Free Energy"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Cloak Clasp"]
+      },
+      "relicName": "Holy Water",
+      "modifiedName": "Metalicise",
+      "modifiedDescription": "Replaces #pPure #pWater. At the start of each combat, add #b3 #yMiracles into your hand. At the end of your turn, gain #b2 additional #yBlock with #yCloak #yClasp."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Rushdown"]
+      },
+      "relicName": "Runic Pyramid",
+      "modifiedName": "Infinite Dream?"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Flurry of Blows"]
+      },
+      "relicName": "Velvet Choker",
+      "modifiedName": "Flurry Choker"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Rushdown"]
+      },
+      "relicName": "Violet Lotus",
+      "modifiedName": "Infinite Dream?"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Conjure Blade"]
+      },
+      "relicName": "Chemical X",
+      "modifiedName": "Conjure Blade Upgrade"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Collect"]
+      },
+      "relicName": "Chemical X",
+      "modifiedName": "Energy Relic",
+      "modifiedDescription": "Your #yCollect is now an #yEnergy #yRelic."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Fasting"]
+      },
+      "relicName": "Clockwork Souvenir",
+      "modifiedName": "Free Fasting"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Fasting"]
+      },
+      "relicName": "Orange Pellets",
+      "modifiedName": "Free Fasting"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Vault"]
+      },
+      "relicName": "Dolly's Mirror",
+      "modifiedName": "Vault",
+      "modifiedDescription": "I know which card you will duplicate."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Wish"]
+      },
+      "relicName": "Strange Spoon",
+      "modifiedName": "Infinite Wish"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Omniscience"]
+      },
+      "relicName": "Strange Spoon",
+      "modifiedName": "Infinite Omniscience"
     }
   ]
 }

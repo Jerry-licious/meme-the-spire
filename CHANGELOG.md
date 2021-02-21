@@ -1,5 +1,21 @@
 # Changelog
 
+## [Unreleased]
+
+#### Features
+
+* Relic memes can now apply to boss relics.
+
+#### Content
+
+* Added numerous relic memes for boss and shop relics on all characters.
+  * Added 40 different relic memes applicable on all characters.
+  * Added 8 different relic memes for the ironclad.
+  * Added 14 different relic memes for the silent.
+  * Added 7 different relic memes for the defect.
+  * Added 13 different relic memes for the watcher.
+* Added 2 colourless card memes in conjunction with some colourless relic memes.
+
 ## [0.2.2] - 2021-02-20
 
 #### Content

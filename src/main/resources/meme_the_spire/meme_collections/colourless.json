@@ -1,6 +1,23 @@
 {
   "receiveUpdates": true,
   "enabled": true,
+  "cardModifications": [
+    {
+      "conditions": {
+        "relicMatches": ["Fusion Hammer"]
+      },
+      "cardName": "Apotheosis",
+      "modifiedName": "aPOGtheosis",
+      "modifiedDescription": "Told you *Hammer is free energy. NL ( *Upgrade all cards for this combat, Exhaust. )"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Velvet Choker"]
+      },
+      "cardName": "Panache",
+      "modifiedDescription": "Nice Choker"
+    }
+  ],
   "relicModifications": [
     {
       "conditions": {
@@ -37,11 +54,26 @@
     },
     {
       "conditions": {
+        "relicMatches": ["Dream Catcher"]
+      },
+      "relicName": "Coffee Dripper",
+      "modifiedName": "Dream Catcher Disabler"
+    },
+    {
+      "conditions": {
         "relicMatches": ["Coffee Dripper"]
       },
       "relicName": "Regal Pillow",
       "modifiedName": "Decorative Pillow",
       "modifiedDescription": "Nice #yCoffee #yDripper you got there."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Regal Pillow"]
+      },
+      "relicName": "Coffee Dripper",
+      "modifiedName": "Regal Pillow Disabler",
+      "modifiedDescription": "Your #yRegal #yPillow is now #pDecorative."
     },
     {
       "conditions": {
@@ -68,11 +100,41 @@
     },
     {
       "conditions": {
+        "relicMatches": ["Coffee Dripper"]
+      },
+      "relicName": "Meal Ticket",
+      "modifiedName": "Free Rest",
+      "modifiedDescription": "Told you #yDripper is free energy."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Coffee Dripper"]
+      },
+      "relicName": "Meat on the Bone",
+      "modifiedName": "Free Heal",
+      "modifiedDescription": "Told you #yDripper is free energy."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Eternal Feather", "Meal Ticket", "Pantograph", "Meat on the Bone", "Toy Ornithopter", "Bloody Idol"]
+      },
+      "relicName": "Coffee Dripper",
+      "modifiedName": "Free Energy"
+    },
+    {
+      "conditions": {
         "relicMatches": ["Ectoplasm"]
       },
       "relicName": "Maw Bank",
       "modifiedName": "Nice Ectoplasm",
       "modifiedDescription": "Do nothing."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Maw Bank"]
+      },
+      "relicName": "Ectoplasm",
+      "modifiedName": "Maw Bank Disabler"
     },
     {
       "conditions": {
@@ -124,6 +186,20 @@
     },
     {
       "conditions": {
+        "relicMatches": ["Bloody Idol"]
+      },
+      "relicName": "Ectoplasm",
+      "modifiedName": "Bloody Idol Disabler"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Ssserpent Head"]
+      },
+      "relicName": "Ectoplasm",
+      "modifiedName": "Ssserpent Head Disabler"
+    },
+    {
+      "conditions": {
         "actNumbers": [3]
       },
       "relicName": "The Boot",
@@ -154,11 +230,26 @@
     },
     {
       "conditions": {
+        "relicMatches": ["White Beast Statue"]
+      },
+      "relicName": "Sozu",
+      "modifiedName": "White Beast Statue Disabler"
+    },
+    {
+      "conditions": {
         "relicMatches": ["Sozu"]
       },
       "relicName": "Potion Belt",
       "modifiedName": "Nice Sozu",
       "modifiedDescription": "Do nothing."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Sozu"]
+      },
+      "relicName": "Sacred Bark",
+      "modifiedName": "Skip",
+      "modifiedDescription": "Nice #ySozu you got there."
     },
     {
       "conditions": {
@@ -180,10 +271,101 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Darkstone Pariapt"]
+        "relicMatches": ["Darkstone Periapt"]
       },
       "relicName": "Omamori",
       "modifiedName": "-12 Max Health"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Du-vu Doll"]
+      },
+      "relicName": "Omamori",
+      "modifiedName": "-2 Strength"
+    },
+    {
+      "conditions": {
+        "actNumbers": [3]
+      },
+      "relicName": "Omamori",
+      "modifiedName": "Just in Time"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Omamori"]
+      },
+      "relicName": "Darkstone Periapt",
+      "modifiedName": "Nice Omamori",
+      "modifiedDescription": "Do nothing."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Omamori"]
+      },
+      "relicName": "Du-vu Doll",
+      "modifiedName": "Nice Omamori",
+      "modifiedDescription": "Do nothing."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Omamori"]
+      },
+      "relicName": "Calling Bell",
+      "modifiedName": "Free Relics",
+      "modifiedDescription": "Omamori value."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Darkstone Periapt"]
+      },
+      "relicName": "Calling Bell",
+      "modifiedName": "+6 Max HP",
+      "modifiedDescription": "Upon pickup, obtain an unique #rCurse, #b6 max HP and 3 relics."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Du-vu Doll"]
+      },
+      "relicName": "Calling Bell",
+      "modifiedName": "+1 Strength",
+      "modifiedDescription": "Upon pickup, obtain an unique #rCurse, #b1 #yStrength and 3 relics."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Ceramic Fish"]
+      },
+      "relicName": "Calling Bell",
+      "modifiedName": "Ceramic Fish Value",
+      "modifiedDescription": "Upon pickup, obtain an unique #rCurse, #b8 #yGold and 3 relics."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Omamori"]
+      },
+      "relicName": "Cursed Key",
+      "modifiedName": "Free Energy"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Darkstone Periapt"]
+      },
+      "relicName": "Cursed Key",
+      "modifiedName": "Free Max HP"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Du-vu Doll"]
+      },
+      "relicName": "Cursed Key",
+      "modifiedName": "Free Strength"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Ceramic Fish"],
+        "cardMatches": []
+      },
+      "relicName": "Cursed Key",
+      "modifiedName": "Ceramic Fish Value"
     },
     {
       "conditions": {
@@ -246,6 +428,23 @@
     },
     {
       "conditions": {
+        "actNumbers": [2],
+        "maxDeckSize": 15
+      },
+      "relicName": "Busted Crown",
+      "modifiedName": "Deck is Done Busted Crown",
+      "description": "You have an infinite don't you?"
+    },
+    {
+      "conditions": {
+        "actNumbers": [2],
+        "minDeckSize": 30
+      },
+      "relicName": "Busted Crown",
+      "modifiedName": "Deck is Done Busted Crown"
+    },
+    {
+      "conditions": {
         "relicMatches": ["Pandora's Box"]
       },
       "relicName": "Strike Dummy",
@@ -287,6 +486,123 @@
       "relicName": "Shovel",
       "modifiedName": "DIG",
       "modifiedDescription": "Told you #yHammer is free energy."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Fusion Hammer"]
+      },
+      "relicName": "Girya",
+      "modifiedName": "LIFT",
+      "modifiedDescription": "Told you #yHammer is free energy."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Fusion Hammer"]
+      },
+      "relicName": "Peace Pipe",
+      "modifiedName": "TOKE",
+      "modifiedDescription": "Told you #yHammer is free energy."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Shovel", "Girya", "Peace Pipe"]
+      },
+      "relicName": "Fusion Hammer",
+      "modifiedName": "Free Energy"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Apotheosis"]
+      },
+      "relicName": "Fusion Hammer",
+      "modifiedName": "Free Energy"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Ceramic Fish"]
+      },
+      "relicName": "Pandora's Box",
+      "modifiedName": "Ceramic Fish Value",
+      "modifiedDescription": "Upon pickup, #bTransform all Strikes and Defend cards and gain #b9 #yGold for each card #bTransformed."
+    },
+    {
+      "conditions": {
+        "actNumbers": [1]
+      },
+      "relicName": "Pandora's Box",
+      "modifiedName": "POGBOX"
+    },
+    {
+      "conditions": {
+        "actNumbers": [1]
+      },
+      "relicName": "Philosopher's Stone",
+      "modifiedName": "Byrd Magnet",
+      "modifiedDescription": "Your next combat is #rByrds."
+    },
+    {
+      "conditions": {
+        "maxDeckSize": 15
+      },
+      "relicName": "Runic Pyramid",
+      "modifiedName": "Infinite Dream?"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Panache"]
+      },
+      "relicName": "Velvet Choker",
+      "modifiedDescription": "You may only activate your #yPanache once per turn."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Sozu"]
+      },
+      "relicName": "Cauldron",
+      "modifiedName": "Nice Sozu",
+      "modifiedDescription": "Do nothing."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Transmutation"]
+      },
+      "relicName": "Chemical X",
+      "modifiedName": "Transmutation Enhancer"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Mutagenic Strength"]
+      },
+      "relicName": "Clockwork Souvenir",
+      "modifiedName": "Fully Stacked Girya"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Mutagenic Strength"]
+      },
+      "relicName": "Orange Pellets",
+      "modifiedName": "Fully Stacked Girya"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Unceasing Top"]
+      },
+      "relicName": "Medical Kit",
+      "modifiedName": "Unceasing Top Enabler"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Singing Bowl"]
+      },
+      "relicName": "Orrery",
+      "modifiedName": "+10 Max HP"
+    },
+    {
+      "conditions": {
+        "maxDeckSize": 15
+      },
+      "relicName": "The Abacus",
+      "modifiedName": "Infinite Dream?"
     }
   ]
 }

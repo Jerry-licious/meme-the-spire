@@ -540,6 +540,14 @@
     },
     {
       "conditions": {
+        "relicMatches": ["Gold-Plated Cables"]
+      },
+      "relicName": "Nuclear Battery",
+      "modifiedName": "Double Energy Relic",
+      "modifiedDescription": "Gold-Plated Cables value."
+    },
+    {
+      "conditions": {
         "cardMatches": ["Creative AI"]
       },
       "relicName": "Mummified Hand",
@@ -558,6 +566,50 @@
       },
       "relicName": "Bird-Faced Urn",
       "modifiedName": "Infinite Healing"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Self Repair"]
+      },
+      "relicName": "Coffee Dripper",
+      "modifiedName": "Free Energy"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Bird-Faced Urn"],
+        "cardMatches": ["Creative AI"]
+      },
+      "relicName": "Coffee Dripper",
+      "modifiedName": "Free Energy"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Consume"]
+      },
+      "relicName": "Inserter",
+      "modifiedName": "Free Focus",
+      "modifiedDescription": "Don't pretend that you aren't going to click this, I know you have #yConsume."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Biased Cognition"]
+      },
+      "relicName": "Clockwork Souvenir",
+      "modifiedName": "Free Biased Cognition"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Biased Cognition"]
+      },
+      "relicName": "Orange Pellets",
+      "modifiedName": "Free Biased Cognition"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Genetic Algorithm"]
+      },
+      "relicName": "Strange Spoon",
+      "modifiedName": "Infinite Genetic Algorithm"
     }
   ]
 }

@@ -777,6 +777,63 @@
       },
       "relicName": "Dead Branch",
       "modifiedName": "CLICK"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Red Skull"]
+      },
+      "relicName": "Meat on the Bone",
+      "modifiedName": "Red Skull Disabler",
+      "modifiedDescription": "If your #yRed #ySkull is enabled at the end of each combat, disable it by healing #b12 HP."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Reaper"]
+      },
+      "relicName": "Coffee Dripper",
+      "modifiedName": "Free Energy"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Disarm"]
+      },
+      "relicName": "Philosopher's Stone",
+      "modifiedName": "Free Energy"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Whirlwind"]
+      },
+      "relicName": "Chemical X",
+      "modifiedName": "Whirlwind Upgrade"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Berserk"]
+      },
+      "relicName": "Clockwork Souvenir",
+      "modifiedName": "Free Berserk"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Flex"]
+      },
+      "relicName": "Clockwork Souvenir",
+      "modifiedName": "Free Flex"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Berserk"]
+      },
+      "relicName": "Orange Pellets",
+      "modifiedName": "Free Berserk"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Flex"]
+      },
+      "relicName": "Orange Pellets",
+      "modifiedName": "Free Flex"
     }
   ]
 }

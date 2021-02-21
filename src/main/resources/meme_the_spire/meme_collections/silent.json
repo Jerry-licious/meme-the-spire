@@ -937,6 +937,107 @@
       "relicName": "Gambling Chip",
       "modifiedName": "Lantern",
       "modifiedDescription": "At the start of each combat, discard any number of cards, then draw that many cards and gain 1 energy from #yHovering #yKite."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Toy Ornithopter"],
+        "cardMatches": ["Alchemize"]
+      },
+      "relicName": "Coffee Dripper",
+      "modifiedName": "Free Energy"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Malaise"]
+      },
+      "relicName": "Philosopher's Stone",
+      "modifiedName": "Malaise Fuel"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Well-Laid Plans"]
+      },
+      "relicName": "Runic Pyramid",
+      "modifiedName": "Nice Well-Laid Plans"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Alchemize"]
+      },
+      "relicName": "Sacred Bark",
+      "modifiedName": "Potion Silent Best Silent"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Alchemize"]
+      },
+      "relicName": "Sozu",
+      "modifiedName": "Alchemize Disabler"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Blade Dance"]
+      },
+      "relicName": "Velvet Choker",
+      "modifiedName": "Shiv Choker"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Ninja Scroll"]
+      },
+      "relicName": "Velvet Choker",
+      "modifiedName": "Shiv Choker"
+    },
+    {
+      "conditions": {
+        "cardsContain": ["Shiv"]
+      },
+      "relicName": "Wrist Blade",
+      "modifiedName": "Shiv Boss Relic"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Slice"]
+      },
+      "relicName": "Wrist Blade",
+      "modifiedName": "Slice Enhancer"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Malaise"]
+      },
+      "relicName": "Chemical X",
+      "modifiedName": "Malaise Enhancer",
+      "modifiedDescription": "Your #yMalaise also give enemies #yMajor #yDepression."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Wraith Form"]
+      },
+      "relicName": "Clockwork Souvenir",
+      "modifiedName": "Free Wraith Form"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Wraith Form"]
+      },
+      "relicName": "Orange Pellets",
+      "modifiedName": "Free Wraith Form"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Wraith Form"]
+      },
+      "relicName": "Dolly's Mirror",
+      "modifiedName": "Wraith Form",
+      "modifiedDescription": "I know which card you will duplicate."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Alchemize"]
+      },
+      "relicName": "Strange Spoon",
+      "modifiedName": "Infinite Alchemize"
     }
   ]
 }

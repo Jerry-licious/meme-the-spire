@@ -155,6 +155,14 @@
       "cardNames": ["Lesson Learned"],
       "title": "Lesson Learned",
       "content": "Lesson Learned's upgrade does not immediately apply to the current combat when you land it, but the upgrade is permanent for all future combats. "
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Meat on the Bone"]
+      },
+      "cardNames": ["Self Repair"],
+      "title": "Self Repair",
+      "content": "Meat on the Bone triggers before Self Repair."
     }
   ]
 }

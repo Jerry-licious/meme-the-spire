@@ -15,6 +15,8 @@
   * Added 7 different relic memes for the defect.
   * Added 13 different relic memes for the watcher.
 * Added 2 colourless card memes in conjunction with some colourless relic memes.
+* Added 1 more genuine tip.
+  * Self repair now has a tooltip explaining its interaction with meat on the bone.
 
 ## [0.2.2] - 2021-02-20
 

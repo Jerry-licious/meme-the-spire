@@ -43,6 +43,15 @@ public class RelicModification {
         return getRelicStrings(relic).NAME.equalsIgnoreCase(relicName);
     }
 
+    // TODO: Consider the necessity of modifying name and description
+    //  properties.
+    //
+    // The name and description properties seem to only be used when the
+    // player right clicks (views) the relic, as the PowerTips are generated
+    // separately. Modifying these properties would allow the player to see
+    // the meme when they "take a close up look" at the relic as well,
+    // however, it may not be desirable for them to see the memes when they
+    // actually want to check what the relic does.
     public void modify(AbstractRelic relic) {
         if (modifiedName != null) {
             ReflectionUtils.setFinal(relic, AbstractRelic.class, "name", modifiedName);

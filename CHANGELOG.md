@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.2.4] - 2021-02-21
+
+#### Bug Fixes
+
+* Fixed a bug where a silent meme crashes the game when you open a boss chest that contains Wrist Blade.
+
 ## [0.2.3] - 2021-02-21
 
 #### Features

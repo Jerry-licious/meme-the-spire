@@ -1,7 +1,9 @@
 package memethespire;
 
+import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.localization.CardStrings;
 import memethespire.cardmemes.CardModification;
 import memethespire.relicmemes.RelicModification;
 
@@ -95,9 +97,20 @@ public class PlayerConditions {
         return cardsContain.length == 0 ||
                 Arrays.stream(cardsContain).anyMatch((word) ->
                         player.masterDeck.group.stream().anyMatch((card) ->
-                                (card.upgraded ?
-                                        CardModification.getCardStrings(card).UPGRADE_DESCRIPTION :
-                                        CardModification.getCardStrings(card).DESCRIPTION)
+                                getCardDescriptionFromCardStrings(card)
                                         .toLowerCase().contains(word.toLowerCase())));
+    }
+
+    private String getCardDescriptionFromCardStrings(AbstractCard card) {
+        CardStrings cardStrings = CardModification.getCardStrings(card);
+        if (card.upgraded) {
+            if (cardStrings.UPGRADE_DESCRIPTION != null) {
+                return cardStrings.UPGRADE_DESCRIPTION;
+            } else {
+                return cardStrings.DESCRIPTION;
+            }
+        } else {
+            return cardStrings.DESCRIPTION;
+        }
     }
 }

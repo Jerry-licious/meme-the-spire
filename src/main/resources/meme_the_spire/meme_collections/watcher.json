@@ -384,5 +384,62 @@
       "cardName": "Wish",
       "lines": ["Here comes the money!", "Moneh moneh moneh moneh moneh"]
     }
+  ],
+  "relicModifications": [
+    {
+      "conditions": {
+        "relicMatches": ["Clockwork Souvenir"]
+      },
+      "relicName": "Duality",
+      "modifiedName": "Oddly Smooth Stone",
+      "modifiedDescription": "The first time you play an #yAttack each combat, gain #b1 Dexterity."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Duality"]
+      },
+      "relicName": "Clockwork Souvenir",
+      "modifiedName": "Oddly Smooth Stone",
+      "modifiedDescription": "The first time you play an #yAttack each combat, gain #b1 Dexterity."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Flurry of Blows"]
+      },
+      "relicName": "Kunai",
+      "modifiedName": "Dexterity Scaling"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Flurry of Blows"]
+      },
+      "relicName": "Shuriken",
+      "modifiedName": "Strength Scaling"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Ragnarok"]
+      },
+      "relicName": "Akabeko",
+      "modifiedName": "Big Ragnarok",
+      "modifiedDescription": "Your first #yRagnarok each combat deals 40 additional damage."
+    },
+    {
+      "conditions": {
+        "relicMatches": [],
+        "cardMatches": ["Tantrum"]
+      },
+      "relicName": "Akabeko",
+      "modifiedName": "Big Tantrum",
+      "modifiedDescription": "Your first #yTantrum each combat deals 24 additional damage."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Tantrum"]
+      },
+      "relicName": "The Boot",
+      "modifiedName": "Tantrum Value",
+      "modifiedDescription": "Your #yTantrum deals #b2 additional damage per hit."
+    }
   ]
 }

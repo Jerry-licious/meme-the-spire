@@ -528,5 +528,36 @@
       "cardName": "Thunder Strike",
       "lines": ["Commence the zappening!"]
     }
+  ],
+  "relicModifications": [
+    {
+      "conditions": {
+        "relicMatches": ["Nuclear Battery"]
+      },
+      "relicName": "Gold-Plated Cables",
+      "modifiedName": "Energy Relic",
+      "modifiedDescription": "At the start of your turn, trigger the passive ability of your #yPlasma #yOrb from #Nuclear #yBatter."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Creative AI"]
+      },
+      "relicName": "Mummified Hand",
+      "modifiedName": "Energy Relic"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Boot Sequence"]
+      },
+      "relicName": "Anchor",
+      "modifiedName": "Boot Sequence Upgrade"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Creative AI"]
+      },
+      "relicName": "Bird-Faced Urn",
+      "modifiedName": "Infinite Healing"
+    }
   ]
 }

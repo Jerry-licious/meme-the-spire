@@ -874,5 +874,69 @@
       "cardName": "Wraith Form",
       "lines": ["Taking damage is cringe."]
     }
+  ],
+  "relicModifications": [
+    {
+      "conditions": {
+        "cardMatches": ["Alchemize"]
+      },
+      "relicName": "Toy Ornithopter",
+      "modifiedName": "Burning Blood"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Blade Dance"]
+      },
+      "relicName": "Kunai",
+      "modifiedName": "Dexterity Scaling"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Blade Dance"]
+      },
+      "relicName": "Shuriken",
+      "modifiedName": "Strength Scaling"
+    },
+    {
+      "conditions": {
+        "relicMatches": [],
+        "cardMatches": ["Riddle with Holes"]
+      },
+      "relicName": "Akabeko",
+      "modifiedName": "Riddle Value",
+      "modifiedDescription": "Your first #yRiddle #ywith #yHoles deals 40 additional damage."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Riddle with Holes"]
+      },
+      "relicName": "The Boot",
+      "modifiedName": "Riddle Value",
+      "modifiedDescription": "Your #yRiddle #ywith #yHoles deals 2 additional damage per hit."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Blade Dance"]
+      },
+      "relicName": "Ornamental Fan",
+      "modifiedName": "BLOCK",
+      "modifiedDescription": "Your #yBlade #yDance now block for #b4."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Velvet Choker"]
+      },
+      "relicName": "Ninja Scroll",
+      "modifiedName": "Nice Choker",
+      "modifiedDescription": "You may only play #b3 cards turn 1."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Hovering Kite"]
+      },
+      "relicName": "Gambling Chip",
+      "modifiedName": "Lantern",
+      "modifiedDescription": "At the start of each combat, discard any number of cards, then draw that many cards and gain 1 energy from #yHovering #yKite."
+    }
   ]
 }

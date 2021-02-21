@@ -1,0 +1,292 @@
+{
+  "receiveUpdates": true,
+  "enabled": true,
+  "relicModifications": [
+    {
+      "conditions": {
+        "relicMatches": ["Bag of Marbles"]
+      },
+      "relicName": "Akabeko",
+      "modifiedDescription": "Your first #yAttack each turn 1 deals #y12 additional damage."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Blue Candle"],
+        "cardMatches": ["Writhe"]
+      },
+      "relicName": "Centennial Puzzle",
+      "modifiedName": "Bag of Preparation",
+      "modifiedDescription": "At the start of each combat, draw #b2 additional cards."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Centennial Puzzle"],
+        "cardMatches": ["Writhe"]
+      },
+      "relicName": "Blue Candle",
+      "modifiedName": "Bag of Preparation",
+      "modifiedDescription": "At the start of each combat, draw #b2 additional cards."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Coffee Dripper"]
+      },
+      "relicName": "Dream Catcher",
+      "modifiedName": "Nice Dripper",
+      "modifiedDescription": "Do nothing."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Coffee Dripper"]
+      },
+      "relicName": "Regal Pillow",
+      "modifiedName": "Decorative Pillow",
+      "modifiedDescription": "Nice #yCoffee #yDripper you got there."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Coffee Dripper"]
+      },
+      "relicName": "Eternal Feather",
+      "modifiedName": "Free Rest",
+      "modifiedDescription": "Told you #yDripper was free energy."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Coffee Dripper"]
+      },
+      "relicName": "Pantograph",
+      "modifiedName": "Free Rest",
+      "modifiedDescription": "Told you #yDripper is free energy."
+    },
+    {
+      "conditions": {
+        "actNumbers": [4]
+      },
+      "relicName": "Pantograph",
+      "modifiedName": "CLUTCH"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Ectoplasm"]
+      },
+      "relicName": "Maw Bank",
+      "modifiedName": "Nice Ectoplasm",
+      "modifiedDescription": "Do nothing."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Ectoplasm"]
+      },
+      "relicName": "Smiling Mask",
+      "modifiedName": "Nice Ectoplasm",
+      "modifiedDescription": "Do nothing."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Ectoplasm"]
+      },
+      "relicName": "Ceramic Fish",
+      "modifiedName": "Nice Ectoplasm",
+      "modifiedDescription": "Do nothing."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Ectoplasm"]
+      },
+      "relicName": "The Courier",
+      "modifiedName": "Nice Ectoplasm",
+      "modifiedDescription": "Do nothing."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Ectoplasm"]
+      },
+      "relicName": "Old Coin",
+      "modifiedName": "LMAO",
+      "modifiedDescription": "Do nothing."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Bloody Idol"]
+      },
+      "relicName": "Maw Bank",
+      "modifiedName": "Burning Blood",
+      "modifiedDescription": "Whenever you climb a floor, gain #b12 #yGold and heal #b5 HP. No longer works when you spend #yGold at a shop."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Bloody Idol"]
+      },
+      "relicName": "Ceramic Fish",
+      "modifiedName": "Burning Blood",
+      "modifiedDescription": "Whenever you add a card to your deck, gain #b8 #yGold and heal #b5 HP."
+    },
+    {
+      "conditions": {
+        "actNumbers": [3]
+      },
+      "relicName": "The Boot",
+      "modifiedName": "Nemesis Solution"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["White Beast Statue"]
+      },
+      "relicName": "Toy Ornithopter",
+      "modifiedName": "Burning Blood"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Sozu"]
+      },
+      "relicName": "Toy Ornithopter",
+      "modifiedName": "Nice Sozu",
+      "modifiedDescription": "Do nothing."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Sozu"]
+      },
+      "relicName": "White Beast Statue",
+      "modifiedName": "Nice Sozu",
+      "modifiedDescription": "Do nothing."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Sozu"]
+      },
+      "relicName": "Potion Belt",
+      "modifiedName": "Nice Sozu",
+      "modifiedDescription": "Do nothing."
+    },
+    {
+      "conditions": {
+        "actNumbers": [1],
+        "cardMatches": ["Defend"]
+      },
+      "relicName": "Warpaint",
+      "modifiedName": "Defend Upgrader",
+      "modifiedDescription": "Upon pickup, #yUpgrade 2 random #yDefends."
+    },
+    {
+      "conditions": {
+        "actNumbers": [1],
+        "cardMatches": ["Strike"]
+      },
+      "relicName": "Whetstone",
+      "modifiedName": "Strike Upgrader",
+      "modifiedDescription": "Upon pickup, #yUpgrade 2 random #yStrikes."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Darkstone Pariapt"]
+      },
+      "relicName": "Omamori",
+      "modifiedName": "-12 Max Health"
+    },
+    {
+      "conditions": {
+        "actNumbers": [1]
+      },
+      "relicName": "Bottled Flame",
+      "modifiedName": "Sad Bottle",
+      "modifiedDescription": "Why does it have to be in act 1?"
+    },
+    {
+      "conditions": {
+        "actNumbers": [1]
+      },
+      "relicName": "Bottled Lightning",
+      "modifiedName": "Sad Bottle",
+      "modifiedDescription": "Why does it have to be in act 1?"
+    },
+    {
+      "conditions": {
+        "actNumbers": [1]
+      },
+      "relicName": "Bottled Tornado",
+      "modifiedName": "Sad Bottle",
+      "modifiedDescription": "Why does it have to be in act 1?"
+    },
+    {
+      "conditions": {
+        "actNumbers": [3]
+      },
+      "relicName": "Matryoshka",
+      "modifiedName": "Just in Time"
+    },
+    {
+      "conditions": {
+        "actNumbers": [3]
+      },
+      "relicName": "Tiny Chest",
+      "modifiedName": "Just in Time"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Busted Crown"]
+      },
+      "relicName": "Question Card",
+      "modifiedName": "\"Busted Crown Mitigation\""
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Busted Crown"]
+      },
+      "relicName": "Singing Bowl",
+      "modifiedName": "\"Busted Crown Mitigation\""
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Busted Crown"]
+      },
+      "relicName": "Prayer Wheel",
+      "modifiedName": "\"Busted Crown Mitigation\""
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Pandora's Box"]
+      },
+      "relicName": "Strike Dummy",
+      "modifiedName": "Nice Pandora's Box"
+    },
+    {
+      "conditions": {
+        "maxDeckSize": 15
+      },
+      "relicName": "Sundial",
+      "modifiedName": "Infinite Dream?"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Dead Branch"]
+      },
+      "relicName": "Bird-Faced Urn",
+      "modifiedName": "Infinite Healing"
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Blue Candle"]
+      },
+      "relicName": "Fossilized Helix",
+      "modifiedDescription": "The first time you play a #rCurse each combat, lose your #yBuffer and regret your #ylife #ychoices."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Fossilized Helix"]
+      },
+      "relicName": "Blue Candle",
+      "modifiedName": "Buffer Remover",
+      "modifiedDescription": "The first time you play a #rCurse each combat, lose your #yBuffer and regret your #ylife #ychoices."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Fusion Hammer"]
+      },
+      "relicName": "Shovel",
+      "modifiedName": "DIG",
+      "modifiedDescription": "Told you #yHammer is free energy."
+    }
+  ]
+}

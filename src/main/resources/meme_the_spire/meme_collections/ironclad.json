@@ -689,5 +689,94 @@
       "cardName": "Feed",
       "lines": ["FEED"]
     }
+  ],
+  "relicModifications": [
+    {
+      "conditions": {
+        "cardMatches": ["Pummel"]
+      },
+      "relicName": "Akabeko",
+      "modifiedName": "Pummel Value",
+      "modifiedDescription": "Your first #yPommel each combat deals #b32 additional damage."
+    },
+    {
+      "conditions": {
+        "relicMatches": [],
+        "cardMatches": ["Sword Boomerang"]
+      },
+      "relicName": "Akabeko",
+      "modifiedName": "Sword Boomerang Value",
+      "modifiedDescription": "Your first Sword Boomerang each combat deals #b24 additional damage."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Magic Flower"]
+      },
+      "relicName": "Blood Vial",
+      "modifiedName": "Magic Flower Value",
+      "modifiedDescription": "At the start of each combat, heal #y3 HP."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Offering"]
+      },
+      "relicName": "Centennial Puzzle",
+      "modifiedName": "Big Offering",
+      "modifiedDescription": "Your first #yOffering each combat draws #b3 additional cards."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Bloodletting"]
+      },
+      "relicName": "Centennial Puzzle",
+      "modifiedName": "Adrenaline++",
+      "modifiedDescription": "Your first #yBloodletting each combat draws #b3 cards."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Hemokinesis"]
+      },
+      "relicName": "Centennial Puzzle",
+      "modifiedName": "Pommel Strike++",
+      "modifiedDescription": "Your first #yHemokinesis each combat draws #b3 additional cards."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Pummel"]
+      },
+      "relicName": "The Boot",
+      "modifiedName": "Pummel Enhancer",
+      "modifiedDescription": "Your #yPummel deals #b3 additional damage per hit."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Sword Boomerang"]
+      },
+      "relicName": "The Boot",
+      "modifiedName": "Sword Boomerang Enhancer",
+      "modifiedDescription": "Your #ySword #yBoomerang deals #b2 additional damage per hit."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Magic Flower"]
+      },
+      "relicName": "Meat on the Bone",
+      "modifiedName": "Magic Flower Value",
+      "modifiedDescription": "If your HP is at or below #b50% at the end of combat, heal #b18 HP."
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Barricade"]
+      },
+      "relicName": "Calipers",
+      "modifiedName": "Nice Barricade Pick"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Corruption"]
+      },
+      "relicName": "Dead Branch",
+      "modifiedName": "CLICK"
+    }
   ]
 }

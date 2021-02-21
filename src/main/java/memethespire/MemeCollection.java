@@ -99,6 +99,7 @@ public class MemeCollection {
         updateBaseMemeCollection("silent");
         updateBaseMemeCollection("defect");
         updateBaseMemeCollection("watcher");
+        updateBaseMemeCollection("colourless");
         logger.info("Finished filling base collections.");
 
         logger.info("Loading collections from meme collections folder.");

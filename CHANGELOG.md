@@ -4,7 +4,20 @@
 
 #### Content
 
-* Added a few card play messages for each class.
+* Added a few card play messages for each character.
+* Added the colourless meme collection.
+  * Contains 37 different relic memes applicable on all characters for common, uncommon and rare relics.
+* Added numerous relic memes for common, uncommon and rare relics on all characters<sup>*</sup>.
+  * Added 11 different relic memes for the ironclad.
+  * Added 8 different relic memes for the silent.
+  * Added 4 different relic memes for the defect.
+  * Added 7 different relic memes for the watcher.
+
+*The addition are "character specific" because they are triggered by character-specific cards and relics, not because of a hard-coded limit on which character you play (You can see "defect memes" if you pick up defect cards that trigger them for example).
+
+#### Known Bugs
+
+* Bottle relics will not have their names restored after being picked up.
 
 ## [0.2.1] - 2021-02-14
 

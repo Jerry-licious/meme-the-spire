@@ -3,7 +3,7 @@
   "name": "Meme the Spire",
   "author_list": ["Jerry"],
   "description": "Adds various different memes to your Slay the Spire experience. ",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "sts_version": "12-22-2020",
   "mts_version": "3.19.0",
   "dependencies": ["basemod"]

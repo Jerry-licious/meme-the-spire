@@ -7,6 +7,7 @@
 * Fixed 2 typos in the silent meme collection.
 * Fixed 1 typo in the colourless meme collection.
 * Fixed the bug where relics with pickup effects will not restore their texts after being picked up.
+* Fixed the bug where long tooltips that span across multiple tooltip screens will cause the boss reward screen to disappear after you skip the card reward or pick a card.
 
 ## [0.2.4] - 2021-02-21
 

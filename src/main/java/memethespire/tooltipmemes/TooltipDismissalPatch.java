@@ -17,7 +17,7 @@ import java.util.LinkedList;
  */
 @SpirePatch(clz = FtueTip.class, method = "update")
 public class TooltipDismissalPatch {
-    private static LinkedList<TooltipSkeleton> tooltipQueue = new LinkedList<>();
+    public static LinkedList<TooltipSkeleton> tooltipQueue = new LinkedList<>();
 
     public static void queueTooltip(TooltipSkeleton tooltip) {
         tooltipQueue.add(tooltip);
@@ -25,16 +25,14 @@ public class TooltipDismissalPatch {
 
     @SpirePostfixPatch
     public static void showNextTooltip(FtueTip instance) {
-        GotItButton gotItButton = (GotItButton) ReflectionUtils.getPrivate(
-                instance, FtueTip.class, "button");
-        // When the button is pressed.
-        if (gotItButton.hb.clicked) {
-            if (!tooltipQueue.isEmpty()) {
+        if (!tooltipQueue.isEmpty()) {
+            GotItButton gotItButton = (GotItButton) ReflectionUtils.getPrivate(
+                    instance, FtueTip.class, "button");
+
+            // When the button is pressed.
+            if (gotItButton.hb.clicked) {
                 AbstractDungeon.ftue = tooltipQueue.poll().makeTooltip();
             }
-        }
-        if (CInputActionSet.proceed.isJustPressed()) {
-            CInputActionSet.proceed.unpress();
         }
     }
 }

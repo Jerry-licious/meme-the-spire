@@ -40,7 +40,8 @@ public class RelicModification {
     }
 
     public boolean applicableOnRelic(AbstractRelic relic) {
-        return getRelicStrings(relic).NAME.equalsIgnoreCase(relicName);
+        RelicStrings relicStrings = getRelicStrings(relic);
+        return relicStrings != null && relicStrings.NAME.equalsIgnoreCase(relicName);
     }
 
     // TODO: Consider the necessity of modifying name and description

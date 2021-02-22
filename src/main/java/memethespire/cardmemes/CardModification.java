@@ -51,7 +51,8 @@ public class CardModification {
     }
 
     public boolean applicableOnCard(AbstractCard card) {
-        return getCardStrings(card).NAME.equalsIgnoreCase(cardName);
+        CardStrings cardStrings = getCardStrings(card);
+        return cardStrings != null && cardStrings.NAME.equalsIgnoreCase(cardName);
     }
 
     public void modify(AbstractCard card) {

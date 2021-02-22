@@ -6,6 +6,7 @@
 
 * Fixed 2 typos in the silent meme collection.
 * Fixed 1 typo in the colourless meme collection.
+* Fixed the bug where relics with pickup effects will not restore their texts after being picked up.
 
 ## [0.2.4] - 2021-02-21
 

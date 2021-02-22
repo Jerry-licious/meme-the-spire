@@ -488,7 +488,7 @@
         "cardMatches": ["Blade Dance", "Cloak and Dagger", "Storm of Steel", "Infinite Blades", "Wraith Form"]
       },
       "cardName": "After Image",
-      "modifiedName": "YEP BLOCK NL ( 1 Block whenever you play a card )"
+      "modifiedName": "YEP BLOCK"
     },
     {
       "conditions": {
@@ -511,7 +511,6 @@
         "relicMatches": ["Snecko Eye", "Runic Pyramid"]
       },
       "cardName": "Bullet Time",
-      "modifiedName": "",
       "modifiedDescription": "Who needs an energy relic anyways? NL ( Reduce hand cost to 0 this turn )"
     },
     {

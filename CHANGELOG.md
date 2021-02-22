@@ -1,5 +1,12 @@
 # Changelog
 
+## [Unreleased]
+
+#### Bug Fixes
+
+* Fixed 2 typos in the silent meme collection.
+* Fixed 1 typo in the colourless meme collection.
+
 ## [0.2.4] - 2021-02-21
 
 #### Bug Fixes

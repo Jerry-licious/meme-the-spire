@@ -256,7 +256,7 @@
         "actNumbers": [1],
         "cardMatches": ["Defend"]
       },
-      "relicName": "Warpaint",
+      "relicName": "War Paint",
       "modifiedName": "Defend Upgrader",
       "modifiedDescription": "Upon pickup, #yUpgrade 2 random #yDefends."
     },

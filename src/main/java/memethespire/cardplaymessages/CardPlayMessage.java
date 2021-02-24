@@ -27,6 +27,6 @@ public class CardPlayMessage {
     public void showTextbox() {
         AbstractDungeon.actionManager.addToBottom(new
                 TalkAction(true, this.lines[textRng.nextInt(this.lines.length)],
-                1.2F, 1.2F));
+                0.8F, 1.0F));
     }
 }

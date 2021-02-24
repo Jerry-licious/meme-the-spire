@@ -5,6 +5,7 @@
 #### Changes
 
 * `RelicModification` no longer changes the name and description of the relic (it only changes the relic's power tips now).
+* `CardPlayMessage` textboxes now last a bit shorter.
 
 #### Content
 

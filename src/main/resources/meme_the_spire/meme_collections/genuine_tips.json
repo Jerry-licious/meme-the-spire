@@ -25,6 +25,11 @@
     },
     {
       "conditions": {},
+      "cardName": "Evaluate",
+      "modifiedDescription": "Gain !B! Block. NL Insert an *Insight at a random position in your draw pile."
+    },
+    {
+      "conditions": {},
       "cardName": "Reach Heaven",
       "modifiedDescription": "Deal !D! damage. NL Insert a *Through *Violence at a random position in your draw pile."
     },
@@ -106,7 +111,7 @@
     },
     {
       "conditions": {},
-      "cardNames": ["Study", "Pray", "Reach Heaven", "Tantrum", "Conjure Blade"],
+      "cardNames": ["Study", "Pray", "Reach Heaven", "Tantrum", "Conjure Blade", "Evaluate"],
       "title": "Shuffling",
       "content": "Cards that shuffle cards into your draw pile do not actually shuffle (reorder) your draw pile. Rather they simply insert the card at a random position."
     },

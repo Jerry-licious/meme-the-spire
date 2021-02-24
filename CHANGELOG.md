@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased]
+
+#### Content
+
+* Added 2 more silent card memes.
+
 ## [0.2.5] - 2021-02-21
 
 #### Bug Fixes

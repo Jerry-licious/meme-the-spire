@@ -842,6 +842,22 @@
       "modifiedName": "Wraith Form",
       "modifiedDescription": "What an unfortunate *Fusion *Hammer. NL ( !M! Intangible, lose 1 Dexterity every turn )",
       "modifiedUpgradedDescription": "Gain 3 Intangible. At the start of your turn, lose 1 Dexterity."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Velvet Choker"]
+      },
+      "cardName": "A Thousand Cuts",
+      "modifiedName": "Mercury Hourglass",
+      "modifiedDescription": "Deal 6 damage to all enemies every turn. NL ( !M! damage to all on card play )",
+      "modifiedUpgradedDescription": "Deal 12 damage to all enemies every turn. NL ( !M! damage to all on card play )"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Panache"]
+      },
+      "cardName": "A Thousand Cuts",
+      "modifiedName": "Panache Light"
     }
   ],
   "tooltips": [

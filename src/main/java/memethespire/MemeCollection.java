@@ -4,9 +4,11 @@ import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
 import memethespire.cardmemes.CardModification;
 import memethespire.cardplaymessages.CardPlayMessage;
+import memethespire.enemydialogues.StartOfCombatDialogue;
 import memethespire.relicmemes.RelicModification;
 import memethespire.tooltipmemes.CardRewardTooltip;
 import org.apache.logging.log4j.LogManager;
@@ -136,6 +138,7 @@ public class MemeCollection {
     CardRewardTooltip[] tooltips = {};
     CardPlayMessage[] cardPlayMessages = {};
     RelicModification[] relicModifications = {};
+    StartOfCombatDialogue[] startOfCombatDialogues = {};
 
     public MemeCollection() { }
 
@@ -195,6 +198,20 @@ public class MemeCollection {
                     if (modification.applicableOnRelic(relic) &&
                             modification.applicableOnPlayer(player)) {
                         modification.modify(relic);
+                        return;
+                    }
+                }
+            }
+        }
+    }
+
+    public static void queueFirstApplicableStartOfCombatDialogueFromAllCollections
+            (AbstractPlayer player, AbstractMonster monster) {
+        for (MemeCollection collection : collections) {
+            for (StartOfCombatDialogue dialogue : collection.startOfCombatDialogues) {
+                if (dialogue.applicableOnPlayer(player) && dialogue.applicableOnMonster(monster)) {
+                    // Only break the loop if a dialogue is actually queued.
+                    if (dialogue.queueDialogue(monster)) {
                         return;
                     }
                 }

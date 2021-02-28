@@ -5,6 +5,7 @@
 #### Features
 
 * Added a new type of checking: `CombatSituation`, used to help display conditional memes during combat based on the player's situation.
+* Added a new type of meme: start of combat dialog, where monsters can say things at the start of combats based on the player's situation.
 
 #### Changes
 

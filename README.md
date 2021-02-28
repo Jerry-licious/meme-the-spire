@@ -21,7 +21,8 @@ Each JSON file in the `resources/meme_collections` directory defines a collectio
   "cardModifications": [],
   "tooltips": [],
   "cardPlayMessages": [],
-  "relicModifications": []
+  "relicModifications": [],
+  "startOfCombatDialogues": []
 }
 ```
 
@@ -36,6 +37,8 @@ Each JSON file in the `resources/meme_collections` directory defines a collectio
 **cardPlayMessages**: The card play messages defined in this collection. Can be left undefined.
 
 **relicModifications**: The relic modifications defined in this collection. Can be left undefined.
+
+**startOfCombatDialogues**: The dialogues that monster can say at the start of a combat. Can be left undefined.
 
 ### Run Conditions
 
@@ -181,6 +184,26 @@ A relic modification changes the relics seen in rewards and shops, it can modify
 **modifiedDescription**: The new description of the relic. If left undefined, the relic's description will not be changed.
 
 Relic modifications only affect relics seen in rewards and shops. The relics will be restored into their original text after you pick them up.
+
+### Start of Combat Dialogues (`startOfCombatDialogues`)
+
+A start of combat dialogue lets enemies say things when the combat starts (after the player draws their cards). A list of these dialogues can be defined in the `startOfCombatDialogues` field of the JSON files. Its format is as follows:
+
+```json
+{
+  "conditions": {},
+  "combatSituation": {},
+  "monsterName": "Byrd",
+  "chance": 0.5,
+  "lines": ["Hello!", "CAW CAAW!"]
+}
+```
+
+**monsterName**: The name of the monster that can say this dialogue. If left undefined, any monster will be able to say this dialogue.
+
+**chance**: The chance that the dialogue will be shown when the conditions are met (0~1). The default chance is 1.0 (100%).
+
+**lines**: The lines that the monster can say. When the dialogue is to be shown, a random line will be chosen.
 
 ### Base Collections
 

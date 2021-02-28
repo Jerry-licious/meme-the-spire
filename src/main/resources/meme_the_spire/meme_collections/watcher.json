@@ -535,6 +535,14 @@
       },
       "relicName": "Strange Spoon",
       "modifiedName": "Infinite Omniscience"
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Scrawl"]
+      },
+      "relicName": "Bottled Lightning",
+      "modifiedName": "Bag of Preparation+++",
+      "modifiedDescription": "At the start of each combat, draw cards until your hand is full."
     }
   ]
 }

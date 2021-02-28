@@ -603,6 +603,13 @@
       },
       "relicName": "The Abacus",
       "modifiedName": "Infinite Dream?"
+    },
+    {
+      "conditions": {
+        "cardsContain": ["Intangible"]
+      },
+      "relicName": "Tungsten Rod",
+      "modifiedName": "Invulnerability"
     }
   ]
 }

@@ -12,6 +12,8 @@
 #### Content
 
 * Added 2 more silent card memes.
+* Added 1 more watcher relic meme.
+* Added 1 more colourless relic meme.
 * Added evaluate to the roster of *shuffle a card into your draw pile* cards in genuine tips.
 
 ## [0.2.5] - 2021-02-21

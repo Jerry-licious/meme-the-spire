@@ -72,14 +72,16 @@ public class CardModification {
     // Restore the card to its original name and description.
     public static void restore(AbstractCard card) {
         CardStrings cardStrings = getCardStrings(card);
-        // Revert the name to the original name.
-        card.name = cardStrings.NAME;
-        // Revert the description to the original description.
-        card.rawDescription = card.upgraded ?
-                (cardStrings.UPGRADE_DESCRIPTION == null ?
-                        cardStrings.DESCRIPTION : cardStrings.UPGRADE_DESCRIPTION) :
-                cardStrings.DESCRIPTION;
-        card.initializeDescription();
+        if (cardStrings != null) {
+            // Revert the name to the original name.
+            card.name = cardStrings.NAME;
+            // Revert the description to the original description.
+            card.rawDescription = card.upgraded ?
+                    (cardStrings.UPGRADE_DESCRIPTION == null ?
+                            cardStrings.DESCRIPTION : cardStrings.UPGRADE_DESCRIPTION) :
+                    cardStrings.DESCRIPTION;
+            card.initializeDescription();
+        }
     }
 
     // Used to fetch the original card names and descriptions.

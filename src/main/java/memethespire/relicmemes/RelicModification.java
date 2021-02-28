@@ -53,11 +53,14 @@ public class RelicModification {
     }
 
     public static void restore(AbstractRelic relic) {
-        // Update the power tip.
-        relic.tips.clear();
-        relic.tips.add(new PowerTip(getRelicStrings(relic).NAME, relic.getUpdatedDescription()));
+        RelicStrings relicStrings = getRelicStrings(relic);
+        if (relicStrings != null) {
+            // Update the power tip.
+            relic.tips.clear();
+            relic.tips.add(new PowerTip(getRelicStrings(relic).NAME, relic.getUpdatedDescription()));
 
-        ReflectionUtils.invokePrivate(relic, AbstractRelic.class, "initializeTips");
+            ReflectionUtils.invokePrivate(relic, AbstractRelic.class, "initializeTips");
+        }
     }
 
     public static RelicStrings getRelicStrings(AbstractRelic relic) {

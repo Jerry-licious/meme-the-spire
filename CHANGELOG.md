@@ -6,6 +6,7 @@
 
 * `RelicModification` no longer changes the name and description of the relic (it only changes the relic's power tips now).
 * `CardPlayMessage` textboxes now last a bit shorter.
+* Added null safety checks for card and relic modifications to ensure that the mod does not crash with other mods.
 
 #### Content
 

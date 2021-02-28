@@ -8,10 +8,17 @@ import memethespire.cardmemes.CardModification;
 import java.util.Random;
 
 /**
- * A thought bubble on the player when they play a specific card.
+ * A textbox on the player when they play a specific card.
  */
 public class CardPlayMessage {
+    /**
+     * The name of the card that the player plays to trigger the textbox.
+     */
     String cardName;
+    /**
+     * The lines that the player can say, when the message is to be shown, a
+     * random line will be chosen.
+     */
     String[] lines;
 
     private static final Random cardPlayRng = new Random();

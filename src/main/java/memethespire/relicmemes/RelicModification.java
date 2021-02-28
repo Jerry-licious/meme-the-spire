@@ -45,9 +45,14 @@ public class RelicModification {
     }
 
     public void modify(AbstractRelic relic) {
+        RelicStrings relicStrings = getRelicStrings(relic);
+        String newName = modifiedName != null ? modifiedName : relicStrings.NAME;
+        String newDescription = modifiedDescription != null ?
+                modifiedDescription : relic.getUpdatedDescription();
+
         // Update the power tip.
         relic.tips.clear();
-        relic.tips.add(new PowerTip(modifiedName, modifiedDescription));
+        relic.tips.add(new PowerTip(newName, newDescription));
 
         ReflectionUtils.invokePrivate(relic, AbstractRelic.class, "initializeTips");
     }

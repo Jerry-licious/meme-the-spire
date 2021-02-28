@@ -835,5 +835,47 @@
       "relicName": "Orange Pellets",
       "modifiedName": "Free Flex"
     }
+  ],
+  "startOfCombatDialogues": [
+    {
+      "conditions": {
+        "relicMatches": ["Brimstone"]
+      },
+      "combatSituation": {},
+      "monsterName": "Byrd",
+      "chance": 1.0,
+      "lines": [
+        "Nice Brimstone.",
+        "Hey free strength!",
+        "Imagine buying Brimstone and forgetting about me.",
+        "I get a Demon Form as well!"
+      ]
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Brimstone"]
+      },
+      "combatSituation": {},
+      "chance": 0.5,
+      "lines": [
+        "Oh I get a Demon Form too.",
+        "Scaling for days.",
+        "STRONGTITUDE",
+        "Now I can gain stronk as well."
+      ]
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Disarm"]
+      },
+      "combatSituation": {},
+      "monsterName": "Book of Stabbing",
+      "chance": 1.0,
+      "lines": [
+        "Please don't Disarm me.",
+        "One arm is all I got, please spare me.",
+        "Not the Disarm!"
+      ]
+    }
   ]
 }

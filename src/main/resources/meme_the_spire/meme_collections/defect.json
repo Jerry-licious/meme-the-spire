@@ -611,5 +611,22 @@
       "relicName": "Strange Spoon",
       "modifiedName": "Infinite Genetic Algorithm"
     }
+  ],
+  "startOfCombatDialogues": [
+    {
+      "conditions": {
+        "cardMatches": ["Melter"]
+      },
+      "combatSituation": {},
+      "monsterName": "Spheric Guardian",
+      "chance": 1.0,
+      "lines": [
+        "Wait there's a Melter.",
+        "Oh no, Melter.",
+        "I feel personally attacked by your Melter.",
+        "Why does Melter exist?",
+        "Did they make Melter because they hate me?"
+      ]
+    }
   ]
 }

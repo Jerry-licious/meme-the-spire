@@ -611,5 +611,180 @@
       "relicName": "Tungsten Rod",
       "modifiedName": "Invulnerability"
     }
+  ],
+  "startOfCombatDialogues": [
+    {
+      "conditions": {
+        "relicMatches": ["Philosopher's Stone"]
+      },
+      "combatSituation": {},
+      "monsterName": "Byrd",
+      "chance": 1.0,
+      "lines": [
+        "Nice Philosopher's Stone.",
+        "Hey free strength!",
+        "I don't remember having a Vajra with me.",
+        "Get punished for picking Philosopher's Stone!",
+        "CAW CAAW!"
+      ]
+    },
+    {
+      "conditions": {},
+      "combatSituation": {
+        "handContains": ["Ascender's Bane"]
+      },
+      "chance": 0.25,
+      "lines": [
+        "Nice innate Ascender's Bane.",
+        "Get IN there Ascender's Bane.",
+        "Nice curse in your opening hand."
+      ]
+    },
+    {
+      "conditions": {},
+      "combatSituation": {
+        "handDoesNotSay": "Block"
+      },
+      "chance": 0.5,
+      "lines": [
+        "Nice Block cards.",
+        "Imagine not drawing block cards.",
+        "No block cards? Nice!"
+      ]
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Ectoplasm"]
+      },
+      "combatSituation": {},
+      "monsterName": "Mugger",
+      "chance": 0.75,
+      "lines": [
+        "Nice Ectoplasm you got there.",
+        "Now you can NEVER take back the money I take from you.",
+        "You have Ectoplasm anyways why don't you just give the gold to me?"
+      ]
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Looter"]
+      },
+      "combatSituation": {},
+      "monsterName": "Mugger",
+      "chance": 0.75,
+      "lines": [
+        "Nice Ectoplasm you got there.",
+        "Now you can NEVER take back the money I take from you.",
+        "You have Ectoplasm anyways why don't you just give the gold to me?"
+      ]
+    },
+    {
+      "conditions": {
+        "relicMatches": ["The Boot"]
+      },
+      "combatSituation": {},
+      "monsterName": "Nemesis",
+      "chance": 1.0,
+      "lines": [
+        "Oh no the boot is here.",
+        "Why does the boot even exist?",
+        "Not the boot!"
+      ]
+    },
+    {
+      "conditions": {
+        "cardsContain": ["Intangible"]
+      },
+      "combatSituation": {},
+      "monsterName": "Nemesis",
+      "chance": 1.0,
+      "lines": [
+        "Oh you have intangible as well...",
+        "Wait why do you have intangible?",
+        "You have intangible? This is plagiarism."
+      ]
+    },
+    {
+      "conditions": {},
+      "combatSituation": {
+        "handSays": ["Intangible"]
+      },
+      "chance": 0.3,
+      "lines": [
+        "Intangible is cheating!",
+        "Intangible is unfair!",
+        "Why does intangible exist?"
+      ]
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Snecko Eye"]
+      },
+      "combatSituation": {},
+      "monsterName": "Snecko",
+      "chance": 1.0,
+      "lines": [
+        "Oh, you have Snecko Eye already.",
+        "Oh do I love skipping my first turn.",
+        "Another time where someone comes in with a Snecko Eye."
+      ]
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Runic Pyramid"]
+      },
+      "combatSituation": {},
+      "monsterName": "Snecko",
+      "chance": 1.0,
+      "lines": [
+        "Nice Pyramid you got there.",
+        "Hand clog incoming.",
+        "Imagine picking Pyramid.",
+        "Prepare for a full hand of 3 costs!"
+      ]
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Runic Pyramid"]
+      },
+      "combatSituation": {},
+      "monsterName": "Taskmaster",
+      "chance": 1.0,
+      "lines": [
+        "Runic Pyramid! To hold all those wounds.",
+        "Are you going infinite?",
+        "Hand clog incoming.",
+        "Prepare for a full hand of wounds."
+      ]
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Runic Dome"]
+      },
+      "combatSituation": {},
+      "monsterName": "Writhing Mass",
+      "chance": 1.0,
+      "lines": [
+        "OH HELLO THERE",
+        "Imagine picking Runic Dome.",
+        "Now I get to do my curse thing.",
+        "I AM INEVITABLE",
+        "Time to get cursed!"
+      ]
+    },
+    {
+      "conditions": {
+        "maxDeckSize": 15
+      },
+      "combatSituation": {},
+      "monsterName": "Time Eater",
+      "chance": 1.0,
+      "lines": [
+        "Are you playing an infinite?",
+        "Is this an infinite?",
+        "Hmm, I think you may be playing an infinite.",
+        "FOOLISH!"
+      ]
+    }
   ]
 }

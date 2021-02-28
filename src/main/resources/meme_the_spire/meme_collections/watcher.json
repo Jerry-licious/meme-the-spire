@@ -544,5 +544,46 @@
       "modifiedName": "Bag of Preparation+++",
       "modifiedDescription": "At the start of each combat, draw cards until your hand is full."
     }
+  ],
+  "startOfCombatDialogues": [
+    {
+      "conditions": {
+        "cardMatches": ["Bowling Bash"]
+      },
+      "combatSituation": {},
+      "monsterName": "Sentry",
+      "chance": 0.3,
+      "lines": [
+        "Oh no they have Bowling Bash.",
+        "Not the Bowling Bash."
+      ]
+    },
+    {
+      "conditions": {
+        "cardMatches": ["Judgment"]
+      },
+      "combatSituation": {},
+      "monsterName": "Spheric Guardian",
+      "chance": 1.0,
+      "lines": [
+        "There's a Judgement...",
+        "Judgment should be banned.",
+        "Why does Judgement exist?",
+        "I feel offended by your card choices.",
+        "Judgment should be illegal."
+      ]
+    },
+    {
+      "conditions": {},
+      "combatSituation": {
+        "handContains": ["Bowling Bash"]
+      },
+      "monsterName": "Taskmaster",
+      "chance": 1.0,
+      "lines": [
+        "Really scared of that Bowling Bash right now.",
+        "Bowling Bash is going to wreck us."
+      ]
+    }
   ]
 }

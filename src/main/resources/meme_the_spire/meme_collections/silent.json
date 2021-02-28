@@ -1054,5 +1054,21 @@
       "relicName": "Strange Spoon",
       "modifiedName": "Infinite Alchemize"
     }
+  ],
+  "startOfCombatDialogues": [
+    {
+      "conditions": {
+        "cardMatches": ["Malaise"]
+      },
+      "combatSituation": {},
+      "monsterName": "Book of Stabbing",
+      "chance": 1.0,
+      "lines": [
+        "I do not have a good feeling about this.",
+        "Malaise...",
+        "Not the Malaise!",
+        "Please don't Malaise me."
+      ]
+    }
   ]
 }

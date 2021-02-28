@@ -20,6 +20,12 @@
 * Added 1 more watcher relic meme.
 * Added 1 more colourless relic meme.
 * Added evaluate to the roster of *shuffle a card into your draw pile* cards in genuine tips.
+* Added numerous start of combat dialogues.
+  * Added 13 different start of combat dialogues to the colourless meme collection.
+  * Added 3 different start of combat dialogues to the ironclad meme collection.
+  * Added 1 start of combat dialogue to the silent meme collection.
+  * Added 1 start of combat dialogue to the defect meme collection.
+  * Added 3 different start of combat dialogues to the watcher meme collection.
 
 ## [0.2.5] - 2021-02-21
 

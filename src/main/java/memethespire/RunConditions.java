@@ -11,39 +11,38 @@ import memethespire.relicmemes.RelicModification;
 import java.util.Arrays;
 
 /**
- * The conditions of the player in which a modification can be applied.
+ * The conditions of the run in which a modification can be applied.
  * Intended to be used by other modifications to check the conditions of the
- * player.
+ * run.
  */
 public class RunConditions {
     /**
-     * The relics that the player need to satisfy the condition. The player
-     * must have at least one of the relics named in this list. If left as
-     * empty, this criterion will automatically pass.
+     * The player must have at least one of the relics named in this list to
+     * meet this condition. If left as empty, this criterion will
+     * automatically pass.
      */
     String[] relicMatches = {};
     /**
-     * The cards that the player need to satisfy the condition. The player
-     * must have at least one of the cards named in this list. If left as
-     * empty, this criterion will automatically pass.
+     * The player must have at least one of the cards named in this list to
+     * meet this condition. If left as empty, this criterion will automatically
+     * pass.
      */
     String[] cardMatches = {};
     /**
-     * The acts that the player must be in to satisfy the condition. The
-     * player must be in one of the acts numbered in this list. If left as
-     * empty, this criterion will automatically pass.
+     * The player must be in one of the acts numbered in this list to meet
+     * this condition. If left as empty, this criterion will automatically pass.
      */
     int[] actNumbers = {};
 
     /**
      * The minimum amount of cards that the player must have in their deck to
-     * satisfy the condition. If left as null, this criterion will
+     * meet this condition. If left as null, this criterion will
      * automatically pass.
      */
     int minDeckSize = -1;
     /**
      * The maximum amount of cards that the player can have in their deck to
-     * satisfy the condition. If left as null, this criterion will
+     * meet this condition. If left as null, this criterion will
      * automatically pass.
      */
     int maxDeckSize = -1;

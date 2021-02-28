@@ -37,7 +37,7 @@ Each JSON file in the `resources/meme_collections` directory defines a collectio
 
 **relicModifications**: The relic modifications defined in this collection. Can be left undefined.
 
-### Player Condition
+### Run Conditions
 
 In most meme "definitions" there will be a field named `conditions`. This field determines whether the meme will be shown or not. Its format is as follows:
 
@@ -51,19 +51,21 @@ In most meme "definitions" there will be a field named `conditions`. This field 
   "cardsContain": ["Block", "Poison"]
 }
 ```
-**relicMatches**: The player must have at least one of the relics in this list. If left as empty or not defined, this criterion will automatically pass.
+**relicMatches**: The player must have at least one of the relics in this list to meet this condition.
 
-**cardMatches**: The player must have at least one of the cards in this list. If left as empty or not defined, this criterion will automatically pass.
+**cardMatches**: The player must have at least one of the cards in this list to meet this condition.
 
-**actNumbers**: The player must be in one of the acts in this list. If left as empty or not defined, this criterion will automatically pass.
+**actNumbers**: The player must be in one of the acts in this list to meet this condition.
 
-**minDeckSize**: The minimum amount of cards that the player must have in their deck. If left undefined, this criterion will automatically pass.
+**minDeckSize**: The minimum amount of cards that the player must have in their deck to meet this condition.
 
-**maxDeckSize**: The maximum amount of cards that the player can have in their deck. If left undefined, this criterion will automatically pass.
+**maxDeckSize**: The maximum amount of cards that the player can have in their deck to meet this condition. 
 
-**cardsContain**: The player must have cards in their deck with descriptions containing at least one word in this list. If left undefined, this criterion will automatically pass.
+**cardsContain**: The player must have cards in their deck with descriptions containing at least one word in this list to meet this condition.
 
-If all conditions pass, then the meme will be shown. 
+Any empty or undefined conditions are automatically passed.
+
+If all conditions pass, then the meme will be able to be shown. 
 
 Though the fields *of* the condition can be left undefined or as empty arrays, the `conditions` field *must* be defined for every meme entry that requires it, even if it is empty. 
 

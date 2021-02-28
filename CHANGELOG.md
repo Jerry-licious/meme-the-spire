@@ -13,6 +13,7 @@
 * `CardPlayMessage` textboxes now last a bit shorter.
 * Added null safety checks for card and relic modifications to ensure that the mod does not crash with other mods.
 * Added null safety checks for player conditions to ensure that the mod does not crash with other mods.
+* Relic modifications now add a tooltip indicating that the relic's texts have been changed by a meme.
 
 #### Content
 

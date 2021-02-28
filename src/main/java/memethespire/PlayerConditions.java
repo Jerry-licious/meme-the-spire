@@ -4,6 +4,7 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
+import com.megacrit.cardcrawl.localization.RelicStrings;
 import memethespire.cardmemes.CardModification;
 import memethespire.relicmemes.RelicModification;
 
@@ -63,9 +64,12 @@ public class PlayerConditions {
         return relicMatches.length == 0 ||
                 // Or if the player has one of the relics.
                 Arrays.stream(relicMatches).anyMatch((relicName) ->
-                        player.relics.stream().anyMatch(
-                                (relic) -> RelicModification.getRelicStrings(relic).NAME
-                                        .equalsIgnoreCase(relicName)));
+                        player.relics.stream().anyMatch((relic) -> {
+                            RelicStrings relicStrings =
+                                    RelicModification.getRelicStrings(relic);
+                            return relicStrings != null &&
+                                    relicStrings.NAME.equalsIgnoreCase(relicName);
+                        }));
     }
 
     private boolean cardMatchesCheck(AbstractPlayer player) {
@@ -73,9 +77,12 @@ public class PlayerConditions {
         return cardMatches.length == 0 ||
                 // Or if the player has one of the cards.
                 Arrays.stream(cardMatches).anyMatch((cardName) ->
-                        player.masterDeck.group.stream().anyMatch(
-                                (card) -> CardModification.getCardStrings(card).NAME
-                                        .equalsIgnoreCase(cardName)));
+                        player.masterDeck.group.stream().anyMatch((card) ->  {
+                            CardStrings cardStrings =
+                                    CardModification.getCardStrings(card);
+                            return cardStrings != null &&
+                                    cardStrings.NAME.equalsIgnoreCase(cardName);
+                        }));
     }
 
     private boolean actNumberCheck() {
@@ -96,21 +103,28 @@ public class PlayerConditions {
     private boolean cardsContainCheck(AbstractPlayer player) {
         return cardsContain.length == 0 ||
                 Arrays.stream(cardsContain).anyMatch((word) ->
-                        player.masterDeck.group.stream().anyMatch((card) ->
-                                getCardDescriptionFromCardStrings(card)
-                                        .toLowerCase().contains(word.toLowerCase())));
+                        player.masterDeck.group.stream().anyMatch((card) -> {
+                            String description =
+                                    getCardDescriptionFromCardStrings(card);
+                            return description != null && description
+                                    .toLowerCase().contains(word.toLowerCase());
+                        }));
     }
 
     private String getCardDescriptionFromCardStrings(AbstractCard card) {
         CardStrings cardStrings = CardModification.getCardStrings(card);
-        if (card.upgraded) {
-            if (cardStrings.UPGRADE_DESCRIPTION != null) {
-                return cardStrings.UPGRADE_DESCRIPTION;
+        if (cardStrings != null) {
+            if (card.upgraded) {
+                if (cardStrings.UPGRADE_DESCRIPTION != null) {
+                    return cardStrings.UPGRADE_DESCRIPTION;
+                } else {
+                    return cardStrings.DESCRIPTION;
+                }
             } else {
                 return cardStrings.DESCRIPTION;
             }
         } else {
-            return cardStrings.DESCRIPTION;
+            return null;
         }
     }
 }

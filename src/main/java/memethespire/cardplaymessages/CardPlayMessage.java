@@ -14,7 +14,7 @@ public class CardPlayMessage {
     String cardName;
     String[] lines;
 
-    private static Random textRng = new Random();
+    private static final Random cardPlayRng = new Random();
 
     public CardPlayMessage() {
 
@@ -26,7 +26,7 @@ public class CardPlayMessage {
 
     public void showTextbox() {
         AbstractDungeon.actionManager.addToBottom(new
-                TalkAction(true, this.lines[textRng.nextInt(this.lines.length)],
+                TalkAction(true, this.lines[cardPlayRng.nextInt(this.lines.length)],
                 0.8F, 1.0F));
     }
 }

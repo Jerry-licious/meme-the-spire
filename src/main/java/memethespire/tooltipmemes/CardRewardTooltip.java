@@ -3,7 +3,7 @@ package memethespire.tooltipmemes;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import memethespire.PlayerConditions;
+import memethespire.RunConditions;
 import memethespire.cardmemes.CardModification;
 
 import java.util.Arrays;
@@ -16,7 +16,7 @@ public class CardRewardTooltip {
     /**
      * The conditions of the player where the tooltip becomes applicable.
      */
-    PlayerConditions conditions;
+    RunConditions conditions;
     /**
      * The cards that the tooltip applies to. One tooltip can cover multiple
      * cards.

@@ -15,7 +15,7 @@ import java.util.Arrays;
  * Intended to be used by other modifications to check the conditions of the
  * player.
  */
-public class PlayerConditions {
+public class RunConditions {
     /**
      * The relics that the player need to satisfy the condition. The player
      * must have at least one of the relics named in this list. If left as

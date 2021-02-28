@@ -3,10 +3,8 @@ package memethespire.cardmemes;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.localization.CardStrings;
-import memethespire.PlayerConditions;
+import memethespire.RunConditions;
 import memethespire.ReflectionUtils;
-
-import java.lang.reflect.Field;
 
 /**
  * A modification that is applied to cards seen in card reward screens and
@@ -16,7 +14,7 @@ public class CardModification {
     /**
      * The conditions of the player where the modification becomes applicable.
      */
-    PlayerConditions conditions;
+    RunConditions conditions;
     /**
      * The name of the card that the modification changes.
      */

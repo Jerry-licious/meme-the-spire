@@ -4,7 +4,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.helpers.PowerTip;
 import com.megacrit.cardcrawl.localization.RelicStrings;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
-import memethespire.PlayerConditions;
+import memethespire.RunConditions;
 import memethespire.ReflectionUtils;
 
 /**
@@ -15,7 +15,7 @@ public class RelicModification {
     /**
      * The conditions of the player where the modification becomes applicable.
      */
-    PlayerConditions conditions;
+    RunConditions conditions;
     /**
      * The name of the relic that the modification changes.
      */

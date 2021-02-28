@@ -207,12 +207,14 @@ public class MemeCollection {
 
     public static void queueFirstApplicableStartOfCombatDialogueFromAllCollections
             (AbstractPlayer player, AbstractMonster monster) {
-        for (MemeCollection collection : collections) {
-            for (StartOfCombatDialogue dialogue : collection.startOfCombatDialogues) {
-                if (dialogue.applicableOnPlayer(player) && dialogue.applicableOnMonster(monster)) {
-                    // Only break the loop if a dialogue is actually queued.
-                    if (dialogue.queueDialogue(monster)) {
-                        return;
+        if (MemeTheSpire.config.enableEnemyDialogues) {
+            for (MemeCollection collection : collections) {
+                for (StartOfCombatDialogue dialogue : collection.startOfCombatDialogues) {
+                    if (dialogue.applicableOnPlayer(player) && dialogue.applicableOnMonster(monster)) {
+                        // Only break the loop if a dialogue is actually queued.
+                        if (dialogue.queueDialogue(monster)) {
+                            return;
+                        }
                     }
                 }
             }

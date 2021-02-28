@@ -19,6 +19,7 @@ public class Config {
     boolean enableTooltipMemes = true;
     boolean enableCardPlayMessages = true;
     boolean enableRelicModifications = true;
+    boolean enableEnemyDialogues = true;
 
     public Config() { }
 

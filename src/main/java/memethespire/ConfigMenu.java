@@ -54,5 +54,16 @@ public class ConfigMenu extends ModPanel {
             Config.saveConfig();
         });
         this.addUIElement(enableRelicModifications);
+
+        ModLabeledToggleButton enableEnemyDialogues = new ModLabeledToggleButton(
+                "Enable Enemy Dialogues",
+                TOGGLE_BUTTON_X, TOGGLE_BUTTON_Y - TOGGLE_BUTTON_SPACE * 4,
+                Settings.CREAM_COLOR, FontHelper.charDescFont,
+                MemeTheSpire.config.enableEnemyDialogues,
+                this, (modLabel) -> {}, (modToggleButton) -> {
+            MemeTheSpire.config.enableEnemyDialogues = !MemeTheSpire.config.enableEnemyDialogues;
+            Config.saveConfig();
+        });
+        this.addUIElement(enableEnemyDialogues);
     }
 }

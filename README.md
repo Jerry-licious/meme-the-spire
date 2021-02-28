@@ -70,6 +70,31 @@ If all conditions pass, then the meme will be able to be shown.
 Though the fields *of* the condition can be left undefined or as empty arrays, the `conditions` field *must* be defined for every meme entry that requires it, even if it is empty. 
 
 
+### Combat Situation
+
+In some meme "definitions" there will be a field named `combatSituation`. This field determines whether the meme will be shown or not. Its format is as follows:
+
+```json
+{
+  "handContains": ["Card", "Card"],
+  "handSays": ["Block", "Poison"],
+  "handDoesNotSay": ["Block", "Poison"]
+}
+```
+
+**handContains**: The player's hand must contain at least one of the cards in this list to meet this condition.
+
+**handSays**: The player must have cards in their hand with descriptions containing at least one word in this list to meet this condition.
+
+**handDoesNotSay**: The player must have no cards in their hand with descriptions containing any words in this list to meet this condition.
+
+Any empty or undefined conditions are automatically passed.
+
+If all conditions pass, the meme will be able to be shown.
+
+Though the fields *of* the situation can be left undefined or as empty arrays, the `combatSituation` field *must* be defined for every meme entry that requires it, even if it is empty.
+
+
 ### Card Modifications (`cardModifications`)
 A card modification changes the cards seen at card reward screens and shops, it can modify the card's name and description. A list of these card modifications can be defined in the `cardModifications` field of the JSON files. Its format is as follows:
 ```json

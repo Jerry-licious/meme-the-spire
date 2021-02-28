@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+#### Features
+
+* Added a new type of checking: `CombatSituation`, used to help display conditional memes during combat based on the player's situation.
+
 #### Changes
 
 * `RelicModification` no longer changes the name and description of the relic (it only changes the relic's power tips now).

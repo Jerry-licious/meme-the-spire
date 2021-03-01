@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased]
+
+#### Bug Fixes
+
+* Fixed a typo in `RelicModification`.
+
 ## [0.2.6] - 2021-02-28
 
 #### Features

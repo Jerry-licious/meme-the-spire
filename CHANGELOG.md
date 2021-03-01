@@ -9,6 +9,7 @@
 #### Bug Fixes
 
 * Fixed a typo in `RelicModification`.
+* Fixed a typo in the silent meme collection.
 
 ## [0.2.6] - 2021-02-28
 

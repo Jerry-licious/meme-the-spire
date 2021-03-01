@@ -401,9 +401,9 @@
         "relicMatches": ["Dead Branch"]
       },
       "cardName": "Infinite Blades",
-      "modifiedName": "Machine Learning",
+      "modifiedName": "Hello World",
       "modifiedDescription": "At the start of your turn, get a *Shiv that adds a random card to your hand. ",
-      "modifiedUpgradedDescription": "Innate. NL At the start of your turn, get a *Shive that adds a random card to your hand. "
+      "modifiedUpgradedDescription": "Innate. NL At the start of your turn, get a *Shiv that adds a random card to your hand. "
     },
     {
       "conditions": {

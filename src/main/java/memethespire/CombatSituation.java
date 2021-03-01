@@ -60,7 +60,7 @@ public class CombatSituation {
     }
 
     private boolean handDoesNotSayCheck(AbstractPlayer player) {
-        return handSays.length == 0 ||
+        return handDoesNotSay.length == 0 ||
                 Arrays.stream(handDoesNotSay).noneMatch((word) ->
                         player.hand.group.stream().anyMatch((card) -> {
                             CardStrings cardStrings =

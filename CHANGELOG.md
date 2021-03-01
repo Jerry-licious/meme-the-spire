@@ -10,6 +10,7 @@
 
 * Fixed a typo in `RelicModification`.
 * Fixed a typo in the silent meme collection.
+* Fixed a bug where the *handDoesNotSay* check of `CombatSituation` passes when there are no *handSays* definitions.
 
 ## [0.2.6] - 2021-02-28
 

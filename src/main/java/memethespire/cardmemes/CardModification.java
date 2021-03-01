@@ -64,6 +64,7 @@ public class CardModification {
                             modifiedDescription : modifiedUpgradedDescription) :
                     modifiedDescription;
             card.initializeDescription();
+            card.keywords.add("Meme");
         }
     }
 

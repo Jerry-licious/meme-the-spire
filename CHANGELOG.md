@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+#### Changes
+
+* Card modifications now add a tooltip indicating that the card's description has been changed by a meme through the `Meme` keyword.
+
 #### Bug Fixes
 
 * Fixed a typo in `RelicModification`.

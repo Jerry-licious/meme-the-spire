@@ -148,6 +148,13 @@
     },
     {
       "conditions": {
+        "relicMatches": ["Dead Branch"]
+      },
+      "cardName": "Study",
+      "modifiedName": "Hello World"
+    },
+    {
+      "conditions": {
         "relicMatches": ["Girya", "Red Skull", "Vajra", "Du-vu Doll", "Sling of Courage", "Shuriken"]
       },
       "cardName": "Tantrum",

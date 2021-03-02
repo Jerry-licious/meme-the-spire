@@ -8,6 +8,10 @@
 * Added minimum and maximum health and health ratio checks for `CombatSituation`.
 * Extended start of combat dialogues to start of turn dialogues, where the monsters can say things at the start of the player's turn.
 
+#### Content
+
+* Added 1 watcher card meme.
+
 #### Bug Fixes
 
 * Fixed a typo in `RelicModification`.

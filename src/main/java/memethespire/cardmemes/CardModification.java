@@ -64,6 +64,21 @@ public class CardModification {
                             modifiedDescription : modifiedUpgradedDescription) :
                     modifiedDescription;
             card.initializeDescription();
+            // Unlike relics, cards do not have a list of available powertips
+            // attached to them that can be modified at will. Instead, the
+            // cards calculate and render their tips when the "renderCardTip"
+            // method is called.
+            // The "renderCardTip" function then takes the list of keywords
+            // calculated from the "initializeDescription", which are then
+            // assigned to the keywords property and adds a power tip to the
+            // list.
+            // Thus, the mod creates a "Meme" keyword (see the MemeTheSpire
+            // mod class) and sneakily adds it to the keywords list to trick
+            // the method into rendering the tip without adding the word
+            // "meme" to the card itself.
+            // Since the keywords are recalculated when
+            // "initializeDescription" is called again, the restore function
+            // "automatically" removes the "Meme" keyword from it.
             card.keywords.add("Meme");
         }
     }

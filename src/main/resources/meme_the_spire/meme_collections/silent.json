@@ -49,8 +49,8 @@
       },
       "cardName": "Blade Dance",
       "modifiedName": "Bludgeon+",
-      "modifiedDescription": "Deal 42 damage. NL ( Get !M! shivs. )",
-      "modifiedUpgradedDescription": "Deal 56 damage. NL ( Get !M! shivs. )"
+      "modifiedDescription": "Deal 42 damage. NL ( Get !M! Shivs )",
+      "modifiedUpgradedDescription": "Deal 56 damage. NL ( Get !M! Shivs )"
     },
     {
       "conditions": {
@@ -58,8 +58,8 @@
       },
       "cardName": "Blade Dance",
       "modifiedName": "Bludgeon",
-      "modifiedDescription": "Deal 30 damage. NL ( Get !M! shivs. )",
-      "modifiedUpgradedDescription": "Deal 40 damage. NL ( Get !M! shivs. )"
+      "modifiedDescription": "Deal 30 damage. NL ( Get !M! Shivs )",
+      "modifiedUpgradedDescription": "Deal 40 damage. NL ( Get !M! Shivs )"
     },
     {
       "conditions": {
@@ -67,8 +67,8 @@
       },
       "cardName": "Blade Dance",
       "modifiedName": "Free Sunder",
-      "modifiedDescription": "Deal 24 damage. NL ( Get !M! shivs. )",
-      "modifiedUpgradedDescription": "Deal 32 damage. NL ( Get !M! shivs. )"
+      "modifiedDescription": "Deal 24 damage. NL ( Get !M! Shivs )",
+      "modifiedUpgradedDescription": "Deal 32 damage. NL ( Get !M! Shivs )"
     },
     {
       "conditions": {
@@ -76,8 +76,8 @@
       },
       "cardName": "Blade Dance",
       "modifiedName": "Heavy Shiv",
-      "modifiedDescription": "Deal 12 damage. NL Strength affects this card 3 times. NL ( Get !M! shivs. )",
-      "modifiedUpgradedDescription": "Deal 16 damage. NL Strength affects this card 4 times. NL ( Get !M! shivs. )"
+      "modifiedDescription": "Deal 12 damage. NL Strength affects this card 3 times. NL ( Get !M! Shivs )",
+      "modifiedUpgradedDescription": "Deal 16 damage. NL Strength affects this card 4 times. NL ( Get !M! Shivs )"
     },
     {
       "conditions": {
@@ -86,8 +86,8 @@
       },
       "cardName": "Blade Dance",
       "modifiedName": "Poisoned Stabs",
-      "modifiedDescription": "Deal 12 damage. NL Apply 6 Poison. NL ( Get !M! shivs. )",
-      "modifiedUpgradedDescription": "Deal 16 damage. NL Apply 8 Poison. NL ( Get !M! shivs. )"
+      "modifiedDescription": "Deal 12 damage. NL Apply 6 Poison. NL ( Get !M! Shivs )",
+      "modifiedUpgradedDescription": "Deal 16 damage. NL Apply 8 Poison. NL ( Get !M! Shivs )"
     },
     {
       "conditions": {
@@ -95,8 +95,8 @@
       },
       "cardName": "Blade Dance",
       "modifiedName": "Poisoned Stabs",
-      "modifiedDescription": "Deal 12 damage. NL Apply 3 Poison. NL ( Get !M! shivs. )",
-      "modifiedUpgradedDescription": "Deal 16 damage. NL Apply 4 Poison. NL ( Get !M! shivs. )"
+      "modifiedDescription": "Deal 12 damage. NL Apply 3 Poison. NL ( Get !M! Shivs )",
+      "modifiedUpgradedDescription": "Deal 16 damage. NL Apply 4 Poison. NL ( Get !M! Shivs )"
     },
     {
       "conditions": {
@@ -104,8 +104,8 @@
       },
       "cardName": "Blade Dance",
       "modifiedName": "Footwork",
-      "modifiedDescription": "Deal 12 damage. NL Gain 1 Dexterity. NL ( Get !M! shivs. )",
-      "modifiedUpgradedDescription": "Deal 16 damage. NL Gain 1 Dexterity. NL ( Get !M! shivs. )"
+      "modifiedDescription": "Deal 12 damage. NL Gain 1 Dexterity. NL ( Get !M! Shivs )",
+      "modifiedUpgradedDescription": "Deal 16 damage. NL Gain 1 Dexterity. NL ( Get !M! Shivs )"
     },
     {
       "conditions": {
@@ -113,8 +113,8 @@
       },
       "cardName": "Blade Dance",
       "modifiedName": "Inflame",
-      "modifiedDescription": "Deal 12 damage. NL Gain 1 Strength. NL ( Get !M! shivs. )",
-      "modifiedUpgradedDescription": "Deal 17 damage. NL Gain 1 Strength. NL ( Get !M! shivs. )"
+      "modifiedDescription": "Deal 12 damage. NL Gain 1 Strength. NL ( Get !M! Shivs )",
+      "modifiedUpgradedDescription": "Deal 17 damage. NL Gain 1 Strength. NL ( Get !M! Shivs )"
     },
     {
       "conditions": {
@@ -123,8 +123,8 @@
       },
       "cardName": "Cloak and Dagger",
       "modifiedName": "Dash in Wrath",
-      "modifiedDescription": "Gain !B! Block. NL Deal 14 damage. NL ( !B! block, !M! shivs )",
-      "modifiedUpgradedDescription": "Gain !B! Block. NL Deal 14 damage twice. NL ( !B! block, !M! shivs )"
+      "modifiedDescription": "Gain !B! Block. NL Deal 14 damage. NL ( !B! block, !M! Shivs )",
+      "modifiedUpgradedDescription": "Gain !B! Block. NL Deal 14 damage twice. NL ( !B! block, !M! Shivs )"
     },
     {
       "conditions": {
@@ -132,8 +132,8 @@
       },
       "cardName": "Cloak and Dagger",
       "modifiedName": "Dash",
-      "modifiedDescription": "Gain !B! Block. NL Deal 8 damage. NL ( !B! block, !M! shivs )",
-      "modifiedUpgradedDescription": "Gain !B! Block. NL Deal 8 damage twice. NL ( !B! block, !M! shivs )"
+      "modifiedDescription": "Gain !B! Block. NL Deal 8 damage. NL ( !B! block, !M! Shivs )",
+      "modifiedUpgradedDescription": "Gain !B! Block. NL Deal 8 damage twice. NL ( !B! block, !M! Shivs )"
     },
     {
       "conditions": {
@@ -141,8 +141,8 @@
       },
       "cardName": "Cloak and Dagger",
       "modifiedName": "Dash",
-      "modifiedDescription": "Gain !B! Block. NL Deal 10 damage. NL ( !B! block, !M! shivs )",
-      "modifiedUpgradedDescription": "Gain !B! Block. NL Deal 10 damage twice. NL ( !B! block, !M! shivs )"
+      "modifiedDescription": "Gain !B! Block. NL Deal 10 damage. NL ( !B! block, !M! Shivs )",
+      "modifiedUpgradedDescription": "Gain !B! Block. NL Deal 10 damage twice. NL ( !B! block, !M! Shivs )"
     },
     {
       "conditions": {
@@ -267,7 +267,7 @@
         "cardMatches": ["Eviscerate"]
       },
       "cardName": "Calculated Gamble",
-      "modifiedDescription": "You will draw this with *Eviscerate. NL (Discard and redraw, Exhaust. )",
+      "modifiedDescription": "You will draw this with *Eviscerate. NL (Discard and redraw, Exhaust )",
       "modifiedUpgradedDescription": "You will draw this with *Eviscerate, Nl (Discard and redraw)"
     },
     {
@@ -276,8 +276,8 @@
       },
       "cardName": "Catalyst",
       "modifiedName": "Deadly Poison",
-      "modifiedDescription": "Innate. NL Scaling damage with *Twisted *Funnel. NL Apply 4 Poison. NL ( Double enemy Poison, Exhaust. )",
-      "modifiedUpgradedDescription": "Innate. NL Scaling damage with *Twisted *Funnel. NL Apply 8 Poison. NL ( Triple enemy Poison, Exhaust. )"
+      "modifiedDescription": "Innate. NL Scaling damage with *Twisted *Funnel. NL Apply 4 Poison. NL ( Double enemy Poison, Exhaust )",
+      "modifiedUpgradedDescription": "Innate. NL Scaling damage with *Twisted *Funnel. NL Apply 8 Poison. NL ( Triple enemy Poison, Exhaust )"
     },
     {
       "conditions": {
@@ -285,8 +285,8 @@
       },
       "cardName": "Catalyst",
       "modifiedName": "Scaling",
-      "modifiedDescription": "Don't pretend that you aren't going to click this. NL ( Double enemy Poison, Exhaust. )",
-      "modifiedUpgradedDescription": "Don't pretend that you aren't going to click this. NL ( Triple enemy Poison, Exhaust. )"
+      "modifiedDescription": "Don't pretend that you aren't going to click this. NL ( Double enemy Poison, Exhaust )",
+      "modifiedUpgradedDescription": "Don't pretend that you aren't going to click this. NL ( Triple enemy Poison, Exhaust )"
     },
     {
       "conditions": {
@@ -294,8 +294,8 @@
       },
       "cardName": "Catalyst",
       "modifiedName": "Catacurse",
-      "modifiedDescription": "You will get offered Poison I promise. NL ( Double enemy Poison, Exhaust. )",
-      "modifiedUpgradedDescription": "*Green. NL You will get offered Poison I promise. NL ( Triple enemy Poison, Exhaust. )"
+      "modifiedDescription": "You will get offered Poison I promise. NL ( Double enemy Poison, Exhaust )",
+      "modifiedUpgradedDescription": "*Green. NL You will get offered Poison I promise. NL ( Triple enemy Poison, Exhaust )"
     },
     {
       "conditions": {
@@ -351,8 +351,8 @@
       },
       "cardName": "Endless Agony",
       "modifiedName": "Twin Slice",
-      "modifiedDescription": "Deal 8 damage twice. NL ( !D! damage, when you draw this, get a copy, Exhaust. )",
-      "modifiedUpgradedDescription": "Deal 10 damage twice. NL ( !D! damage, when you draw this, get a copy, Exhaust. )"
+      "modifiedDescription": "Deal 8 damage twice. NL ( !D! damage, when you draw this, get a copy, Exhaust )",
+      "modifiedUpgradedDescription": "Deal 10 damage twice. NL ( !D! damage, when you draw this, get a copy, Exhaust )"
     },
     {
       "conditions": {
@@ -385,7 +385,7 @@
       },
       "cardName": "Heel Hook",
       "modifiedName": "Infinite Dream",
-      "modifiedDescription": "You want the infinite right? (Deal !D! . If enemy is Weak gain [R] and draw 1. )"
+      "modifiedDescription": "You want the infinite right? (Deal !D! . If enemy is Weak gain [R] and draw 1 )"
     },
     {
       "conditions": {
@@ -394,7 +394,7 @@
       },
       "cardName": "Heel Hook",
       "modifiedName": "Infinite Dream",
-      "modifiedDescription": "You want the infinite right? (Deal !D! . If enemy is Weak gain [R] and draw 1. )"
+      "modifiedDescription": "You want the infinite right? (Deal !D! . If enemy is Weak gain [R] and draw 1 )"
     },
     {
       "conditions": {
@@ -504,7 +504,7 @@
       },
       "cardName": "Alchemize",
       "modifiedName": "Slimed",
-      "modifiedDescription": "Exhaust. NL ( Obtain a random potion. )"
+      "modifiedDescription": "Exhaust. NL ( Obtain a random potion )"
     },
     {
       "conditions": {
@@ -600,8 +600,8 @@
         "relicMatches": ["Philosopher's Stone"]
       },
       "cardName": "Malaise",
-      "modifiedDescription": "Told you the Philosopher's Stone is free energy. NL ( Enemy loses X Strength, apply X Weak, Exhaust. ) ",
-      "modifiedUpgradedDescription": "Told you the Philosopher's Stone is free energy. NL ( Enemy loses X+1 Strength, apply X+1 Weak, Exhaust. )"
+      "modifiedDescription": "Told you the Philosopher's Stone is free energy. NL ( Enemy loses X Strength, apply X Weak, Exhaust ) ",
+      "modifiedUpgradedDescription": "Told you the Philosopher's Stone is free energy. NL ( Enemy loses X+1 Strength, apply X+1 Weak, Exhaust )"
     },
     {
       "conditions": {
@@ -609,8 +609,8 @@
       },
       "cardName": "Malaise",
       "modifiedName": "Ice Cream Malaise",
-      "modifiedDescription": "Apply 99 *Major *Depression. NL Enemy loses its *will *to *live. NL ( Enemy loses X Strength, apply X Weak, Exhaust. )",
-      "modifiedUpgradedDescription": "Apply 99 *Major *Depression. NL Enemy loses its *will *to *live. NL ( Enemy loses X+1 Strength, apply X+1 Weak, Exhaust. )"
+      "modifiedDescription": "Apply 99 *Major *Depression. NL Enemy loses its *will *to *live. NL ( Enemy loses X Strength, apply X Weak, Exhaust )",
+      "modifiedUpgradedDescription": "Apply 99 *Major *Depression. NL Enemy loses its *will *to *live. NL ( Enemy loses X+1 Strength, apply X+1 Weak, Exhaust )"
     },
     {
       "conditions": {
@@ -640,7 +640,7 @@
       },
       "cardName": "Nightmare",
       "modifiedName": "Wraith Form+++++++",
-      "modifiedDescription": "Choose a *Wraith *Form in your hand. NL Next turn, gain 9 Intangible. NL ( 3 copies of a card next turn, Exhaust. )"
+      "modifiedDescription": "Choose a *Wraith *Form in your hand. NL Next turn, gain 9 Intangible. NL ( 3 copies of a card next turn, Exhaust )"
     },
     {
       "conditions": {
@@ -648,7 +648,7 @@
       },
       "cardName": "Nightmare",
       "modifiedName": "Wraith Form",
-      "modifiedDescription": "Choose an *Apparition in your hand. NL Next turn, gain 3 Intangible. NL Exhaust. NL ( 3 copies of a card next turn, Exhaust. )"
+      "modifiedDescription": "Choose an *Apparition in your hand. NL Next turn, gain 3 Intangible. NL Exhaust. NL ( 3 copies of a card next turn, Exhaust )"
     },
     {
       "conditions": {
@@ -656,7 +656,7 @@
       },
       "cardName": "Nightmare",
       "modifiedName": "Catalyst+++++++",
-      "modifiedDescription": "Choose a *Catalyst in your hand. NL Next turn, septenvigintuple the enemy's Poison. NL ( 3 copies of a card next turn, Exhaust. )"
+      "modifiedDescription": "Choose a *Catalyst in your hand. NL Next turn, septenvigintuple the enemy's Poison. NL ( 3 copies of a card next turn, Exhaust )"
     },
     {
       "conditions": {
@@ -664,7 +664,7 @@
       },
       "cardName": "Nightmare",
       "modifiedName": "Crescendo",
-      "modifiedDescription": "Choose a *Phantasmal *Killer in your hand. NL Next turn, enter Wrath for the rest of the combat. NL ( 3 copies of a card next turn, Exhaust. )"
+      "modifiedDescription": "Choose a *Phantasmal *Killer in your hand. NL Next turn, enter Wrath for the rest of the combat. NL ( 3 copies of a card next turn, Exhaust )"
     },
     {
       "conditions": {
@@ -672,7 +672,7 @@
       },
       "cardName": "Nightmare",
       "modifiedName": "Click the Card",
-      "modifiedDescription": "You can do whatever you want with this anyways. NL ( 3 copies of a card next turn, Exhaust. )"
+      "modifiedDescription": "You can do whatever you want with this anyways. NL ( 3 copies of a card next turn, Exhaust )"
     },
     {
       "conditions": {
@@ -680,7 +680,7 @@
       },
       "cardName": "Phantasmal Killer",
       "modifiedName": "Blasphemy",
-      "modifiedDescription": "Next turn, enter Divinity (but you don't get the energy). NL ( Double attack damage next turn. )"
+      "modifiedDescription": "Next turn, enter Divinity (but you don't get the energy). NL ( Double attack damage next turn )"
     },
     {
       "conditions": {
@@ -688,7 +688,7 @@
       },
       "cardName": "Phantasmal Killer",
       "modifiedName": "Simmering Fury",
-      "modifiedDescription": "Next turn, enter Wrath. NL ( Double attack damage next turn. )"
+      "modifiedDescription": "Next turn, enter Wrath. NL ( Double attack damage next turn )"
     },
     {
       "conditions": {

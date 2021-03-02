@@ -208,7 +208,7 @@
       },
       "cardName": "Dark Embrace",
       "modifiedName": "Click The Cards",
-      "modifiedDescription": "Exhaust all your Skills. NL (Whenever you exhaust a card, draw 1. )"
+      "modifiedDescription": "Exhaust all your Skills. NL (Whenever you exhaust a card, draw 1 )"
     },
     {
       "conditions": {
@@ -216,7 +216,7 @@
       },
       "cardName": "Dropkick",
       "modifiedName": "Infinite Dream",
-      "modifiedDescription": "You want the infinite right? NL (Deal !D! . If enemy is Vulnerable gain [R] and draw 1. )"
+      "modifiedDescription": "You want the infinite right? NL (Deal !D! . If enemy is Vulnerable gain [R] and draw 1 )"
     },
     {
       "conditions": {
@@ -225,7 +225,7 @@
       },
       "cardName": "Dropkick",
       "modifiedName": "Infinite Dream",
-      "modifiedDescription": "You want the infinite right? NL (Deal !D! . If enemy is Vulnerable gain [R] and draw 1. )"
+      "modifiedDescription": "You want the infinite right? NL (Deal !D! . If enemy is Vulnerable gain [R] and draw 1 )"
     },
     {
       "conditions": {
@@ -299,7 +299,7 @@
       },
       "cardName": "Feel No Pain",
       "modifiedName": "Feel No Brain",
-      "modifiedDescription": "Just click the cards. Why would you think? NL (Whenever you exhaust a card, gain !M! Block. )"
+      "modifiedDescription": "Just click the cards. Why would you think? NL (Whenever you exhaust a card, gain !M! Block )"
     },
     {
       "conditions": {
@@ -331,7 +331,7 @@
       },
       "cardName": "Pummel",
       "modifiedName": "Nemesis Solution",
-      "modifiedDescription": "Deal 5 damage !M! times. NL Intangible and Weak do not affect this card. NL ( !D! x !M! , Exhaust. )"
+      "modifiedDescription": "Deal 5 damage !M! times. NL Intangible and Weak do not affect this card. NL ( !D! x !M! , Exhaust )"
     },
     {
       "conditions": {
@@ -339,8 +339,8 @@
       },
       "cardName": "Pummel",
       "modifiedName": "Cheaper Heavy Blade",
-      "modifiedDescription": "Deal 8 damage. NL Strength affects this card 4 times. NL ( !D! x !M! , Exhaust. )",
-      "modifiedUpgradedDescription": "Deal 10 damage. NL Strength affects this card 5 times. NL ( !D! x !M! , Exhaust. )"
+      "modifiedDescription": "Deal 8 damage. NL Strength affects this card 4 times. NL ( !D! x !M! , Exhaust )",
+      "modifiedUpgradedDescription": "Deal 10 damage. NL Strength affects this card 5 times. NL ( !D! x !M! , Exhaust )"
     },
     {
       "conditions": {
@@ -444,7 +444,7 @@
       },
       "cardName": "Bludgeon",
       "modifiedName": "B L U D G E D",
-      "modifiedDescription": "Just click this. NL (Deal !D! damage.)"
+      "modifiedDescription": "Just click this. NL (Deal !D! damage )"
     },
     {
       "conditions": {
@@ -512,8 +512,8 @@
       },
       "cardName": "Double Tap",
       "modifiedName": "Rampage Stacker",
-      "modifiedDescription": "Your next *Rampage this turn deals additional damage and gain double damage increase. NL (Double next *Attack)",
-      "modifiedUpgradedDescription": "Your next two *Rampages this turn deal additional damage and gain double damage increase. NL (Double next two *Attacks)"
+      "modifiedDescription": "Your next *Rampage this turn deals additional damage and gain double damage increase. NL ( Double next *Attack )",
+      "modifiedUpgradedDescription": "Your next two *Rampages this turn deal additional damage and gain double damage increase. NL ( Double next two *Attacks )"
     },
     {
       "conditions": {
@@ -521,8 +521,8 @@
       },
       "cardName": "Double Tap",
       "modifiedName": "Full Heal",
-      "modifiedDescription": "Your next *Reaper this turn is played twice. NL (Double next *Attack)",
-      "modifiedUpgradedDescription": "Your next two *Reapers this turn are played twice. NL (Double next 2 *Attacks)"
+      "modifiedDescription": "Your next *Reaper this turn is played twice. NL ( Double next *Attack )",
+      "modifiedUpgradedDescription": "Your next two *Reapers this turn are played twice. NL ( Double next 2 *Attacks )"
     },
     {
       "conditions": {
@@ -545,7 +545,7 @@
         "relicMatches": ["Philosopher's Stone"]
       },
       "cardName": "Disarm",
-      "modifiedDescription": "Told you the Philosopher's Stone is free energy. NL ( Enemy loses !M! Strength, Exhaust. )"
+      "modifiedDescription": "Told you the Philosopher's Stone is free energy. NL ( Enemy loses !M! Strength, Exhaust )"
     },
     {
       "conditions": {
@@ -553,7 +553,7 @@
       },
       "cardName": "Disarm",
       "modifiedName": "Heart Solution",
-      "modifiedDescription": "Told you the *Brimstone is a free *Demon *Form. NL ( Enemy loses !M! Strength, Exhaust. )"
+      "modifiedDescription": "Told you the *Brimstone is a free *Demon *Form. NL ( Enemy loses !M! Strength, Exhaust )"
     },
     {
       "conditions": {
@@ -584,7 +584,7 @@
       },
       "cardName": "Reaper",
       "modifiedName": "Rest",
-      "modifiedDescription": "Told you the *Dripper is free energy. NL (Deal !D! to all, heal for unblocked) NL Exhaust. "
+      "modifiedDescription": "Told you the *Dripper is free energy. NL ( Deal !D! to all, heal for unblocked, Exhaust ) "
     },
 
     {

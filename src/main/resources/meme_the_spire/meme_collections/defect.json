@@ -68,8 +68,8 @@
         "maxDeckSize": 10
       },
       "cardName": "Aggregate",
-      "modifiedDescription": "I know what you are thinking, don't. NL (Gain [B] for every 3 cards in draw pile.)",
-      "modifiedUpgradedDescription": "Gain [B] . NL (Gain [B] for every 3 cards in draw pile.)"
+      "modifiedDescription": "I know what you are thinking, don't. NL ( Gain [B] for every 3 cards in draw pile )",
+      "modifiedUpgradedDescription": "Gain [B] . NL ( Gain [B] for every 3 cards in draw pile )"
     },
     {
       "conditions": {
@@ -77,8 +77,8 @@
         "maxDeckSize": 15
       },
       "cardName": "Aggregate",
-      "modifiedDescription": "Gain [B] . NL (Gain [B] for every 4 cards in draw pile.)",
-      "modifiedUpgradedDescription": "Gain [B] [G] . NL (Gain [B] for every 3 cards in draw pile.)"
+      "modifiedDescription": "Gain [B] . NL ( Gain [B] for every 4 cards in draw pile )",
+      "modifiedUpgradedDescription": "Gain [B] [G] . NL ( Gain [B] for every 3 cards in draw pile )"
     },
     {
       "conditions": {
@@ -86,8 +86,8 @@
         "maxDeckSize": 25
       },
       "cardName": "Aggregate",
-      "modifiedDescription": "Gain [B] [G] . NL (Gain [B] for every 4 cards in draw pile.)",
-      "modifiedUpgradedDescription": "Gain [B] [G] [R] . NL (Gain [B] for every 3 cards in draw pile.)"
+      "modifiedDescription": "Gain [B] [G] . NL ( Gain [B] for every 4 cards in draw pile )",
+      "modifiedUpgradedDescription": "Gain [B] [G] [R] . NL ( Gain [B] for every 3 cards in draw pile )"
     },
     {
       "conditions": {
@@ -95,8 +95,8 @@
         "maxDeckSize": 30
       },
       "cardName": "Aggregate",
-      "modifiedDescription": "Gain [B] [G] [R] . NL (Gain [B] for every 4 cards in draw pile.)",
-      "modifiedUpgradedDescription": "Gain [B] [G] [R] [W] . NL (Gain [B] for every 3 cards in draw pile.)"
+      "modifiedDescription": "Gain [B] [G] [R] . NL ( Gain [B] for every 4 cards in draw pile )",
+      "modifiedUpgradedDescription": "Gain [B] [G] [R] [W] . NL ( Gain [B] for every 3 cards in draw pile )"
     },
     {
       "conditions": {
@@ -104,8 +104,8 @@
         "maxDeckSize": 35
       },
       "cardName": "Aggregate",
-      "modifiedDescription": "Gain [B] [G] [R] [W] . NL (Gain [B] for every 4 cards in draw pile.)",
-      "modifiedUpgradedDescription": "Gain [B] [G] [R] [W] [B] . NL (Gain [B] for every 3 cards in draw pile.)"
+      "modifiedDescription": "Gain [B] [G] [R] [W] . NL ( Gain [B] for every 4 cards in draw pile )",
+      "modifiedUpgradedDescription": "Gain [B] [G] [R] [W] [B] . NL ( Gain [B] for every 3 cards in draw pile )"
     },
     {
       "conditions": {
@@ -113,8 +113,8 @@
         "maxDeckSize": 40
       },
       "cardName": "Aggregate",
-      "modifiedDescription": "Gain [B] [G] [R] [W] . NL (Gain [B] for every 4 cards in draw pile.)",
-      "modifiedUpgradedDescription": "Gain [B] [G] [R] [W] [B] [G] . NL (Gain [B] for every 3 cards in draw pile.)"
+      "modifiedDescription": "Gain [B] [G] [R] [W] . NL ( Gain [B] for every 4 cards in draw pile )",
+      "modifiedUpgradedDescription": "Gain [B] [G] [R] [W] [B] [G] . NL ( Gain [B] for every 3 cards in draw pile )"
     },
     {
       "conditions": {
@@ -122,8 +122,8 @@
         "maxDeckSize": 45
       },
       "cardName": "Aggregate",
-      "modifiedDescription": "Gain [B] [G] [R] [W] [B] . NL (Gain [B] for every 4 cards in draw pile.)",
-      "modifiedUpgradedDescription": "Gain [B] [G] [R] [W] [B] [G] [R] . NL (Gain [B] for every 3 cards in draw pile.)"
+      "modifiedDescription": "Gain [B] [G] [R] [W] [B] . NL ( Gain [B] for every 4 cards in draw pile )",
+      "modifiedUpgradedDescription": "Gain [B] [G] [R] [W] [B] [G] [R] . NL ( Gain [B] for every 3 cards in draw pile )"
     },
     {
       "conditions": {
@@ -131,16 +131,16 @@
         "maxDeckSize": 55
       },
       "cardName": "Aggregate",
-      "modifiedDescription": "Gain [B] [G] [R] [W] [B] [G] . NL (Gain [B] for every 4 cards in draw pile.)",
-      "modifiedUpgradedDescription": "Gain [B] [G] [R] [W] [B] [G] [R] [W] . NL (Gain [B] for every 3 cards in draw pile.)"
+      "modifiedDescription": "Gain [B] [G] [R] [W] [B] [G] . NL ( Gain [B] for every 4 cards in draw pile )",
+      "modifiedUpgradedDescription": "Gain [B] [G] [R] [W] [B] [G] [R] [W] . NL ( Gain [B] for every 3 cards in draw pile )"
     },
     {
       "conditions": {
         "minDeckSize": 56
       },
       "cardName": "Aggregate",
-      "modifiedDescription": "Gain [B] [G] [R] [W] [B] [G] [R] . NL (Gain [B] for every 4 cards in draw pile.)",
-      "modifiedUpgradedDescription": "Gain [B] [G] [R] [W] [B] [G] [R] [W] [B] . NL (Gain [B] for every 3 cards in draw pile.)"
+      "modifiedDescription": "Gain [B] [G] [R] [W] [B] [G] [R] . NL ( Gain [B] for every 4 cards in draw pile )",
+      "modifiedUpgradedDescription": "Gain [B] [G] [R] [W] [B] [G] [R] [W] [B] . NL ( Gain [B] for every 3 cards in draw pile )"
     },
     {
       "conditions": {
@@ -210,7 +210,7 @@
       },
       "cardName": "Consume",
       "modifiedName": "Free Focus",
-      "modifiedDescription": "Don't pretend that you aren't going to click this. NL ( !M! Focus, lose Orb slot. )"
+      "modifiedDescription": "Don't pretend that you aren't going to click this. NL ( !M! Focus, lose Orb slot )"
     },
     {
       "conditions": {
@@ -248,7 +248,7 @@
         "cardMatches": ["Meteor Strike", "Turbo"]
       },
       "cardName": "Double Energy",
-      "modifiedDescription": "Gain [B] [G] [R] [W] [B] [G] [R] [W] . NL ( Double your energy, Exaust. )"
+      "modifiedDescription": "Gain [B] [G] [R] [W] [B] [G] [R] [W] . NL ( Double your energy, Exhaust )"
     },
     {
       "conditions": {
@@ -288,7 +288,7 @@
       },
       "cardName": "Genetic Algorithm",
       "modifiedName": "Build Your Apparition",
-      "modifiedDescription": "Gain 1 Intangible. NL ( !B! Block, !M! Increase, Exhaust. )"
+      "modifiedDescription": "Gain 1 Intangible. NL ( !B! Block, !M! Increase, Exhaust )"
     },
     {
       "conditions": {
@@ -312,8 +312,8 @@
       },
       "cardName": "Hello World",
       "modifiedName": "Happy Flower",
-      "modifiedDescription": "Every 3 turns, increase the energy of your *Aggregate by 1. NL ( Random common every turn. )",
-      "modifiedUpgradedDescription": "Innate. NL Every 3 turns, increase the energy of your *Aggregate by 1. NL ( Random common every turn. )"
+      "modifiedDescription": "Every 3 turns, increase the energy of your *Aggregate by 1. NL ( Random common every turn )",
+      "modifiedUpgradedDescription": "Innate. NL Every 3 turns, increase the energy of your *Aggregate by 1. NL ( Random common every turn )"
     },
     {
       "conditions": {
@@ -321,23 +321,23 @@
       },
       "cardName": "Hello World",
       "modifiedName": "Block Scaling",
-      "modifiedDescription": "At the start of your turn, increase the Block of your *Stack by 1. NL ( Random common every turn. )",
-      "modifiedUpgradedDescription": "Innate. NL At the start of your turn, increase the Block of your *Stack by 1. NL ( Random common every turn. )"
+      "modifiedDescription": "At the start of your turn, increase the Block of your *Stack by 1. NL ( Random common every turn )",
+      "modifiedUpgradedDescription": "Innate. NL At the start of your turn, increase the Block of your *Stack by 1. NL ( Random common every turn )"
     },
     {
       "conditions": {
         "cardMatches": ["Auto-Shields"]
       },
       "cardName": "Loop",
-      "modifiedDescription": "At the start of your turn, disable your *Auto-Shields. ( Trigger next orb passive on turn start. )",
-      "modifiedUpgradedDescription": "At the start of your turn, disable your *Auto-Shields. ( Trigger next orb passive twice on turn start. )"
+      "modifiedDescription": "At the start of your turn, disable your *Auto-Shields. ( Trigger next orb passive on turn start )",
+      "modifiedUpgradedDescription": "At the start of your turn, disable your *Auto-Shields. ( Trigger next orb passive twice on turn start )"
     },
     {
       "conditions": {
         "actNumbers": [2, 3]
       },
       "cardName": "Melter",
-      "modifiedDescription": "Destroy a *Baseball. NL ( Remove enemy Block, !D! damage. )"
+      "modifiedDescription": "Destroy a *Baseball. NL ( Remove enemy Block, !D! damage )"
     },
     {
       "conditions": {
@@ -352,7 +352,7 @@
         "cardMatches": ["Echo Form"]
       },
       "cardName": "Recycle",
-      "modifiedDescription": "You don't need an *Echo *Form. NL Gain [B] [B] [B] . NL ( Exhaust card, gain [B] equal to cost. )"
+      "modifiedDescription": "You don't need an *Echo *Form. NL Gain [B] [B] [B] . NL ( Exhaust card, gain [B] equal to cost )"
     },
     {
       "conditions": {
@@ -389,7 +389,7 @@
         "relicMatches": ["Snecko Eye"]
       },
       "cardName": "Scrape",
-      "modifiedDescription": "You have snecko, click this. NL ( !D! damage , draw !M! , discard non-0-costs. )"
+      "modifiedDescription": "You have snecko, click this. NL ( !D! damage , draw !M! , discard non-0-costs )"
     },
     {
       "conditions": {
@@ -486,7 +486,7 @@
       },
       "cardName": "Creative AI",
       "modifiedName": "Infinite Healing",
-      "modifiedDescription": "Heal 2 HP. NL At the start of your turn, heal 2 HP. NL ( Random power at start of each turn. )"
+      "modifiedDescription": "Heal 2 HP. NL At the start of your turn, heal 2 HP. NL ( Random power at start of each turn )"
     }
   ],
   "tooltips": [

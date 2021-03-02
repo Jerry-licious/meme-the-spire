@@ -192,8 +192,8 @@
         "cardMatches": ["Ragnarok"]
       },
       "cardName": "Wreath of Flame",
-      "modifiedDescription": "Your next *Ragnarok deals 30 additional damage. NL ( Next attack deals !M! more. )",
-      "modifiedUpgradedDescription": "Your next Ragnarok deals 40 additional damage. ( Next attack deals !M! more. )"
+      "modifiedDescription": "Your next *Ragnarok deals 30 additional damage. NL ( Next attack deals !M! more )",
+      "modifiedUpgradedDescription": "Your next Ragnarok deals 40 additional damage. ( Next attack deals !M! more )"
     },
     {
       "conditions": {
@@ -210,8 +210,8 @@
       },
       "cardName": "Conjure Blade",
       "modifiedName": "Click",
-      "modifiedDescription": "You have energy generation. NL ( Insert an *Expunger into your draw pile, Exhaust. )",
-      "modifiedUpgradedDescription": "You have energy generation. NL ( Insert an *Expunger with X+1 into your draw pile, Exhaust. )"
+      "modifiedDescription": "You have energy generation. NL ( Insert an *Expunger into your draw pile, Exhaust )",
+      "modifiedUpgradedDescription": "You have energy generation. NL ( Insert an *Expunger with X+1 into your draw pile, Exhaust )"
     },
     {
       "conditions": {
@@ -236,8 +236,8 @@
       },
       "cardName": "Deva Form",
       "modifiedName": "Energy Relic",
-      "modifiedDescription": "Snecko eye has energy problems? Never heard of it. NL ( Ethereal, [W] energy at the start of your turn and increase this gain by 1. )",
-      "modifiedUpgradedDescription": "Snecko eye has energy problems? Never heard of it. NL ( [W] energy at the start of your turn and increase this gain by 1. )"
+      "modifiedDescription": "Snecko eye has energy problems? Never heard of it. NL ( Ethereal, [W] energy at the start of your turn and increase this gain by 1 )",
+      "modifiedUpgradedDescription": "Snecko eye has energy problems? Never heard of it. NL ( [W] energy at the start of your turn and increase this gain by 1 )"
     },
     {
       "conditions": {
@@ -275,7 +275,7 @@
       },
       "cardName": "Omniscience",
       "modifiedName": "Double Upgrade",
-      "modifiedDescription": "Play a *Lesson *Learned in your draw pile twice. NL Exhaust. NL ( Give a card in your draw pile Exhaust and play it twice. )"
+      "modifiedDescription": "Play a *Lesson *Learned in your draw pile twice. NL Exhaust. NL ( Give a card in your draw pile Exhaust and play it twice )"
     },
     {
       "conditions": {
@@ -283,7 +283,7 @@
       },
       "cardName": "Omniscience",
       "modifiedName": "60 Gold",
-      "modifiedDescription": "Play a *WIsh in your draw pile twice. NL Exhaust. NL ( Give a card in your draw pile Exhaust and play it twice. )"
+      "modifiedDescription": "Play a *WIsh in your draw pile twice. NL Exhaust. NL ( Give a card in your draw pile Exhaust and play it twice )"
     },
     {
       "conditions": {
@@ -300,8 +300,8 @@
       },
       "cardName": "Ragnarok",
       "modifiedName": "Heavy Smite",
-      "modifiedDescription": "Deal 25 damage. NL Strength affects this card !M! times. NL ( !D! damage to a random enemy !M! times. )",
-      "modifiedUpgradedDescription": "Deal 36 damage. NL Strength affects this card !M! times. NL ( !D! damage to a random enemy !M! times. )"
+      "modifiedDescription": "Deal 25 damage. NL Strength affects this card !M! times. NL ( !D! x !M! randomly )",
+      "modifiedUpgradedDescription": "Deal 36 damage. NL Strength affects this card !M! times. NL ( !D! x !M! randomly )"
     },
     {
       "conditions": {

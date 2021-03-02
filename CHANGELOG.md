@@ -12,6 +12,10 @@
 * The mod now restores the card's name when the player takes a closer look at it (by right-clicking it).
 * The `Meme` keyword is now shown for cards with names or descriptions modified (previously it only shows for cards with modified descriptions).
 
+#### Bug Fixes
+
+* Adjusted formatting and fixed typos for numerous card modifications in the character specific meme collections.
+
 ## [0.2.7] - 2021-03-01
 
 #### Features

@@ -2,11 +2,13 @@
 
 ## [0.2.7] - 2021-03-01
 
+#### Features
+* Added minimum and maximum health and health ratio checks for `CombatSituation`.
+* Extended start of combat dialogues to start of turn dialogues, where the monsters can say things at the start of the player's turn.
+
 #### Changes
 
 * Card modifications now add a tooltip indicating that the card's description has been changed by a meme through the `Meme` keyword.
-* Added minimum and maximum health and health ratio checks for `CombatSituation`.
-* Extended start of combat dialogues to start of turn dialogues, where the monsters can say things at the start of the player's turn.
 
 #### Content
 

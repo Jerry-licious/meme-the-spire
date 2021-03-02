@@ -64,6 +64,8 @@ public class CardModification {
                             modifiedDescription : modifiedUpgradedDescription) :
                     modifiedDescription;
             card.initializeDescription();
+        }
+        if (modifiedName != null || modifiedDescription != null) {
             // Unlike relics, cards do not have a list of available powertips
             // attached to them that can be modified at will. Instead, the
             // cards calculate and render their tips when the "renderCardTip"

@@ -218,6 +218,14 @@ public class MemeCollection {
                         }
                     }
                 }
+                for (EnemyDialogue dialogue : collection.startOfTurnDialogues) {
+                    if (dialogue.applicableOnPlayer(player) && dialogue.applicableOnMonster(monster)) {
+                        // Only break the loop if a dialogue is actually queued.
+                        if (dialogue.queueDialogue(monster)) {
+                            return;
+                        }
+                    }
+                }
             }
         }
     }

@@ -31,7 +31,7 @@ Each JSON file in the `resources/meme_collections` directory defines a collectio
 
 **startOfCombatDialogues**: The dialogues that monster can say at the start of a combat (after the player draws their cards). See [dialogues](#dialogues). Can be left undefined.
 
-**startOfTurnDialogues**: The dialogues that the monster can say at the start of your turns (after the player draws their cards and go through their powers). *They do not trigger at the start of the first turn, for that purpose, use **startOfCombatDialogues** instead.* See [dialogues](#dialogues). Can be left undefined.
+**startOfTurnDialogues**: The dialogues that the monster can say at the start of your turns (after the player draws their cards and go through their powers). See [dialogues](#dialogues). Can be left undefined.
 
 
 ### Card Modifications (`cardModifications`)

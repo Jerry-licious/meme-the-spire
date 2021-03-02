@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased]
+
+#### Changes
+
+* Start of turn dialogues can now be displayed turn 1.
+
 ## [0.2.7] - 2021-03-01
 
 #### Features

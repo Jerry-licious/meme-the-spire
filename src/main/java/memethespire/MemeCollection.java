@@ -8,7 +8,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
 import memethespire.cardmemes.CardModification;
 import memethespire.cardplaymessages.CardPlayMessage;
-import memethespire.enemydialogues.StartOfCombatDialogue;
+import memethespire.enemydialogues.EnemyDialogue;
 import memethespire.relicmemes.RelicModification;
 import memethespire.tooltipmemes.CardRewardTooltip;
 import org.apache.logging.log4j.LogManager;
@@ -138,7 +138,7 @@ public class MemeCollection {
     CardRewardTooltip[] tooltips = {};
     CardPlayMessage[] cardPlayMessages = {};
     RelicModification[] relicModifications = {};
-    StartOfCombatDialogue[] startOfCombatDialogues = {};
+    EnemyDialogue[] startOfCombatDialogues = {};
 
     public MemeCollection() { }
 
@@ -209,7 +209,7 @@ public class MemeCollection {
             (AbstractPlayer player, AbstractMonster monster) {
         if (MemeTheSpire.config.enableEnemyDialogues) {
             for (MemeCollection collection : collections) {
-                for (StartOfCombatDialogue dialogue : collection.startOfCombatDialogues) {
+                for (EnemyDialogue dialogue : collection.startOfCombatDialogues) {
                     if (dialogue.applicableOnPlayer(player) && dialogue.applicableOnMonster(monster)) {
                         // Only break the loop if a dialogue is actually queued.
                         if (dialogue.queueDialogue(monster)) {

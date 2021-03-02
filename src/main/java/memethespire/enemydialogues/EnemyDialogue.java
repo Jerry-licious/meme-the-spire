@@ -9,7 +9,7 @@ import memethespire.RunConditions;
 
 import java.util.Random;
 
-public class StartOfCombatDialogue {
+public class EnemyDialogue {
     /**
      * The conditions of the player where the dialogue becomes applicable.
      */
@@ -35,7 +35,7 @@ public class StartOfCombatDialogue {
 
     private static final Random dialogueRng = new Random();
 
-    public StartOfCombatDialogue() {}
+    public EnemyDialogue() {}
 
     public boolean applicableOnPlayer(AbstractPlayer player) {
         return conditions.applicableOnPlayer(player) &&

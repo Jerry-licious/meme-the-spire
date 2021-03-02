@@ -217,7 +217,7 @@
       },
       "cardName": "Sneaky Strike",
       "modifiedName": "Hovering Kite",
-      "modifiedDescription": "This is always decosted trust me. NL (Deal !D! , gain [G] [G] if you discarded this turn )"
+      "modifiedDescription": "This is always decosted trust me. NL ( !D! damage, gain [G] [G] if you discarded this turn )"
     },
     {
       "conditions": {
@@ -267,8 +267,8 @@
         "cardMatches": ["Eviscerate"]
       },
       "cardName": "Calculated Gamble",
-      "modifiedDescription": "You will draw this with *Eviscerate. NL (Discard and redraw, Exhaust )",
-      "modifiedUpgradedDescription": "You will draw this with *Eviscerate, Nl (Discard and redraw)"
+      "modifiedDescription": "You will draw this with *Eviscerate. NL ( Discard your hand and redraw, Exhaust )",
+      "modifiedUpgradedDescription": "You will draw this with *Eviscerate, Nl ( Discard your hand and redraw )"
     },
     {
       "conditions": {
@@ -377,7 +377,7 @@
       },
       "cardName": "Finisher",
       "modifiedName": "Temporary Accuracy",
-      "modifiedDescription": "The *Shivs you have played this turn deal !D! additional damage. NL (Deal !D! for each attack played)"
+      "modifiedDescription": "The *Shivs you have played this turn deal !D! additional damage. NL ( !D! damage for each attack played )"
     },
     {
       "conditions": {
@@ -385,7 +385,7 @@
       },
       "cardName": "Heel Hook",
       "modifiedName": "Infinite Dream",
-      "modifiedDescription": "You want the infinite right? (Deal !D! . If enemy is Weak gain [G] and draw 1 )"
+      "modifiedDescription": "You want the infinite right? ( !D! damage, if enemy is Weak gain [G] and draw 1 )"
     },
     {
       "conditions": {
@@ -394,7 +394,7 @@
       },
       "cardName": "Heel Hook",
       "modifiedName": "Infinite Dream",
-      "modifiedDescription": "You want the infinite right? (Deal !D! . If enemy is Weak gain [G] and draw 1 )"
+      "modifiedDescription": "You want the infinite right? ( !D! damage, if enemy is Weak gain [G] and draw 1 )"
     },
     {
       "conditions": {
@@ -410,8 +410,7 @@
         "cardMatches": ["Phantasmal Killer"]
       },
       "cardName": "Terror",
-      "modifiedName": "Indignation",
-      "modifiedDescription": "If you are in Wrath, apply 99 Vulnerable."
+      "modifiedName": "Indignation"
     },
     {
       "conditions": {

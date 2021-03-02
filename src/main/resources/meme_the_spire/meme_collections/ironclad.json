@@ -208,7 +208,7 @@
       },
       "cardName": "Dark Embrace",
       "modifiedName": "Click The Cards",
-      "modifiedDescription": "Exhaust all your Skills. NL (Whenever you exhaust a card, draw 1 )"
+      "modifiedDescription": "Exhaust all your Skills. NL ( Whenever you exhaust, draw 1 )"
     },
     {
       "conditions": {
@@ -216,7 +216,7 @@
       },
       "cardName": "Dropkick",
       "modifiedName": "Infinite Dream",
-      "modifiedDescription": "You want the infinite right? NL (Deal !D! . If enemy is Vulnerable gain [R] and draw 1 )"
+      "modifiedDescription": "You want the infinite right? NL ( !D! damage, if enemy is Vulnerable gain [R] and draw 1 )"
     },
     {
       "conditions": {
@@ -225,7 +225,7 @@
       },
       "cardName": "Dropkick",
       "modifiedName": "Infinite Dream",
-      "modifiedDescription": "You want the infinite right? NL (Deal !D! . If enemy is Vulnerable gain [R] and draw 1 )"
+      "modifiedDescription": "You want the infinite right? NL ( !D! damage, if enemy is Vulnerable gain [R] and draw 1 )"
     },
     {
       "conditions": {
@@ -299,7 +299,7 @@
       },
       "cardName": "Feel No Pain",
       "modifiedName": "Feel No Brain",
-      "modifiedDescription": "Just click the cards. Why would you think? NL (Whenever you exhaust a card, gain !M! Block )"
+      "modifiedDescription": "Just click the cards. Why would you think? NL ( Whenever you exhaust, gain !M! Block )"
     },
     {
       "conditions": {
@@ -444,7 +444,7 @@
       },
       "cardName": "Bludgeon",
       "modifiedName": "B L U D G E D",
-      "modifiedDescription": "Just click this. NL (Deal !D! damage )"
+      "modifiedDescription": "Just click this. NL ( !D! damage )"
     },
     {
       "conditions": {
@@ -568,7 +568,7 @@
         "cardMatches": ["Battle Trance"]
       },
       "cardName": "Offering",
-      "modifiedDescription": "You will always draw this after you play *Battle *Trance. NL (Lose 6, gain [R] [R], draw !M! , Exhaust )"
+      "modifiedDescription": "You will always draw this after you play *Battle *Trance. NL ( Lose 6HP, gain [R] [R] , draw !M! , Exhaust )"
     },
     {
       "conditions": {
@@ -584,7 +584,7 @@
       },
       "cardName": "Reaper",
       "modifiedName": "Rest",
-      "modifiedDescription": "Told you the *Dripper is free energy. NL ( Deal !D! to all, heal for unblocked, Exhaust ) "
+      "modifiedDescription": "Told you the *Dripper is free energy. NL ( !D! to all, heal for unblocked, Exhaust ) "
     },
 
     {

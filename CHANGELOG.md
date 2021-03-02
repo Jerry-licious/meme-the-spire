@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+#### Features
+
+* Added a reload meme collections button to the config menu.
+
 #### Changes
 
 * Start of turn dialogues can now be displayed turn 1.

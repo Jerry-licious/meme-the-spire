@@ -33,8 +33,8 @@ public class MemeTheSpire implements PostInitializeSubscriber,
 
     @Override
     public void receiveEditKeywords() {
-        BaseMod.addKeyword(new String[]{"Meme"}, "The description of " +
-                "this card has been modified by a meme! Right-click it to " +
-                "see its original description.");
+        BaseMod.addKeyword(new String[]{"Meme"}, "The name and/or " +
+                "description of this card has been modified by a meme! " +
+                "Right-click it to view its original state.");
     }
 }

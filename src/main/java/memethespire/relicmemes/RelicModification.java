@@ -54,9 +54,9 @@ public class RelicModification {
         relic.tips.clear();
         relic.tips.add(new PowerTip(newName, newDescription));
 
-        relic.tips.add(new PowerTip("Meme", "This relic's name and " +
-                "description have been modified by a meme. Right-click it to " +
-                "see its original name and description."));
+        relic.tips.add(new PowerTip("Meme", "This relic's name " +
+                "and/or description have been modified by a meme. Right-click" +
+                " it to see its original state."));
 
         ReflectionUtils.invokePrivate(relic, AbstractRelic.class, "initializeTips");
     }

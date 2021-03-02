@@ -11,6 +11,7 @@
 * Start of turn dialogues can now be displayed turn 1.
 * The mod now restores the card's name when the player takes a closer look at it (by right-clicking it).
 * The `Meme` keyword is now shown for cards with names or descriptions modified (previously it only shows for cards with modified descriptions).
+* Slightly changed the wording for meme keywords for card and relic modifications.
 
 #### Bug Fixes
 

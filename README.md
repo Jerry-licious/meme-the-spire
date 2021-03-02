@@ -1,7 +1,7 @@
 # Meme the Spire
 Adds various different memes to your Slay the Spire experience. 
 
-## Meme Collection File Format
+# Meme Collection File Format
 
 Each JSON file in the `resources/meme_collections` directory defines a collection of memes. They are structured as follows:
 
@@ -29,7 +29,9 @@ Each JSON file in the `resources/meme_collections` directory defines a collectio
 
 **relicModifications**: The relic modifications defined in this collection. Can be left undefined.
 
-**startOfCombatDialogues**: The dialogues that monster can say at the start of a combat. Can be left undefined.
+**startOfCombatDialogues**: The dialogues that monster can say at the start of a combat (after the player draws their cards). See [dialogues](#dialogues). Can be left undefined.
+
+**startOfTurnDialogues**: The dialogues that the monster can say at the start of your turns (after the player draws their cards and go through their powers). *They do not trigger at the start of the first turn, for that purpose, use **startOfCombatDialogues** instead.* See [dialogues](#dialogues). Can be left undefined.
 
 
 ### Card Modifications (`cardModifications`)
@@ -125,9 +127,9 @@ A relic modification changes the relics seen in rewards and shops, it can modify
 
 Relic modifications only affect relics seen in rewards and shops. The relics will be restored into their original text after you pick them up.
 
-### Start of Combat Dialogues (`startOfCombatDialogues`)
+## Dialogues
 
-A start of combat dialogue lets enemies say things when the combat starts (after the player draws their cards). A list of these dialogues can be defined in the `startOfCombatDialogues` field of the JSON files. Its format is as follows:
+A dialogue lets enemies say things during combat. A list of these dialogues can be defined in the `startOfCombatDialogues` or the `startOfTurnDialogues` field of the JSON files. Its format is as follows:
 
 ```json
 {
@@ -148,10 +150,6 @@ A start of combat dialogue lets enemies say things when the combat starts (after
 **chance**: The chance that the dialogue will be shown when the conditions are met (0~1). The default chance is 1.0 (100%).
 
 **lines**: The lines that the monster can say. When the dialogue is to be shown, a random line will be chosen.
-
-### Base Collections
-
-Base collections are meme collections that come with the mod. When the game is launched, they are automatically copied from the mod into the `meme_collection` folder. Base collections are **overridden** every time you start the game if you do not set their `receiveUpdates` attribute to false. If you wish to turn off a base collection, change the value of `enabled` and `receiveUpdates` to both be false.
 
 ## Conditions
 
@@ -219,3 +217,7 @@ Any empty or undefined conditions are automatically passed.
 If all conditions pass, the meme will be able to be shown.
 
 Though the fields *of* the situation can be left undefined or as empty arrays, the `combatSituation` field *must* be defined for every meme entry that requires it, even if it is empty.
+
+## Base Collections
+
+Base collections are meme collections that come with the mod. When the game is launched, they are automatically copied from the mod into the `meme_collection` folder. Base collections are **overridden** every time you start the game if you do not set their `receiveUpdates` attribute to false. If you wish to turn off a base collection, change the value of `enabled` and `receiveUpdates` to both be false.

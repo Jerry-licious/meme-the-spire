@@ -139,6 +139,7 @@ public class MemeCollection {
     CardPlayMessage[] cardPlayMessages = {};
     RelicModification[] relicModifications = {};
     EnemyDialogue[] startOfCombatDialogues = {};
+    EnemyDialogue[] startOfTurnDialogues = {};
 
     public MemeCollection() { }
 
@@ -210,6 +211,22 @@ public class MemeCollection {
         if (MemeTheSpire.config.enableEnemyDialogues) {
             for (MemeCollection collection : collections) {
                 for (EnemyDialogue dialogue : collection.startOfCombatDialogues) {
+                    if (dialogue.applicableOnPlayer(player) && dialogue.applicableOnMonster(monster)) {
+                        // Only break the loop if a dialogue is actually queued.
+                        if (dialogue.queueDialogue(monster)) {
+                            return;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    public static void queueFirstApplicableStartOfTurnDialogueFromAllCollections
+            (AbstractPlayer player, AbstractMonster monster) {
+        if (MemeTheSpire.config.enableEnemyDialogues) {
+            for (MemeCollection collection : collections) {
+                for (EnemyDialogue dialogue : collection.startOfTurnDialogues) {
                     if (dialogue.applicableOnPlayer(player) && dialogue.applicableOnMonster(monster)) {
                         // Only break the loop if a dialogue is actually queued.
                         if (dialogue.queueDialogue(monster)) {

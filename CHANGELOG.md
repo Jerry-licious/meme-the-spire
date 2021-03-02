@@ -6,6 +6,7 @@
 
 * Card modifications now add a tooltip indicating that the card's description has been changed by a meme through the `Meme` keyword.
 * Added minimum and maximum health and health ratio checks for `CombatSituation`.
+* Extended start of combat dialogues to start of turn dialogues, where the monsters can say things at the start of the player's turn.
 
 #### Bug Fixes
 
@@ -18,7 +19,7 @@
 #### Features
 
 * Added a new type of checking: `CombatSituation`, used to help display conditional memes during combat based on the player's situation.
-* Added a new type of meme: start of combat dialog, where monsters can say things at the start of combats based on the player's situation.
+* Added a new type of meme: start of combat dialogue, where monsters can say things at the start of combats based on the player's situation.
 
 #### Changes
 

@@ -196,7 +196,11 @@ In some meme "definitions" there will be a field named `combatSituation`. This f
 {
   "handContains": ["Card", "Card"],
   "handSays": ["Block", "Poison"],
-  "handDoesNotSay": ["Block", "Poison"]
+  "handDoesNotSay": ["Block", "Poison"],
+  "minCurrentHealth": 10,
+  "maxCurrentHealth": 30,
+  "minHealthRatio": 0.2,
+  "maxHealthRatio": 0.8
 }
 ```
 
@@ -205,6 +209,10 @@ In some meme "definitions" there will be a field named `combatSituation`. This f
 **handSays**: The player must have cards in their hand with descriptions containing at least one word in this list to meet this condition.
 
 **handDoesNotSay**: The player must have no cards in their hand with descriptions containing any words in this list to meet this condition.
+
+**minCurrentHealth** and **maxCurrentHealth**: The player's health must be between these values.
+
+**minHealthRatio** and **maxHealthRatio**: The player's health ratio must be between these values.
 
 Any empty or undefined conditions are automatically passed.
 

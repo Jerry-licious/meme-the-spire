@@ -29,11 +29,18 @@ public class CombatSituation {
      */
     String[] handDoesNotSay = {};
 
+    int minCurrentHealth = -1;
+    int maxCurrentHealth = -1;
+
+    float minHealthRatio = 0.0f;
+    float maxHealthRatio = 1.0f;
+
     public CombatSituation() {}
 
     public boolean applicableOnPlayer(AbstractPlayer player) {
         return handContainsCheck(player) && handSaysCheck(player)
-                && handDoesNotSayCheck(player);
+                && handDoesNotSayCheck(player) && currentHealthCheck(player)
+                && healthRatioCheck(player);
     }
 
     private boolean handContainsCheck(AbstractPlayer player) {
@@ -69,5 +76,15 @@ public class CombatSituation {
                                     cardStrings.DESCRIPTION.toLowerCase()
                                             .contains(word.toLowerCase());
                         }));
+    }
+
+    private boolean currentHealthCheck(AbstractPlayer player) {
+        return (minCurrentHealth == -1 || player.currentHealth >= minCurrentHealth) &&
+                (maxCurrentHealth == -1 || player.currentHealth <= maxCurrentHealth);
+    }
+
+    private boolean healthRatioCheck(AbstractPlayer player) {
+        float healthRatio = (float)player.currentHealth / (float)player.maxHealth;
+        return (healthRatio >= minHealthRatio && healthRatio <= maxHealthRatio);
     }
 }

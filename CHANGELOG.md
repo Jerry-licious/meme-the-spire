@@ -5,6 +5,7 @@
 #### Changes
 
 * Card modifications now add a tooltip indicating that the card's description has been changed by a meme through the `Meme` keyword.
+* Added minimum and maximum health and health ratio checks for `CombatSituation`.
 
 #### Bug Fixes
 

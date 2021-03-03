@@ -124,8 +124,8 @@
         "cardMatches": ["Fire Breathing"]
       },
       "cardName": "Wild Strike",
-      "modifiedName": "Firestarter",
-      "modifiedDescription": "Deal !D! damage. NL Deal 6 damage to all enemies later. "
+      "modifiedName": "Fire Breathing Value",
+      "modifiedDescription": "Deal !D! damage. NL Deal 10 damage to all enemies later. "
     },
     {
       "conditions": {

@@ -13,6 +13,13 @@
 * The `Meme` keyword is now shown for cards with names or descriptions modified (previously it only shows for cards with modified descriptions).
 * Slightly changed the wording for meme keywords for card and relic modifications.
 
+#### Content
+
+* Added more genuine tips.
+  * Catalyst description changed to: *Apply Poison equal to the enemy's Poison. Exhaust.*
+  * Catalyst+ description changed to: *Apply Poison equal to double the enemy's Poison. Exhaust.*
+  * Catalyst now has a tooltip explaining its interaction with Snecko Skull and Artefact.
+
 #### Bug Fixes
 
 * Adjusted formatting and fixed typos for numerous card modifications in the character specific meme collections.

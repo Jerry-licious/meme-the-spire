@@ -48,6 +48,12 @@
       "cardName": "Conjure Blade",
       "modifiedDescription": "Insert an *Expunger at a random position in your draw pile. NL Exhaust.",
       "modifiedUpgradedDescription": "Insert an *Expunger with X+1 at a random position in your draw pile. NL Exhaust."
+    },
+    {
+      "conditions": {},
+      "cardName": "Catalyst",
+      "modifiedDescription": "Apply Poison equal to the enemy's Poison. NL Exhaust.",
+      "modifiedUpgradedDescription": "Apply Poison equal to double the enemy's Poison. NL Exhaust."
     }
   ],
   "tooltips": [
@@ -168,6 +174,14 @@
       "cardNames": ["Self Repair"],
       "title": "Self Repair",
       "content": "Meat on the Bone triggers before Self Repair."
+    },
+    {
+      "conditions": {
+        "relicMatches": ["Snecko Skull"]
+      },
+      "cardNames": ["Catalyst"],
+      "title": "Catalyst",
+      "content": "Though Catalyst reads \"double/triple the enemy's poison\", it actually applies poison equal to (double) the enemy's poison, \nwhich means that it counts as an application of poison, so it triggers Snecko Skull and can be blocked by Artefact."
     }
   ]
 }

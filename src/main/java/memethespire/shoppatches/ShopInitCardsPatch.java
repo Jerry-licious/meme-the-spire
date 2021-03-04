@@ -23,6 +23,6 @@ public class ShopInitCardsPatch {
         ((ArrayList<StoreRelic>)ReflectionUtils.getPrivate(instance,
                 ShopScreen.class, "relics")).forEach((storeRelic) ->
                     MemeCollection.applyFirstApplicableRelicModificationFromAllCollections(
-                            storeRelic.relic, AbstractDungeon.player));
+                            storeRelic.relic, AbstractDungeon.player, false));
     }
 }

@@ -192,13 +192,13 @@ public class MemeCollection {
     }
 
     public static void applyFirstApplicableRelicModificationFromAllCollections
-            (AbstractRelic relic, AbstractPlayer player) {
+            (AbstractRelic relic, AbstractPlayer player, boolean bossScreen) {
         if (MemeTheSpire.config.enableRelicModifications) {
             for (MemeCollection collection : collections) {
                 for (RelicModification modification : collection.relicModifications) {
                     if (modification.applicableOnRelic(relic) &&
                             modification.applicableOnPlayer(player)) {
-                        modification.modify(relic);
+                        modification.modify(relic, bossScreen);
                         return;
                     }
                 }

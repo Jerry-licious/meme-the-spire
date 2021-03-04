@@ -44,7 +44,13 @@ public class RelicModification {
         return relicStrings != null && relicStrings.NAME.equalsIgnoreCase(relicName);
     }
 
-    public void modify(AbstractRelic relic) {
+    // Relics cannot be right-clicked on the boss relic screen, thus it is
+    // not possible for the player to see the original name and description
+    // of the boss relic even if they right-click it, rendering the meme tip
+    // useless.
+    // Thus, instead of displaying the meme, the original texts of the relic
+    // will be displayed directly.
+    public void modify(AbstractRelic relic, boolean bossScreen) {
         RelicStrings relicStrings = getRelicStrings(relic);
         String newName = modifiedName != null ? modifiedName : relicStrings.NAME;
         String newDescription = modifiedDescription != null ?
@@ -54,9 +60,14 @@ public class RelicModification {
         relic.tips.clear();
         relic.tips.add(new PowerTip(newName, newDescription));
 
-        relic.tips.add(new PowerTip("Meme", "This relic's name " +
-                "and/or description have been modified by a meme. Right-click" +
-                " it to see its original state."));
+        if (bossScreen) {
+            relic.tips.add(new PowerTip(relicStrings.NAME + " (Original)",
+                    relic.getUpdatedDescription()));
+        } else {
+            relic.tips.add(new PowerTip("Meme", "This relic's name " +
+                    "and/or description have been modified by a meme. Right-click" +
+                    " it to see its original state."));
+        }
 
         ReflectionUtils.invokePrivate(relic, AbstractRelic.class, "initializeTips");
     }

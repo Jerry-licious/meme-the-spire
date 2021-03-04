@@ -15,6 +15,7 @@ public class BossRelicSelectScreenOpenPatch {
     public static void modifyBossRelics(BossRelicSelectScreen _instance,
                                     ArrayList<AbstractRelic> relics) {
         relics.forEach((relic) ->
-            MemeCollection.applyFirstApplicableRelicModificationFromAllCollections(relic, AbstractDungeon.player));
+            MemeCollection.applyFirstApplicableRelicModificationFromAllCollections(
+                    relic, AbstractDungeon.player, true));
     }
 }

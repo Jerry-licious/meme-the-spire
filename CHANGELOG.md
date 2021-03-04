@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+#### Changes
+
+* Relic memes in the boss relic selection screen will directly show the relic's original text instead of the meme keyword (because the player can't right-click on relics on the boss relic selection screen).
+
 #### Bug Fixes
 
 * Silent card memes now refer to the correct name of Tingsha.

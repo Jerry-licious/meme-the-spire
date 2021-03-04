@@ -14,9 +14,6 @@ import java.util.ArrayList;
 
 @SpirePatch(clz = CardRewardScreen.class, method = "open")
 public class CardRewardScreenOpenPatch {
-    private static final Logger logger =
-            LogManager.getLogger(CardRewardScreenOpenPatch.class);
-
     @SpirePostfixPatch
     // Modify shown card names and descriptions when a card reward is seen.
     public static void modifyCards(CardRewardScreen _instance,

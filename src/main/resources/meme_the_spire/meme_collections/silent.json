@@ -255,7 +255,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Ting Sha"]
+        "relicMatches": ["Tingsha"]
       },
       "cardName": "Calculated Gamble",
       "modifiedName": "Bludgeon",
@@ -307,7 +307,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Ting Sha"]
+        "relicMatches": ["Tingsha"]
       },
       "cardName": "Concentrate",
       "modifiedName": "Sword Boomerang",
@@ -787,7 +787,7 @@
     },
     {
       "conditions": {
-        "relicMatches": ["Ting Sha"]
+        "relicMatches": ["Tingsha"]
       },
       "cardName": "Tools of the Trade",
       "modifiedName": "Mercury Hourglass",

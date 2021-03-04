@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased]
+
+#### Bug Fixes
+
+* Silent card memes now refer to the correct name of Tingsha.
+
 ## [0.2.8] - 2021-03-03
 
 #### Features

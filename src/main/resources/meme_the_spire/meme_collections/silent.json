@@ -877,10 +877,6 @@
   ],
   "cardPlayMessages": [
     {
-      "cardName": "Finisher",
-      "lines": ["TATATATATATA BWOOSH"]
-    },
-    {
       "cardName": "Grand Finale",
       "lines": ["Grand Finale!"]
     },

@@ -5,6 +5,7 @@
 #### Changes
 
 * Relic memes in the boss relic selection screen will directly show the relic's original text instead of the meme keyword (because the player can't right-click on relics on the boss relic selection screen).
+* Removed the silent's card play message for finisher.
 
 #### Bug Fixes
 

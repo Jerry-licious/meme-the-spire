@@ -327,7 +327,8 @@
     },
     {
       "conditions": {
-        "relicMatches": ["The Boot"]
+        "relicMatches": ["The Boot"],
+        "actNumbers": [1, 2, 3]
       },
       "cardName": "Pummel",
       "modifiedName": "Nemesis Solution",

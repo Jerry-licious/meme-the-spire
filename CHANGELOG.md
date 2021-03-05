@@ -7,6 +7,7 @@
 * Relic memes in the boss relic selection screen will directly show the relic's original text instead of the meme keyword (because the player can't right-click on relics on the boss relic selection screen).
 * Removed the silent's card play message for finisher.
 * Enemies can now make fun of you for not drawing block every turn (instead of just turn 1).
+* Nemesis Boot memes in the ironclad and silent collection no longer show up in act 4.
 
 #### Content
 

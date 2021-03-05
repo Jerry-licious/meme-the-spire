@@ -6,6 +6,11 @@
 
 * Relic memes in the boss relic selection screen will directly show the relic's original text instead of the meme keyword (because the player can't right-click on relics on the boss relic selection screen).
 * Removed the silent's card play message for finisher.
+* Enemies can now make fun of you for not drawing block every turn (instead of just turn 1).
+
+#### Content
+
+* Sentries can now cheer for their dazes.
 
 #### Bug Fixes
 

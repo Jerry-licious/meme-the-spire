@@ -641,18 +641,6 @@
       ]
     },
     {
-      "conditions": {},
-      "combatSituation": {
-        "handDoesNotSay": ["Block"]
-      },
-      "chance": 0.5,
-      "lines": [
-        "Nice Block cards.",
-        "Imagine not drawing block cards.",
-        "No block cards? Nice!"
-      ]
-    },
-    {
       "conditions": {
         "relicMatches": ["Ectoplasm"]
       },
@@ -784,6 +772,33 @@
         "Is this an infinite?",
         "Hmm, I think you may be playing an infinite.",
         "FOOLISH!"
+      ]
+    }
+  ],
+  "startOfTurnDialogues": [
+    {
+      "conditions": {},
+      "combatSituation": {
+        "handContains": "Dazed"
+      },
+      "monsterName": "Sentry",
+      "chance": 0.3,
+      "lines": [
+        "Go dazed go!",
+        "Get in there dazed!",
+        "Get dazed!"
+      ]
+    },
+    {
+      "conditions": {},
+      "combatSituation": {
+        "handDoesNotSay": ["Block"]
+      },
+      "chance": 0.5,
+      "lines": [
+        "Nice Block cards.",
+        "Imagine not drawing block cards.",
+        "No block cards? Nice!"
       ]
     }
   ]

@@ -16,6 +16,7 @@
 #### Bug Fixes
 
 * Silent card memes now refer to the correct name of Tingsha.
+* Fixed a bug where opening and closing the map after seeing a card selection screen in combat puts you to the combat reward screen.
 
 ## [0.2.8] - 2021-03-03
 

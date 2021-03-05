@@ -4,6 +4,7 @@ import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePrefixPatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpireReturn;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import com.megacrit.cardcrawl.screens.CardRewardScreen;
 
 @SpirePatch(clz = CardRewardScreen.class, method = "reopen")
@@ -27,7 +28,6 @@ public class CombatRewardScreenReopenPatch {
         if (!TooltipDismissalPatch.tooltipQueue.isEmpty()) {
             return SpireReturn.Return(null);
         } else {
-
             // However, this fix caused more problems:
             // When opening a card reward screen and seeing a tooltip, the
             // previous screen is set to the card reward screen. However,
@@ -56,7 +56,15 @@ public class CombatRewardScreenReopenPatch {
             // rewards button. Though turns out that the proceed button is lost because
             // I was using orrery to test it, thus this will become the preferred
             // solution.
-            AbstractDungeon.previousScreen = AbstractDungeon.CurrentScreen.COMBAT_REWARD;
+
+            // However, this causes new bugs with card reward screens in
+            // combat as the mod  makes the player open the combat reward
+            // screen during combat, likely because Nilry calls the re-open
+            // function. Thus an additional condition is added to make sure
+            // that this does not happen during combat.
+            if (AbstractDungeon.getCurrRoom().phase == AbstractRoom.RoomPhase.COMPLETE){
+                AbstractDungeon.previousScreen = AbstractDungeon.CurrentScreen.COMBAT_REWARD;
+            }
             return SpireReturn.Continue();
         }
     }

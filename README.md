@@ -1,5 +1,5 @@
 # Meme the Spire
-Adds various different memes to your Slay the Spire experience. 
+Adds various different memes to your Slay the Spire experience. *The memes only display at reward shop screens to maintain clarity in combat.*
 
 # Meme Collection File Format
 
